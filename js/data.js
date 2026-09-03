@@ -94,7 +94,7 @@ const portfolioData = {
         visiSebagaiGuru: `
             <p>Sebagai calon guru, visi saya adalah menjadi <strong>pendidik profesional yang inspiratif, inovatif, dan berdampak</strong> bagi peserta didik dan lingkungan sekitar. Saya ingin menjadi guru yang:</p>
             <ul>
-                <li><strong>Berpusat pada Peserta Didik:</strong> Memahami kebutuhan, potensi, dan karakteristik setiap peserta didik secara individual, serta mampu merancang pembelajaran yang bermakna dan relevan dengan kehidupan mereka.</li>
+                <li><strong>Menciptakan Pembaelajaran Yang Berorientasi Pada Peserta Didik :</strong> Memahami kebutuhan, potensi, dan karakteristik setiap peserta didik secara individual, serta mampu merancang pembelajaran yang bermakna dan relevan dengan kehidupan mereka.</li>
                 <li><strong>Inovatif dan Adaptif:</strong> Selalu terbuka terhadap perkembangan teknologi dan pedagogi modern, serta mampu mengintegrasikan berbagai pendekatan pembelajaran yang sesuai dengan konteks dan kebutuhan siswa.</li>
                 <li><strong>Reflektif dan Pembelajar Sepanjang Hayat:</strong> Terus melakukan refleksi terhadap praktik pembelajaran, belajar dari pengalaman, serta senantiasa mengembangkan diri melalui pelatihan, kolaborasi, dan riset pendidikan.</li>
                 <li><strong>Berkarakter dan Berintegritas:</strong> Menjadi teladan bagi peserta didik dalam hal kejujuran, disiplin, empati, dan tanggung jawab, serta mampu menanamkan nilai-nilai karakter positif dalam setiap interaksi pembelajaran.</li>
