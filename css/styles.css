@@ -257,14 +257,16 @@ section {
 }
 
 .nav-link {
-    color: var(--white);
+    color: rgba(255, 255, 255, 0.95);
     font-weight: 600;
     padding: 0.75rem 1.25rem;
     position: relative;
     transition: var(--transition-fast);
     border-radius: var(--radius-md);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav-link::before {
@@ -274,12 +276,13 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--accent-yellow);
+    background: linear-gradient(135deg, #FDD835 0%, #FBC02D 100%);
     border-radius: var(--radius-md);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.3s ease;
     z-index: -1;
+    box-shadow: 0 4px 12px rgba(253, 216, 53, 0.4);
 }
 
 .nav-link:hover::before,
@@ -290,9 +293,11 @@ section {
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--primary-dark);
+    color: #1a1a1a;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(253, 216, 53, 0.4);
+    text-shadow: none;
+    font-weight: 700;
 }
 
 .nav-toggle {
