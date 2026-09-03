@@ -438,7 +438,7 @@ const portfolioData = {
                 },
                 
                 // URL dokumen (bisa Google Drive, OneDrive, atau lokal)
-                documentUrl: "https://drive.google.com/file/d/YOUR_DOCUMENT_ID/preview",
+                documentUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=drive_link",
                 downloadUrl: "https://drive.google.com/uc?export=download&id=YOUR_DOCUMENT_ID",
                 embedUrl: "https://drive.google.com/file/d/YOUR_DOCUMENT_ID/preview",
                 
@@ -448,6 +448,49 @@ const portfolioData = {
                     "Penggunaan media pembelajaran digital dan interaktif",
                     "Asesmen autentik yang beragam (diagnostic, formatif, dan sumatif)",
                     "Diferensiasi pembelajaran sesuai kebutuhan peserta didik"
+                ],
+                
+                // Perangkat Pembelajaran UTS
+                perangkatPembelajaran: [
+                    {
+                        judul: "Modul Ajar / RPP - Praktik Mengajar Mandiri Siklus 1",
+                        deskripsi: "Rencana Pelaksanaan Pembelajaran lengkap dengan komponen Kurikulum Merdeka",
+                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=drive_link"
+                        // CARA EDIT: Ganti YOUR_RPP_ID dengan ID file Google Drive Anda
+                        // Contoh: "https://drive.google.com/file/d/1KHPA4kDQYQ_Vuigo5WOpigBxbw-9YIM7/view?usp=sharing"
+                    },
+                    {
+                        judul: "LKPD 1 (Lembar Kerja Peserta Didik)",
+                        deskripsi: "Lembar kerja untuk kegiatan pembelajaran siswa",
+                        fileUrl: "https://drive.google.com/file/d/1XuonmySQ68gc_cPMtBZZR-MxuLl8uqXF/view?usp=drive_link"
+                        // CARA EDIT: Paste link Google Drive LKPD Anda di sini
+                    },
+                    {
+                        judul: "LKPD 2 (Lembar Kerja Peserta Didik)",
+                        deskripsi: "Lembar kerja untuk kegiatan pembelajaran siswa",
+                        fileUrl: "https://drive.google.com/file/d/1L17KaoBZ5hYtBhLLbfVylhH_q-Tmbi4-/view?usp=drive_link"
+                        // CARA EDIT: Paste link Google Drive LKPD Anda di sini
+                    },
+                    {
+                        judul: "Media Pembelajaran 1",
+                        deskripsi: "Slide presentasi dan media pendukung pembelajaran",
+                        fileUrl: "https://docs.google.com/presentation/d/1H1Fdx-mbU-tRZkEKAvspFgjCvNOG_NDt/edit?usp=drive_link&ouid=104547800552435424601&rtpof=true&sd=true"
+                        // CARA EDIT: Untuk Google Slides, gunakan format ini
+                        // Atau bisa juga: "https://drive.google.com/file/d/YOUR_ID/view" untuk file PPT
+                    },
+                    {
+                        judul: "Media Pembelajaran 2",
+                        deskripsi: "Slide presentasi dan media pendukung pembelajaran",
+                        fileUrl: "https://docs.google.com/presentation/d/1TPh2StMpP71pI9KuetfQ4Qwnm87vbv1E/edit?usp=drive_link&ouid=104547800552435424601&rtpof=true&sd=true"
+                        // CARA EDIT: Untuk Google Slides, gunakan format ini
+                        // Atau bisa juga: "https://drive.google.com/file/d/YOUR_ID/view" untuk file PPT
+                    },
+                    {
+                        judul: "Instrumen Asesmen",
+                        deskripsi: "Rubrik penilaian dan instrumen asesmen pembelajaran",
+                        fileUrl: "https://drive.google.com/file/d/YOUR_ASESMEN_ID/view?usp=sharing"
+                        // CARA EDIT: Paste link rubrik/instrumen asesmen Anda
+                    }
                 ]
             },
             
@@ -714,7 +757,23 @@ const portfolioData = {
                         <li>Integrasikan asesmen diri untuk mendorong refleksi siswa</li>
                         <li>Sediakan rencana kontingensi untuk antisipasi kendala pembelajaran</li>
                     </ul>
-                `
+                `,
+                
+                // Perangkat Pembelajaran UAS - Komponen 1
+                perangkatPembelajaran: [
+                    {
+                        judul: "Modul Ajar / RPP - Praktik Mengajar Mandiri",
+                        deskripsi: "Rencana Pelaksanaan Pembelajaran yang telah dianalisis",
+                        fileUrl: "https://drive.google.com/file/d/YOUR_RPP_UAS_ID/view?usp=sharing"
+                        // CARA EDIT: Ganti YOUR_RPP_UAS_ID dengan ID file RPP Anda
+                    },
+                    {
+                        judul: "Analisis Rancangan Pembelajaran",
+                        deskripsi: "Dokumen analisis komprehensif terhadap rancangan pembelajaran",
+                        fileUrl: "https://drive.google.com/file/d/YOUR_ANALISIS_ID/view?usp=sharing"
+                        // CARA EDIT: Ganti YOUR_ANALISIS_ID dengan ID file analisis Anda
+                    }
+                ]
             },
             
             {

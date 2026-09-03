@@ -959,26 +959,6 @@ function populateUTS() {
                     </div>
 
                     <div class="card-body">
-                        <div class="document-embed">
-                            ${komponen.embedUrl ? `
-                                <iframe src="${komponen.embedUrl}" 
-                                        width="100%" 
-                                        height="600" 
-                                        frameborder="0" 
-                                        allow="autoplay">
-                                </iframe>
-                            ` : '<p class="placeholder-text">Dokumen rancangan pembelajaran akan ditampilkan di sini</p>'}
-                        </div>
-
-                        <div class="document-actions">
-                            <a href="${komponen.downloadUrl || '#'}" class="btn btn-primary" target="_blank" download>
-                                <span class="btn-icon">⬇️</span> Download Dokumen
-                            </a>
-                            <a href="${komponen.documentUrl || '#'}" class="btn btn-secondary" target="_blank">
-                                <span class="btn-icon">👁️</span> Lihat Full Screen
-                            </a>
-                        </div>
-
                         <div class="rancangan-highlights">
                             <h4 class="highlights-title">🎯 Poin-Poin Utama Rancangan:</h4>
                             <ul class="highlights-list">
@@ -987,6 +967,28 @@ function populateUTS() {
                         </div>
                     </div>
                 </div>
+                
+                ${komponen.perangkatPembelajaran && komponen.perangkatPembelajaran.length > 0 ? `
+                <!-- Perangkat Pembelajaran -->
+                <div class="perangkat-section">
+                    <h4 class="section-subtitle">📚 Perangkat Pembelajaran</h4>
+                    <p class="perangkat-intro">Berikut adalah perangkat pembelajaran yang telah disusun untuk praktik mengajar mandiri:</p>
+                    <div class="perangkat-list">
+                        ${komponen.perangkatPembelajaran.map(item => `
+                            <div class="perangkat-item">
+                                <div class="perangkat-icon">📄</div>
+                                <div class="perangkat-info">
+                                    <h5 class="perangkat-title">${item.judul}</h5>
+                                    <p class="perangkat-desc">${item.deskripsi}</p>
+                                    <a href="${item.fileUrl}" class="perangkat-link" target="_blank" download>
+                                        <span class="link-icon">⬇️</span> Download
+                                    </a>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
             `;
         } else if (komponen.tipe === 'video') {
             contentHTML = `
@@ -1444,6 +1446,28 @@ function populateUAS() {
                         </div>
                     </div>
                 </div>
+                
+                ${komponen.perangkatPembelajaran && komponen.perangkatPembelajaran.length > 0 ? `
+                <!-- Perangkat Pembelajaran -->
+                <div class="perangkat-section">
+                    <h4 class="section-subtitle">📚 Perangkat Pembelajaran</h4>
+                    <p class="perangkat-intro">Berikut adalah perangkat pembelajaran terkait analisis ini:</p>
+                    <div class="perangkat-list">
+                        ${komponen.perangkatPembelajaran.map(item => `
+                            <div class="perangkat-item">
+                                <div class="perangkat-icon">📄</div>
+                                <div class="perangkat-info">
+                                    <h5 class="perangkat-title">${item.judul}</h5>
+                                    <p class="perangkat-desc">${item.deskripsi}</p>
+                                    <a href="${item.fileUrl}" class="perangkat-link" target="_blank" download>
+                                        <span class="link-icon">⬇️</span> Download
+                                    </a>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
             `;
         }
         

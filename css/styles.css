@@ -3142,13 +3142,14 @@ section.in-view::after {
 
 .perangkat-item {
     display: flex;
-    gap: 1rem;
-    padding: 1.25rem;
+    gap: 1.5rem;
+    padding: 1.5rem;
     background: var(--white);
-    border-radius: 10px;
-    border: 2px solid rgba(216, 67, 21, 0.1);
+    border-radius: 12px;
+    border: 2px solid rgba(216, 67, 21, 0.08);
     transition: all 0.3s ease;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .perangkat-item:hover {
@@ -3158,16 +3159,17 @@ section.in-view::after {
 }
 
 .perangkat-icon {
-    font-size: 2rem;
+    font-size: 3.5rem;
     flex-shrink: 0;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    border-radius: 10px;
-    filter: drop-shadow(0 2px 4px rgba(216, 67, 21, 0.3));
+    background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+    border-radius: 16px;
+    filter: drop-shadow(0 4px 8px rgba(216, 67, 21, 0.25));
+    color: var(--white);
 }
 
 .perangkat-info {
@@ -3175,9 +3177,9 @@ section.in-view::after {
 }
 
 .perangkat-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #D84315;
     margin-bottom: 0.5rem;
     line-height: 1.4;
 }
@@ -3193,19 +3195,21 @@ section.in-view::after {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.6rem 1.2rem;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    padding: 0.75rem 1.5rem;
+    background: #FF6B35;
     color: var(--white);
     text-decoration: none;
     border-radius: 8px;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 600;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
 }
 
 .perangkat-link:hover {
+    background: #F7931E;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(216, 67, 21, 0.3);
+    box-shadow: 0 4px 16px rgba(255, 107, 53, 0.4);
 }
 
 .download-icon {
