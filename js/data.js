@@ -84,6 +84,40 @@ const portfolioData = {
             <p>Harapan saya selama mengikuti PPG adalah dapat memadukan nilai-nilai luhur budaya Madura dengan pendekatan pembelajaran modern, sehingga mampu menciptakan pembelajaran yang bermakna, menyenangkan, dan berpihak pada peserta didik. Saya ingin menjadi guru yang tidak hanya mengajar, tetapi juga menginspirasi dan memberdayakan generasi muda.</p>
         `,
         
+        // Visi Pribadi untuk Pendidikan Indonesia
+        visiPendidikanIndonesia: `
+            <p>Pendidikan Indonesia yang dicita-citakan adalah pendidikan yang merata, relevan, dan berkualitas, yang memberikan akses setara bagi seluruh peserta didik terhadap pembelajaran bermakna, khususnya dalam bidang teknologi dan literasi digital. Melalui penguatan berpikir komputasional (computational thinking), peserta didik dipersiapkan menjadi pembelajar sepanjang hayat yang kritis, adaptif terhadap perkembangan teknologi, dan berlandaskan nilai-nilai Pancasila, sehingga mampu menjawab tantangan abad ke-21 tanpa mengabaikan konteks dan potensi lokal.</p>
+            <p>Saya bermimpi suatu hari nanti, generasi muda Indonesia dapat bersaing di tingkat global dengan tetap menjunjung tinggi nilai-nilai luhur bangsa, memiliki daya saing yang kuat, serta menjadi pemimpin yang berintegritas dan peduli terhadap kemajuan bangsa.</p>
+        `,
+        
+        // Visi Pribadi sebagai Calon Guru
+        visiSebagaiGuru: `
+            <p>Sebagai calon guru, visi saya adalah menjadi <strong>pendidik profesional yang inspiratif, inovatif, dan berdampak</strong> bagi peserta didik dan lingkungan sekitar. Saya ingin menjadi guru yang:</p>
+            <ul>
+                <li><strong>Berpusat pada Peserta Didik:</strong> Memahami kebutuhan, potensi, dan karakteristik setiap peserta didik secara individual, serta mampu merancang pembelajaran yang bermakna dan relevan dengan kehidupan mereka.</li>
+                <li><strong>Inovatif dan Adaptif:</strong> Selalu terbuka terhadap perkembangan teknologi dan pedagogi modern, serta mampu mengintegrasikan berbagai pendekatan pembelajaran yang sesuai dengan konteks dan kebutuhan siswa.</li>
+                <li><strong>Reflektif dan Pembelajar Sepanjang Hayat:</strong> Terus melakukan refleksi terhadap praktik pembelajaran, belajar dari pengalaman, serta senantiasa mengembangkan diri melalui pelatihan, kolaborasi, dan riset pendidikan.</li>
+                <li><strong>Berkarakter dan Berintegritas:</strong> Menjadi teladan bagi peserta didik dalam hal kejujuran, disiplin, empati, dan tanggung jawab, serta mampu menanamkan nilai-nilai karakter positif dalam setiap interaksi pembelajaran.</li>
+                <li><strong>Kolaboratif dan Komunal:</strong> Aktif berkolaborasi dengan sesama guru, orang tua, dan komunitas untuk menciptakan ekosistem pendidikan yang mendukung perkembangan optimal peserta didik.</li>
+            </ul>
+            <p>Saya ingin dikenang sebagai guru yang <strong>tidak hanya mengajar, tetapi juga menginspirasi, memberdayakan, dan mengubah kehidupan peserta didik</strong> menjadi lebih baik.</p>
+        `,
+        
+        // Langkah-Langkah Konkret Mencapai Visi
+        langkahKonkret: [
+            {
+                tahap: "Langkah-Langkah Konkret untuk Mencapai Visi",
+                langkah: [
+                    "<strong>Penguatan kompetensi pedagogik dan digital:</strong> mengikuti pelatihan dan pengembangan diri secara berkelanjutan terkait pembelajaran berbasis teknologi serta menerapkannya dalam penyusunan modul ajar.",
+                    "<strong>Pelaksanaan asesmen kebutuhan belajar secara berkala:</strong> menggunakan hasil pemetaan kognitif dan nonkognitif peserta didik sebagai dasar perancangan pembelajaran berdiferensiasi.",
+                    "<strong>Pembangunan iklim kelas yang aman secara emosional:</strong> menerapkan prinsip pembelajaran sosial-emosional dalam setiap interaksi pembelajaran.",
+                    "<strong>Pelaksanaan refleksi pembelajaran secara konsisten:</strong> mengevaluasi pembelajaran guna perbaikan strategi berkelanjutan.",
+                    "<strong>Kolaborasi dengan rekan sejawat dan komunitas belajar:</strong> berpartisipasi aktif dalam forum musyawarah guru mata pelajaran (MGMP) atau komunitas praktik guru Informatika.",
+                    "<strong>Konsistensi sebagai teladan sikap dan karakter:</strong> menunjukkan integritas, disiplin, dan semangat belajar secara konsisten di hadapan peserta didik."
+                ]
+            }
+        ],
+        
         // Quote di Halaman Home 
         quote: "Menjadi guru bukan hanya tentang mengajar, tetapi juga tentang terus belajar, memahami, dan memberikan yang terbaik bagi peserta didik.",
         

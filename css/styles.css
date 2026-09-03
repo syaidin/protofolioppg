@@ -3948,3 +3948,196 @@ section.in-view::after {
         padding-bottom: 0.25rem;
     }
 }
+
+/* ===================================
+   VISION SECTION - Visi Pribadi
+   =================================== */
+.vision-section {
+    background-color: var(--bg-primary);
+    padding: 4rem 0;
+}
+
+.vision-section.bg-alternate {
+    background-color: var(--bg-secondary);
+}
+
+.vision-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 2.5rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    line-height: 1.9;
+}
+
+.vision-content p {
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+}
+
+.vision-content strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.vision-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1.5rem 0;
+}
+
+.vision-content ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.vision-content ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.vision-content ul li strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.05rem;
+}
+
+/* ===================================
+   STEPS SECTION - Langkah Konkret
+   =================================== */
+.steps-section {
+    background-color: var(--bg-primary);
+    padding: 4rem 0;
+}
+
+.steps-container {
+    display: grid;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.step-card {
+    background: linear-gradient(135deg, var(--white) 0%, var(--off-white) 100%);
+    border-radius: var(--radius-xl);
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(216, 67, 21, 0.1);
+    border-left: 5px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 32px rgba(216, 67, 21, 0.15);
+    border-left-width: 8px;
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(216, 67, 21, 0.1);
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--white);
+    box-shadow: 0 4px 12px rgba(216, 67, 21, 0.3);
+}
+
+.step-title {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.step-body {
+    padding: 0 1rem;
+}
+
+.step-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.step-list li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.step-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.step-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vision-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .vision-content p {
+        font-size: 1rem;
+    }
+    
+    .step-card {
+        padding: 1.5rem;
+    }
+    
+    .step-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .step-number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .step-title {
+        font-size: 1.3rem;
+    }
+    
+    .step-list li {
+        padding-left: 2rem;
+        font-size: 0.95rem;
+    }
+}

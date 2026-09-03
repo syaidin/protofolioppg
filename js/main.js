@@ -545,6 +545,21 @@ function populateProfileData() {
     // Regional values
     setHTMLContent('originValues', profile.daerahAsal.nilai);
     
+    // Visi Pribadi untuk Pendidikan Indonesia
+    if (profile.visiPendidikanIndonesia) {
+        setHTMLContent('visiPendidikanIndonesia', profile.visiPendidikanIndonesia);
+    }
+    
+    // Visi Pribadi sebagai Calon Guru
+    if (profile.visiSebagaiGuru) {
+        setHTMLContent('visiSebagaiGuru', profile.visiSebagaiGuru);
+    }
+    
+    // Langkah-Langkah Konkret
+    if (profile.langkahKonkret) {
+        populateLangkahKonkret();
+    }
+    
     // Home quote
     if (profile.quote) {
         setTextContent('homeQuote', profile.quote);
@@ -615,6 +630,39 @@ function populateOriginGallery() {
         `;
         
         container.appendChild(galleryItem);
+    });
+}
+
+// ===================================
+// POPULATE LANGKAH KONKRET
+// ===================================
+function populateLangkahKonkret() {
+    if (typeof portfolioData === 'undefined' || !portfolioData.profile) return;
+    
+    const langkahKonkret = portfolioData.profile.langkahKonkret;
+    const container = document.getElementById('langkahKonkretContainer');
+    
+    if (!container || !langkahKonkret) return;
+    
+    container.innerHTML = '';
+    
+    langkahKonkret.forEach((item, index) => {
+        const stepCard = document.createElement('div');
+        stepCard.className = 'step-card fade-in-up';
+        
+        stepCard.innerHTML = `
+            <div class="step-header">
+                <div class="step-number">🎯</div>
+                <h3 class="step-title">${item.tahap}</h3>
+            </div>
+            <div class="step-body">
+                <ul class="step-list">
+                    ${item.langkah.map(langkah => `<li>${langkah}</li>`).join('')}
+                </ul>
+            </div>
+        `;
+        
+        container.appendChild(stepCard);
     });
 }
 
