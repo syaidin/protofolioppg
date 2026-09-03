@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Refleksi Mata Kuliah PPG">
+    <title>Refleksi Mata Kuliah - E-Portfolio PPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/madura-ornaments.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">E-Portfolio PPG</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="profil.html" class="nav-link">Profil Mahasiswa</a></li>
+                <li><a href="lokasi.html" class="nav-link">Lokasi Perkuliahan</a></li>
+                <li><a href="refleksi.html" class="nav-link active">Refleksi Mata Kuliah</a></li>
+                <li><a href="uts.html" class="nav-link">UTS</a></li>
+                <li><a href="uas.html" class="nav-link">UAS</a></li>
+                <li><a href="model-guru.html" class="nav-link">Model Guru yang Dituju</a></li>
+                <li><a href="dokumentasi.html" class="nav-link">Dokumentasi PPG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Refleksi Mata Kuliah</h1>
+            <p class="page-subtitle fade-in">Refleksi pembelajaran selama 2 semester Program Pendidikan Profesi Guru</p>
+        </div>
+    </section>
+
+    <!-- Reflection Overview -->
+    <section class="reflection-overview" id="overview">
+        <div class="container">
+            <div class="overview-stats fade-in-up">
+                <div class="stat-card">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Total Mata Kuliah</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Semester 1</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Semester 2</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Semester 1 -->
+    <section class="semester-section" id="semester-1">
+        <div class="container">
+            <div class="semester-header">
+                <h2 class="section-title fade-in-up">Refleksi Mata Kuliah Semester 1</h2>
+                <div class="accordion-controls fade-in-up">
+                    <button class="btn-control" id="toggleAllSem1" data-target="semester1Accordion">
+                        <span class="btn-icon">▼</span> Buka Semua
+                    </button>
+                </div>
+            </div>
+            
+            <div class="accordion-container fade-in-up" id="semester1Accordion">
+                <!-- Accordion items akan diisi dari data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Semester 2 -->
+    <section class="semester-section" id="semester-2">
+        <div class="container">
+            <div class="semester-header">
+                <h2 class="section-title fade-in-up">Refleksi Mata Kuliah Semester 2</h2>
+                <div class="accordion-controls fade-in-up">
+                    <button class="btn-control" id="toggleAllSem2" data-target="semester2Accordion">
+                        <span class="btn-icon">▼</span> Buka Semua
+                    </button>
+                </div>
+            </div>
+            
+            <div class="accordion-container fade-in-up" id="semester2Accordion">
+                <!-- Accordion items akan diisi dari data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">E-Portfolio Mahasiswa PPG</h3>
+                <p class="footer-name" id="footerName">[NAMA MAHASISWA]</p>
+                <p class="footer-program" id="footerProgram">[PROGRAM STUDI / BIDANG STUDI]</p>
+                <p class="footer-university" id="footerUniversity">[NAMA UNIVERSITAS/LPTK]</p>
+                <p class="footer-year" id="footerYear">[TAHUN]</p>
+                
+                <div class="footer-contact" id="footerContact">
+                    <!-- Contact akan diisi dari data.js jika tersedia -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 E-Portfolio Mahasiswa PPG</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

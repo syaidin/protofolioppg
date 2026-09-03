@@ -1,0 +1,549 @@
+
+
+const portfolioData = {
+    // ===================================
+    // DATA PROFIL MAHASISWA
+    // ===================================
+    profile: {
+        // Identitas Mahasiswa
+        namaLengkap: "Syaidin Joyo Biroso, S.Pd ",
+        namaPanggilan: "Syaidin",
+        nim: "2500103916225010",
+        programPPG: "PPG Pra Jabatan",
+        bidangStudi: "Informatika",
+        universitas: "Universitas Negeri Surabaya (UNESA)",
+        tahunPPG: "2026",
+        fotoProfil: "profil.png", // Path ke foto profil
+        
+        // Daerah Asal - Sampang, Madura
+        daerahAsal: {
+            desa: " Desa :Torjun",
+            kecamatan: "Kecamatan:Torjun",
+            kabupaten: "Kabupaten:Sampang",
+            provinsi: "provinsi:Jawa Timur",
+            
+            // Deskripsi Daerah
+            deskripsi: `
+                <p>Saya berasal dari Kabupaten Sampang, sebuah kabupaten di Pulau Madura yang kaya akan budaya dan tradisi. Sampang dikenal sebagai kota santri dengan banyak pesantren besar, serta memiliki keindahan alam pantai yang memukau.</p>
+                <p>Masyarakat Sampang dikenal ramah, religius, dan memiliki budaya yang kuat. Kehidupan sehari-hari sangat dipengaruhi oleh nilai-nilai Islam dan adat istiadat Madura yang masih dijaga hingga kini. Sampang juga terkenal dengan batik tulis khasnya dan kerajinan anyaman yang indah.</p>
+                <p>Saya bangga berasal dari Sampang karena daerah ini mengajarkan nilai-nilai kesederhanaan, kerja keras, dan kekeluargaan yang erat. Pengalaman hidup di Sampang membentuk karakter saya menjadi pribadi yang tangguh dan menghargai tradisi.</p>
+            `,
+            
+            // Ciri Khas Daerah 
+            ciriKhas: {
+                kuliner: "Sate Kambing Sampang yang terkenal gurih dan lezat, Rujak Cingur khas Madura, Kaldu Kokot (sup khas Sampang), dan Nasi Serpang",
+                budaya: "Karapan Sapi (perlombaan sapi yang menjadi ikon Madura), Tari Topeng Dalang, tradisi Petik Laut, dan budaya pesantren yang kuat",
+                bahasa: "Bahasa Madura dialek Sampang dengan logat khas yang keras namun penuh kehangatan",
+                kerajinan: "Batik Tulis Sampang dengan motif khas, kerajinan anyaman bambu, dan gerabah tradisional",
+                alam: "Pantai Camplong yang indah, Gua Lebar dengan pemandangan spektakuler, dan perbukitan yang hijau",
+                nilai: "Nilai religius yang tinggi, kegigihan dan ketangguhan (seperti sapi Madura), kebersamaan keluarga yang erat, dan sikap apa adanya (jujur dan tegas)"
+            },
+            
+            // Galeri Daerah Asal 
+            galeri: [
+                {
+                    foto: "pantai.jpg",
+                    judul: "Pantai Camplong Sampang"
+                },
+                {
+                    foto: "toroan.jpg",
+                    judul: "Air Terjun Toroan"
+                },
+                {
+                    foto: "kerapan.jpg",
+                    judul: "Karapan Sapi - Budaya Khas Madura"
+                },
+                {
+                    foto: "batik.jpg",
+                    judul: "Batik Tulis Khas Sampang"
+                },
+                {
+                    foto: "sate.jpg",
+                    judul: "Sate Kambing Khas Sampang"
+                },
+                {
+                    foto: "kobel.jpg",
+                    judul: "Nasi kobelKhas Sampang"
+                }
+            ],
+            
+            // Nilai dari Daerah Asal
+            nilai: `
+                <p>Sebagai orang Sampang, saya tumbuh dengan nilai-nilai yang membentuk karakter saya hingga saat ini. Nilai <strong>religius</strong> dari lingkungan masyarakat yang Islami mengajarkan saya pentingnya akhlak mulia dalam setiap tindakan.</p>
+                <p>Nilai Nilai <strong>kegigihan dan ketangguhan</strong>, seperti semangat masyarakat Madura yang ulet dan pekerja keras, mengajarkan saya untuk tidak mudah menyerah dalam menghadapi berbagai tantangan. Nilai ini menjadi bekal penting dalam menjalankan profesi sebagai pendidik.</p>
+                <p>Nilai Nilai <strong>kejujuran dan ketegasan</strong> membentuk saya untuk berani berkata dan bertindak secara apa adanya dengan tetap menghormati orang lain. Selain itu, nilai <strong>kekeluargaan</strong> mengajarkan saya pentingnya membangun hubungan yang baik, saling menghargai, dan peduli terhadap sesama.</p>
+                <p>Nilai-nilai tersebut akan saya bawa dalam menjalankan profesi sebagai guru. Saya ingin menjadi pendidik yang <strong>jujur, tegas namun penuh kasih sayang, gigih dalam membimbing peserta didik, serta selalu menjunjung tinggi akhlak mulia.</strong></p>
+            `
+        },
+        
+        // Tentang Saya
+        tentangSaya: `
+            <p>Saya adalah seorang pendidik dari Kabupaten Sampang, Madura, yang memiliki semangat tinggi untuk terus berkembang dan memberikan yang terbaik dalam dunia pendidikan. Latar belakang saya sebagai orang Madura dengan nilai-nilai kegigihan dan ketangguhan membentuk karakter saya menjadi sosok yang tidak mudah menyerah dalam menghadapi tantangan.</p>
+            <p>Pengalaman mengajar di SMKS NATZHATUT TULLAB memberikan saya banyak pelajaran berharga tentang bagaimana memahami kebutuhan peserta didik yang beragam. Saya percaya bahwa setiap anak memiliki potensi unik yang perlu digali dan dikembangkan dengan pendekatan yang tepat.</p>
+            <p>Ketertarikan saya terhadap pendidikan dimulai sejak melihat bagaimana guru-guru di kampung halaman saya berdedikasi tinggi meskipun dengan keterbatasan fasilitas. Hal ini menginspirasi saya untuk menjadi bagian dari perubahan positif dalam dunia pendidikan. Melalui PPG ini, saya berharap dapat meningkatkan kompetensi profesional saya, mendalami pedagogi modern, dan menjadi guru yang lebih baik.</p>
+            <p>Harapan saya selama mengikuti PPG adalah dapat memadukan nilai-nilai luhur budaya Madura dengan pendekatan pembelajaran modern, sehingga mampu menciptakan pembelajaran yang bermakna, menyenangkan, dan berpihak pada peserta didik. Saya ingin menjadi guru yang tidak hanya mengajar, tetapi juga menginspirasi dan memberdayakan generasi muda.</p>
+        `,
+        
+        // Quote di Halaman Home 
+        quote: "Menjadi guru bukan hanya tentang mengajar, tetapi juga tentang terus belajar, memahami, dan memberikan yang terbaik bagi peserta didik.",
+        
+        // Kontak (opsional)
+        kontak: {
+            email: "syaidinjb14@gmail.com", 
+            instagram: "syaidin._", 
+        }
+    },
+    
+    // ===================================
+    // DATA LOKASI PERKULIAHAN
+    // ===================================
+    lokasi: {
+        namaUniversitas: "Universitas Negeri Surabaya (UNESA)",
+        programStudi: "Pendidikan Profesi Guru (PPG)",
+        bidangStudi: "Informatika",
+        alamat: "Kampus Lidah Wetan, Jl. Lidah Wetan, Lakarsantri",
+        kota: "Surabaya",
+        tahunPPG: "2026",
+        
+        // Google Maps Embed
+        googleMapsEmbed: `
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2771890557244!2d112.6820089!3d-7.3207469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd14e6b3089%3A0xa6c7ab92e6c8f10f!2sUniversitas%20Negeri%20Surabaya%20Kampus%20Lidah%20Wetan!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="450" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        `,
+        
+        // Lingkungan Perkuliahan
+        lingkunganPerkuliahan: `
+            <p>Kampus UNESA Lidah Wetan terletak di kawasan Lakarsantri, Surabaya, dengan suasana kampus yang asri dan kondusif untuk belajar. Lingkungan kampus yang hijau dengan banyak pepohonan memberikan kesejukan dan kenyamanan bagi mahasiswa yang sedang menuntut ilmu.</p>
+            <p>Fasilitas perkuliahan di kampus ini sangat memadai, dilengkapi dengan ruang kelas ber-AC, laboratorium modern, perpustakaan yang lengkap, serta area diskusi dan ruang belajar mandiri. Kampus ini juga memiliki masjid yang representatif, kantin yang bersih, dan area parkir yang luas.</p>
+            <p>Suasana akademik di UNESA Lidah Wetan sangat mendukung proses pembelajaran PPG. Dosen-dosen berpengalaman dan profesional, teman-teman mahasiswa yang kooperatif, serta lingkungan yang ramah membuat proses belajar menjadi lebih bermakna dan menyenangkan.</p>
+        `,
+        
+        // Hal yang Berkesan
+        halBerkesan: `
+            <p>Hal yang paling berkesan selama kuliah di UNESA Lidah Wetan adalah kebersamaan dan solidaritas antar mahasiswa PPG. Meskipun kami berasal dari berbagai daerah dengan latar belakang yang berbeda - ada yang dari Sampang, Pamekasan, Sumenep, Bangkalan, hingga dari Jawa - kami semua bersatu dengan tujuan yang sama: menjadi guru profesional yang berkualitas.</p>
+            <p>Pengalaman berdiskusi dengan teman-teman dari berbagai daerah memperkaya wawasan saya tentang keberagaman praktik pendidikan di Indonesia. Saya juga terkesan dengan dedikasi dosen-dosen UNESA yang tidak hanya mengajar teori, tetapi juga berbagi pengalaman praktis dan memberikan bimbingan yang tulus. Lokasi kampus yang strategis dan mudah dijangkau juga menjadi nilai tambah tersendiri.</p>
+        `
+    },
+    
+    // ===================================
+    // DATA REFLEKSI MATA KULIAH
+    // ===================================
+    refleksi: {
+        // SEMESTER 1 - 7 Mata Kuliah
+        semester1: [
+            {
+                namaMataKuliah: "Pemahaman tentang Peserta Didik dan Pembelajarannya (PPP)",
+                dosen: "Dr. Yeni Anistyasari, S.Pd., M.Kom.",
+                deskripsi: "Mata kuliah ini membekali peserta PPG untuk memahami karakteristik, kebutuhan, dan potensi peserta didik sebagai dasar merancang, melaksanakan, dan mengevaluasi pembelajaran yang efektif, adaptif, inklusif, dan berpusat pada peserta didik melalui pendekatan Pembelajaran Mendalam. Peserta mempelajari perkembangan dan perbedaan individu, melakukan identifikasi kebutuhan belajar, serta menerapkannya dalam perencanaan dan praktik pembelajaran mikro yang terintegrasi dengan PPL.",
+                connection: "Materi ini terhubung langsung dengan peran saya sebagai calon guru dalam memahami karakteristik, kebutuhan, dan potensi peserta didik secara holistik sebelum merancang pembelajaran.",
+                
+                challenge: "Tantangan terbesar adalah menggali kebutuhan belajar peserta didik secara mendalam melalui observasi dan asesmen, karena keberagaman gaya belajar, kondisi sosial-emosional, dan latar belakang budaya siswa yang berbeda-beda.",
+                
+                concept: "Konsep utama yang dipelajari adalah profiling peserta didik, prinsip pembelajaran konstruktif, humanistik, dan berdiferensiasi, serta perancangan pengalaman belajar yang adaptif dan inklusif.",
+                
+                change: "Saya ingin lebih konsisten melakukan observasi dan refleksi terhadap kebutuhan belajar siswa sebelum merancang pembelajaran, serta menerapkan strategi diferensiasi secara nyata di kelas.",
+                artefak: "Hasil observasi profil peserta didik, catatan studi kasus kolaboratif, dan hasil simulasi microteaching.",
+                
+                alasan: "Artefak-artefak ini menunjukkan proses identifikasi kebutuhan belajar peserta didik secara langsung dan menjadi dasar bagi rancangan strategi pembelajaran yang responsif.",
+                konsepUtama: "Pembelajaran yang efektif harus berangkat dari pemahaman menyeluruh terhadap peserta didik, bukan sekadar penyampaian materi.",
+                
+                perubahanYangDilakukan: "Ke depan saya akan membiasakan diri melakukan asesmen kebutuhan belajar di awal setiap unit pembelajaran sebagai dasar perencanaan."
+            },
+            {
+                namaMataKuliah: "Filosofi Pendidikan & Nilai Pendidikan",
+                dosen: "Drs. Bambang Sujatmiko, M.T.",
+                deskripsi: "Mata kuliah ini membekali peserta PPG sebagai calon guru dengan kemampuan untuk memahami filosofi pendidikan Indonesia, menginternalisasi nilai-nilai ke-Indonesia-an dalam menjalankan tugas sebagai pendidik dan dalam kehidupan keseharian, serta berkomitmen pada nilai-nilai moral dan etika, dasar-dasar kepemimpinan, dan sebagai pembelajar sepanjang hayat.",
+                connection: "Materi ini terhubung dengan pembentukan identitas saya sebagai pendidik yang berlandaskan nilai-nilai ke-Indonesiaan, moral, dan etika dalam menjalankan tugas keseharian.",
+                challenge: "Tantangan yang dihadapi adalah menginternalisasi nilai-nilai filosofi pendidikan Indonesia secara nyata dalam praktik, bukan hanya memahaminya secara teoretis.",
+                concept: "Konsep utama yang dipelajari adalah filosofi pendidikan Indonesia, nilai moral dan etika, dasar-dasar kepemimpinan, serta semangat menjadi pembelajar sepanjang hayat.",
+                change: "Saya ingin lebih konsisten merefleksikan nilai-nilai ke-Indonesiaan dalam setiap interaksi dengan peserta didik dan dalam pengambilan keputusan pedagogis.",
+                artefak: "Esai refleksi filosofi pendidikan dan jurnal penerapan nilai kepemimpinan dalam kegiatan kolaboratif perkuliahan.",
+                alasan: "Artefak ini menunjukkan proses internalisasi nilai filosofi pendidikan dalam bentuk pemikiran tertulis maupun tindakan nyata.",
+                konsepUtama: "Praktik mengajar yang baik harus berlandaskan nilai-nilai luhur pendidikan Indonesia, bukan sekadar teknik pembelajaran.",
+                perubahanYangDilakukan: "Saya akan lebih peka menerapkan nilai moral dan kepemimpinan dalam pengelolaan kelas dan pengambilan keputusan sehari-hari."
+            },
+            {
+                namaMataKuliah: "Pembelajaran Mendalam dan Asesmen Dasar",
+                dosen: "Dr. Meini Sondang Sumbawati, M.Pd.",
+                deskripsi: "Mata kuliah Pembelajaran Mendalam dan Asesmen Umum membekali calon guru dalam merancang, menerapkan, dan mengevaluasi pembelajaran yang bermakna, kontekstual, dan berpusat pada murid. Mata kuliah ini menekankan penerapan prinsip Pembelajaran Mendalam dan asesmen yang adil serta berkelanjutan, yang diintegrasikan dengan praktik PPL untuk mengembangkan kompetensi pedagogis dan menciptakan pengalaman belajar yang transformatif.",
+                connection: "Materi ini terhubung langsung dengan praktik saya dalam merancang dan mengevaluasi pembelajaran yang bermakna, kontekstual, dan berpusat pada murid, khususnya melalui integrasi dengan PPL.",
+                challenge: "Tantangan yang dihadapi adalah merancang asesmen yang benar-benar adil dan mendukung proses belajar peserta didik, bukan sekadar mengukur hasil akhir semata.",
+                concept: "Konsep utama yang dipelajari adalah prinsip pembelajaran mendalam serta penerapan asesmen yang adil, berkelanjutan, dan mendukung kualitas proses belajar.",
+                change: "Saya ingin merancang pembelajaran dan asesmen yang lebih reflektif terhadap proses belajar siswa, tidak hanya berfokus pada produk akhir.",
+                artefak: "Rancangan modul ajar dan instrumen asesmen yang disusun serta diujicobakan selama praktik PPL.",
+                alasan: "Artefak ini menjadi bukti langsung penerapan konsep pembelajaran mendalam dan asesmen dalam praktik pembelajaran nyata di sekolah.",
+                konsepUtama: "Pembelajaran dan asesmen yang efektif harus terintegrasi, berpusat pada murid, dan mendukung pertumbuhan belajar secara berkelanjutan.",
+                perubahanYangDilakukan: "Saya akan menerapkan asesmen formatif secara lebih konsisten untuk memantau proses belajar, bukan hanya asesmen sumatif di akhir pembelajaran"
+            },
+            {
+                namaMataKuliah: "Pola Pikir Bertumbuh (Growth mindset) dalam Pembelajaran",
+                dosen: "Dr. Rina Harimurti, S.Pd., M.T.",
+                deskripsi: "Mata kuliah ini membekali peserta PPG Calon Guru dengan pemahaman dan keterampilan menerapkan growth mindset dalam pembelajaran. Mahasiswa mempelajari konsep pola pikir bertumbuh, neuroplasticity, strategi belajar, refleksi, serta peran guru dalam memberikan umpan balik konstruktif, membangun ketekunan, keberanian mencoba, dan menciptakan budaya kelas yang mendukung perkembangan potensi peserta didik.",
+                connection: "Materi ini terhubung dengan peran saya sebagai fasilitator pembelajaran yang mendorong keberanian peserta didik untuk mencoba dan menumbuhkan pola pikir bertumbuh.",
+                challenge: " Tantangan yang saya hadapi adalah mengubah kecenderungan pola pikir tetap (fixed mindset) yang kadang muncul saat menghadapi kesulitan belajar, baik pada diri sendiri maupun saat membimbing siswa.",
+                concept: "Konsep utama yang dipelajari adalah dasar teori growth mindset, kaitannya dengan neuroplastisitas otak, serta strategi umpan balik yang membangun dan menumbuhkan ketekunan.",
+                change: "Saya ingin menerapkan strategi umpan balik yang lebih membangun dan menciptakan budaya kelas yang mendukung perkembangan potensi peserta didik secara berkelanjutan.",
+                artefak: "Artefak pembelajaran yang digunakan adalah refleksi 4C (Connection, Challenge, Concept, dan Change) tentang penerapan Growth Mindset dalam pembelajaran. Artefak ini menunjukkan pemahaman saya terhadap konsep pola pikir bertumbuh serta keterkaitannya dengan peran guru dalam mendorong peserta didik untuk berani mencoba, menghadapi kesulitan, dan terus mengembangkan potensinya. Melalui refleksi tersebut, saya juga mengidentifikasi tantangan dalam mengubah fixed mindset menjadi growth mindset serta merumuskan perubahan yang ingin diterapkan dalam proses",
+                alasanArtefak: "Artefak ini dipilih karena refleksi 4C dapat menggambarkan pemahaman dan perkembangan pola pikir saya setelah mempelajari materi Growth Mindset. Melalui artefak ini, saya dapat menghubungkan konsep yang dipelajari dengan pengalaman dalam pembelajaran, mengenali tantangan yang muncul, serta menentukan langkah perubahan yang dapat dilakukan untuk menjadi guru yang mampu mendorong peserta didik agar lebih berani mencoba, tidak mudah menyerah, dan melihat kesulitan sebagai bagian dari proses belajar.",
+                konsepUtama: "Konsep utama yang dipelajari adalah Growth Mindset, Fixed Mindset, neuroplasticity, ketekunan, strategi belajar, serta umpan balik konstruktif. Konsep tersebut memberikan pemahaman bahwa kemampuan peserta didik dapat berkembang melalui proses belajar, latihan, usaha, dan strategi yang tepat.",
+                perubahanYangDilakukan: "Saya akan menerapkan umpan balik yang lebih membangun dan berorientasi pada proses belajar, bukan hanya pada hasil akhir. Saya juga ingin menciptakan budaya kelas yang mendorong peserta didik untuk berani mencoba, tidak mudah menyerah ketika mengalami kesulitan, serta memandang kesalahan sebagai bagian dari proses untuk belajar dan berkembang."
+            },
+            {
+                namaMataKuliah: "Pengembangan Kebugaran Jasmani",
+                dosen: "Nafisa Arif Pambudi, M.Pd.",
+                deskripsi: "Mata kuliah Pengembangan Kebugaran Jasmani membekali mahasiswa PPG dengan pemahaman dan keterampilan untuk meningkatkan kebugaran, kesehatan mental, dan personal wellbeing. Mata kuliah ini juga menekankan peran guru sebagai teladan dan promotor budaya hidup sehat, serta agen perubahan dalam menciptakan lingkungan sekolah yang aman, sehat, inklusif, dan aktif.",
+                connection: "Materi ini terhubung dengan personal wellbeing saya sebagai calon guru, yang menjadi fondasi bagi kesiapan profesional dan kemampuan menjadi teladan gaya hidup sehat bagi siswa.",
+                challenge: "Tantangan yang saya hadapi adalah menjaga konsistensi aktivitas fisik dan pola hidup sehat di tengah padatnya tugas perkuliahan PPG, serta memahami keterkaitan kesehatan fisik dan mental sebagai satu kesatuan.",
+                concept: "Konsep utama yang dipelajari adalah kebugaran jasmani dan kesehatan mental sebagai fondasi kesejahteraan personal dan profesional guru, sekaligus prasyarat terciptanya iklim belajar yang aman dan inklusif.",
+                change: "Saya berkomitmen menerapkan gaya hidup aktif secara personal secara lebih konsisten, serta merancang strategi promosi budaya hidup sehat yang kontekstual sesuai karakteristik satuan pendidikan.",
+                artefak: "Jurnal aktivitas fisik mingguan dan rancangan program promosi budaya hidup sehat untuk lingkungan sekolah.",
+                alasanArtefak: "Artefak ini membuktikan penerapan gaya hidup sehat secara personal sekaligus upaya mentransfer kesadaran tersebut ke lingkungan sekolah.",
+                konsepUtama: "Guru yang sehat secara fisik dan mental adalah prasyarat bagi terciptanya budaya belajar yang sehat pula bagi peserta didik.",
+                perubahanYangDilakukan: "Saya akan menjadwalkan aktivitas fisik secara rutin dan menjadi contoh nyata bagi siswa dalam menerapkan pola hidup sehat."
+            },
+            {
+                namaMataKuliah: "Literasi Kesehatan Mental",
+                dosen: "-",
+                deskripsi: "Mata kuliah Literasi Kesehatan Mental membekali mahasiswa PPG dengan pemahaman tentang kesehatan mental, cara mengenali masalah psikologis, melawan stigma, serta memberikan dukungan awal. Mata kuliah ini juga menekankan peran guru dalam menciptakan lingkungan belajar yang aman, sehat, dan mendukung kesejahteraan mental peserta didik.",
+                connection: "Materi ini terhubung dengan peran saya sebagai calon guru dalam memahami pentingnya kesehatan mental peserta didik serta menciptakan lingkungan belajar yang aman, nyaman, dan bebas stigma.",
+                challenge: "Tantangan yang saya hadapi adalah memahami kondisi psikologis peserta didik dengan tepat serta menghindari anggapan atau stigma terhadap siswa yang mengalami masalah kesehatan mental.",
+                concept: "Konsep utama yang dipelajari adalah kesehatan mental, perbedaan antara masalah kesehatan mental dan gangguan mental, cara melawan stigma, Psychologi, serta pentingnya dukungan dan iklim kelas yang positif.",
+                change: "Saya berkomitmen untuk lebih peka terhadap kondisi mental peserta didik, memberikan dukungan yang tepat, mengurangi stigma, serta menciptakan suasana pembelajaran yang mendukung rasa aman, percaya diri, dan kesejahteraan mental siswa.",
+                artefak: "Refleksi 4C tentang Literasi Kesehatan Mental yang dipadukan dengan analisis studi kasus mengenai stigma kesehatan mental dan penerapan Psychologidi lingkungan sekolah.",
+                alasanArtefak: "Artefak ini menunjukkan pemahaman saya terhadap pentingnya literasi kesehatan mental, kemampuan mengenali masalah psikologis, serta kesiapan guru dalam memberikan dukungan awal dan menciptakan lingkungan belajar yang bebas stigma.",
+                konsepUtama: "Guru perlu memahami kesehatan mental, membedakan masalah psikologis dengan gangguan mental, melawan stigma, serta menerapkan dukungan awal melalui Psychologi untuk mendukung kesejahteraan peserta didik.",
+                perubahanYangDilakukan: "Saya akan menerapkan komunikasi yang empatik, lebih peka terhadap kebutuhan emosional peserta didik, serta membangun budaya kelas yang menghargai kesehatan mental dan bebas dari stigma."
+            },
+            {
+                namaMataKuliah: "Praktik Pengalaman Lapangan (PPL) Terbimbing",
+                dosen: "Dr. Meini Sondang Sumbawati, M.Pd.",
+                deskripsi: "Mata kuliah PPL Terbimbing dirancang untuk melatih mahasiswa secara profesional melalui praktik langsung di mitra sekolah, meliputi tahapan observasi, asistensi, dan praktik pembelajaran terbimbing. Mata kuliah ini bertujuan untuk mengembangkan kompetensi pedagogik dan profesional mahasiswa melalui penerapan Pembelajaran Mendalam serta integrasi teori dari mata kuliah lain. Dengan demikian, mahasiswa diharapkan mampu merancang dan melaksanakan pembelajaran yang kritis, reflektif, dan berorientasi pada kebutuhan murid.",
+                connection: "Mata kuliah ini terhubung langsung dengan pengalaman saya sebagai calon guru melalui kegiatan observasi, asistensi, dan praktik pembelajaran di sekolah mitra. Kegiatan tersebut membantu saya menghubungkan teori yang dipelajari dengan kondisi nyata di kelas.",
+                challenge: "Tantangan yang saya hadapi adalah menyesuaikan perencanaan pembelajaran dengan karakteristik dan kebutuhan peserta didik, serta membangun kemampuan mengelola kelas dan melaksanakan pembelajaran secara efektif.",
+                concept: "Konsep utama yang dipelajari adalah praktik pembelajaran terbimbing, kompetensi pedagogik dan profesional, Pembelajaran Mendalam, observasi kelas, serta refleksi terhadap proses pembelajaran.",
+                change: "Saya berkomitmen untuk meningkatkan kemampuan dalam merancang dan melaksanakan pembelajaran yang lebih kritis, reflektif, berpusat pada peserta didik, serta menyesuaikan pembelajaran dengan kebutuhan dan karakteristik mereka.",
+                artefak: "Modul ajar/RPP dan dokumentasi praktik pembelajaran terbimbing yang menunjukkan proses perencanaan, pelaksanaan, dan refleksi pembelajaran di sekolah mitra.",
+                alasanArtefak: "Artefak ini dipilih karena menunjukkan penerapan langsung kompetensi pedagogik dan profesional yang diperoleh selama PPL, mulai dari merancang pembelajaran hingga mengevaluasi proses pembelajaran.",
+                konsepUtama: "Konsep utama yang dipelajari adalah Pembelajaran Mendalam, pembelajaran berpusat pada peserta didik, pengelolaan kelas, perencanaan pembelajaran, praktik mengajar, dan refleksi pembelajaran.",
+                perubahanYangDilakukan: "Saya akan meningkatkan kemampuan dalam merancang pembelajaran yang lebih terstruktur dan bermakna, menggunakan strategi yang sesuai dengan karakteristik peserta didik, serta melakukan refleksi secara rutin untuk memperbaiki kualitas pembelajaran.",
+                
+                // Perangkat Pembelajaran PPL Terbimbing
+                perangkatPembelajaran: [
+                    {
+                        judul: "Modul Ajar 1 - [Judul Materi]",
+                        deskripsi: "Modul ajar untuk pembelajaran terbimbing dengan topik...",
+                        fileUrl: "perangkat/ppl-terbimbing/modul-ajar-1.pdf"
+                    },
+                    {
+                        judul: "RPP 1 - [Judul Materi]",
+                        deskripsi: "Rencana Pelaksanaan Pembelajaran...",
+                        fileUrl: "perangkat/ppl-terbimbing/rpp-1.pdf"
+                    },
+                    {
+                        judul: "LKPD - [Judul Materi]",
+                        deskripsi: "Lembar Kerja Peserta Didik...",
+                        fileUrl: "perangkat/ppl-terbimbing/lkpd-1.pdf"
+                    },
+                    {
+                        judul: "Media Pembelajaran - [Judul Materi]",
+                        deskripsi: "Media presentasi dan bahan ajar...",
+                        fileUrl: "perangkat/ppl-terbimbing/media-1.pdf"
+                    },
+                    {
+                        judul: "Instrumen Asesmen",
+                        deskripsi: "Instrumen penilaian dan rubrik...",
+                        fileUrl: "perangkat/ppl-terbimbing/asesmen-1.pdf"
+                    }
+                ]
+            }
+        ],
+        
+        // SEMESTER 2 - 7 Mata Kuliah
+        semester2: [
+            {
+                namaMataKuliah: "Pencegahan dan Penanganan Kekerasan di Perguruan Tinggi",
+                dosen: "-",
+                deskripsi: "Mata kuliah ini membekali mahasiswa PPG dengan pemahaman tentang pentingnya menciptakan lingkungan pendidikan yang aman dan menyenangkan, termasuk memahami definisi, asas, cakupan, serta budaya sekolah yang mendukung keamanan dan kenyamanan. Mahasiswa juga diarahkan untuk memahami berbagai upaya pencegahan dan penanganan kekerasan sehingga mampu berperan dalam menciptakan lingkungan pendidikan yang aman, nyaman, dan bebas dari kekerasan.",
+                connection: "Materi ini terhubung dengan peran saya sebagai calon guru dalam menciptakan lingkungan pendidikan yang aman, nyaman, inklusif, dan bebas dari berbagai bentuk kekerasan.",
+                challenge: "Tantangan yang saya hadapi adalah meningkatkan kepekaan dalam mengenali berbagai bentuk kekerasan, memahami cara merespons kejadian secara tepat, serta berani mengambil tindakan ketika menemukan indikasi kekerasan di lingkungan pendidikan.",
+                concept: "Konsep utama yang dipelajari adalah bentuk-bentuk kekerasan, pencegahan dan penanganan kekerasan, hak korban dan saksi, mekanisme pelaporan, serta pentingnya menciptakan lingkungan pendidikan yang ramah, aman, inklusif, dan setara. Materi ini juga sejalan dengan Permendikbudristek Nomor 55 Tahun 2024 yang mengatur pencegahan dan penanganan kekerasan di lingkungan perguruan tinggi",
+                change: "Saya berkomitmen untuk lebih peka terhadap potensi kekerasan, membangun komunikasi yang menghargai orang lain, serta ikut menciptakan lingkungan pembelajaran yang aman, inklusif, dan bebas dari kekerasan.",
+                artefak: "Studi kasus dan hasil analisis mengenai bentuk, pencegahan, serta penanganan kekerasan di lingkungan pendidikan",
+                alasanArtefak: "Artefak ini menunjukkan pemahaman saya dalam mengenali berbagai bentuk kekerasan serta menentukan langkah yang tepat untuk mencegah dan menanganinya.",
+                konsepUtama: "Konsep utama yang dipelajari adalah bentuk-bentuk kekerasan, pencegahan, penanganan, pelaporan, perlindungan korban dan saksi, serta penciptaan lingkungan pendidikan yang aman dan inklusif",
+                perubahanYangDilakukan: "Saya akan meningkatkan kepedulian dan keberanian untuk mencegah kekerasan, membangun komunikasi yang saling menghargai, serta menjadi bagian dari terciptanya lingkungan pendidikan yang aman dan bebas dari kekerasan."
+            },
+            {
+                namaMataKuliah: "Pembelajaran Mendalam dan Asesmen Lanjut",
+                dosen: "Dr. Rina Harimurti, S.Pd., M.T.",
+                deskripsi: "Mata kuliah Pembelajaran Mendalam dan Asesmen (Umum) Lanjut membekali mahasiswa menerapkan pembelajaran mendalam berbasis data asesmen. Fokusnya pada penerapan DUP, TaRL, dan CRT untuk merancang pembelajaran yang adaptif, inklusif, bermakna, dan berpihak pada kebutuhan murid.",
+                connection: "Materi ini terhubung langsung dengan praktik pembelajaran di kelas dan PPL, terutama dalam menggunakan hasil asesmen untuk memahami kebutuhan belajar murid serta merancang pembelajaran yang adaptif dan berpihak pada murid.",
+                challenge: "Tantangan yang dihadapi adalah mengintegrasikan data hasil asesmen, kebutuhan belajar yang beragam, dan konteks budaya murid dalam merancang pembelajaran yang adil, inklusif, dan bermakna.",
+                concept: "Konsep utama yang dipelajari meliputi prinsip pembelajaran mendalam serta penerapan Desain Universal untuk Pembelajaran (DUP), Teaching at the Right Level (TaRL), dan Culturally Responsive Teaching (CRT).",
+                change: "Saya ingin lebih mampu menggunakan hasil asesmen sebagai dasar dalam merancang strategi pembelajaran yang adaptif, inklusif, responsif terhadap budaya, serta sesuai dengan kebutuhan dan karakteristik setiap murid.",
+                artefak: "Hasil observasi profil peserta didik, catatan studi kasus kolaboratif, dan hasil simulasi microteaching.",
+                alasanArtefak: "Artefak ini menunjukkan bahwa saya belajar memahami kebutuhan dan karakteristik peserta didik sebelum merancang pembelajaran. Saya juga belajar menggunakan hasil asesmen sebagai dasar untuk menentukan pembelajaran yang sesuai dengan kemampuan dan kebutuhan murid. Melalui studi kasus dan microteaching, saya dapat melihat penerapan DUP, TaRL, dan CRT dalam merancang pembelajaran yang adaptif, inklusif, bermakna, dan berpihak pada murid. Artefak ini juga membantu saya mengetahui kekurangan dalam pembelajaran sehingga dapat menjadi bahan perbaikan untuk pembelajaran berikutnya.",
+                konsepUtama: "Saya belajar bahwa pembelajaran perlu dirancang berdasarkan kebutuhan, kemampuan, dan karakteristik peserta didik. Asesmen menjadi bagian penting untuk mengetahui kondisi peserta didik sehingga pembelajaran dapat dibuat lebih sesuai, bermakna, dan berpihak pada murid.",
+                perubahanYangDilakukan: "Ke depan saya akan lebih memperhatikan hasil asesmen dan kondisi peserta didik sebelum merancang pembelajaran. Saya juga akan berusaha menerapkan pembelajaran yang lebih adaptif dengan menyesuaikan tingkat kemampuan dan kebutuhan setiap murid."
+            },
+            {
+                namaMataKuliah: "Pembelajaran Sosial Emosional",
+                dosen: "Dr. Yeni Anistyasari, S.Pd., M.Kom.",
+                deskripsi: "Mata kuliah Pembelajaran Sosial Emosional membekali calon guru untuk memahami dan menerapkan pembelajaran sosial emosional, membangun relasi positif dengan murid, serta menciptakan pembelajaran yang bermakna, berkesadaran, dan mendukung perkembangan murid secara holistik.",
+                connection: "Materi ini berkaitan dengan praktik saya sebagai calon guru dalam membangun hubungan yang baik dengan murid. Saya belajar bahwa hubungan yang positif dapat membuat murid merasa aman, nyaman, dan lebih siap mengikuti pembelajaran.",
+                challenge: "Tantangan yang saya hadapi adalah memahami kondisi sosial dan emosional setiap murid yang berbeda serta bagaimana meresponsnya dengan tepat tanpa mengabaikan kebutuhan belajar mereka.",
+                concept: "Konsep utama yang saya pelajari adalah pentingnya kesadaran diri, pengelolaan emosi, empati, komunikasi, dan membangun hubungan positif dalam menciptakan pembelajaran yang bermakna dan mendukung perkembangan murid secara menyeluruh.",
+                change: "Ke depan saya ingin lebih memperhatikan kondisi sosial dan emosional murid sebelum dan selama pembelajaran. Saya juga akan berusaha membangun komunikasi yang lebih positif agar murid merasa dihargai, didengarkan, dan nyaman dalam belajar.",
+                artefak: "Hasil pembelajaran dan refleksi dari materi CASEL, peran guru sebagai teladan, experiential learning, dan school well-being.",
+                alasanArtefak: "Melalui materi CASEL, saya memahami pentingnya kesadaran diri, pengelolaan emosi, empati, keterampilan berelasi, dan pengambilan keputusan yang bertanggung jawab. Materi tentang guru sebagai teladan juga membuat saya menyadari bahwa sikap dan cara guru berinteraksi dapat menjadi contoh bagi murid. Dari experiential learning dan school well-being, saya belajar pentingnya menciptakan pengalaman belajar dan lingkungan sekolah yang aman, nyaman, dan mendukung perkembangan murid.",
+                konsepUtama: "Saya memahami bahwa pembelajaran sosial emosional penting untuk membantu murid mengenali dan mengelola emosinya, membangun hubungan yang baik, serta membuat keputusan yang bertanggung jawab. Saya juga belajar bahwa guru perlu menjadi teladan dan menciptakan lingkungan belajar yang aman, nyaman, dan mendukung murid.",
+                perubahanYangDilakukan: "Setelah mengikuti mata kuliah ini, saya menjadi lebih memahami pentingnya memperhatikan kondisi sosial dan emosional murid dalam proses pembelajaran. Saya tidak lagi hanya melihat kemampuan akademik murid, tetapi juga berusaha memahami perasaan, kebutuhan, dan hubungan mereka dengan lingkungan sekitar. Ke depan, saya ingin menerapkan komunikasi yang lebih positif, menjadi teladan yang baik, dan menciptakan suasana kelas yang aman, nyaman, serta membuat murid merasa dihargai."
+            },
+            {
+                namaMataKuliah: "Praktik Pengalaman Lapangan (PPL) Mandiri",
+                dosen: "Prof. Dr. Ir. Achmad Imam Agung, M.Pd.",
+                deskripsi: "Mata kuliah PPL Mandiri membekali calon guru untuk merancang dan melaksanakan pembelajaran serta asesmen secara mandiri, kontekstual, dan berpihak pada peserta didik. Melalui observasi, praktik mengajar, kegiatan nonmengajar, dan refleksi, mahasiswa belajar menjadi guru yang profesional, adaptif, dan reflektif.",
+                connection: "Kegiatan PPL Mandiri berkaitan langsung dengan praktik saya di sekolah, terutama dalam merancang, melaksanakan, dan mengevaluasi pembelajaran sesuai dengan kebutuhan peserta didik.",
+                challenge: "Tantangan yang saya hadapi adalah menyesuaikan rancangan pembelajaran dengan kondisi nyata di kelas serta mengelola pembelajaran agar tetap berjalan sesuai kebutuhan dan karakteristik peserta didik.",
+                concept: "Konsep utama yang saya pelajari adalah pentingnya pembelajaran yang kontekstual, berpihak pada peserta didik, dan didukung oleh asesmen. Saya juga belajar bahwa guru perlu melakukan refleksi untuk memperbaiki pembelajaran secara berkelanjutan.",
+                change: "Setelah mengikuti PPL Mandiri, saya menjadi lebih percaya diri dalam merancang dan melaksanakan pembelajaran secara mandiri. Saya juga lebih terbiasa melakukan refleksi terhadap proses pembelajaran dan menyesuaikannya dengan kebutuhan peserta didik.",
+                artefak: "Hasil observasi lingkungan belajar, perangkat pembelajaran, dokumentasi praktik pembelajaran terbimbing dan mandiri, serta hasil refleksi selama kegiatan PPL Mandiri.",
+                alasanArtefak: "Artefak ini juga membantu saya melihat perkembangan kemampuan saya dalam merancang, melaksanakan, dan mengevaluasi pembelajaran secara mandiri. Dari pengalaman tersebut, saya dapat mengetahui hal yang sudah baik dan bagian yang masih perlu diperbaiki, sehingga menjadi bahan refleksi untuk meningkatkan kemampuan saya sebagai calon guru.",
+                konsepUtama: "Saya belajar bahwa menjadi guru tidak hanya mampu menyampaikan materi, tetapi juga harus mampu merancang dan melaksanakan pembelajaran sesuai dengan kondisi dan kebutuhan peserta didik. Melalui PPL Mandiri, saya belajar pentingnya observasi, persiapan, praktik mengajar, asesmen, dan refleksi untuk menghasilkan pembelajaran yang bermakna.",
+                perubahanYangDilakukan: "Setelah mengikuti PPL Mandiri, saya menjadi lebih percaya diri dalam merancang dan melaksanakan pembelajaran secara mandiri. Saya juga menjadi lebih terbiasa menyesuaikan pembelajaran dengan kondisi kelas, memperhatikan kebutuhan peserta didik, dan melakukan refleksi untuk memperbaiki pembelajaran berikutnya.",
+                
+                // Perangkat Pembelajaran PPL Mandiri
+                perangkatPembelajaran: [
+                    {
+                        judul: "Modul Ajar 1 - [Judul Materi]",
+                        deskripsi: "Modul ajar untuk pembelajaran mandiri dengan topik...",
+                        fileUrl: "perangkat/ppl-mandiri/modul-ajar-1.pdf"
+                    },
+                    {
+                        judul: "RPP 1 - [Judul Materi]",
+                        deskripsi: "Rencana Pelaksanaan Pembelajaran untuk PPL Mandiri...",
+                        fileUrl: "perangkat/ppl-mandiri/rpp-1.pdf"
+                    },
+                    {
+                        judul: "LKPD - [Judul Materi]",
+                        deskripsi: "Lembar Kerja Peserta Didik untuk pembelajaran mandiri...",
+                        fileUrl: "perangkat/ppl-mandiri/lkpd-1.pdf"
+                    },
+                    {
+                        judul: "Media Pembelajaran - [Judul Materi]",
+                        deskripsi: "Media presentasi dan bahan ajar PPL Mandiri...",
+                        fileUrl: "perangkat/ppl-mandiri/media-1.pdf"
+                    },
+                    {
+                        judul: "Instrumen Asesmen",
+                        deskripsi: "Instrumen penilaian dan rubrik untuk pembelajaran mandiri...",
+                        fileUrl: "perangkat/ppl-mandiri/asesmen-1.pdf"
+                    }
+                ],
+                
+                // Video Pembelajaran PPL Mandiri
+                videoPembelajaran: [
+                    {
+                        judul: "Video Pembelajaran 1 - [Judul Materi]",
+                        deskripsi: "Dokumentasi praktik mengajar pertama di kelas...",
+                        videoUrl: "https://www.youtube.com/embed/VIDEO_ID_1",
+                        durasi: "15 menit",
+                        tanggal: "Januari 2026"
+                    },
+                    {
+                        judul: "Video Pembelajaran 2 - [Judul Materi]",
+                        deskripsi: "Dokumentasi praktik mengajar kedua dengan metode...",
+                        videoUrl: "https://www.youtube.com/embed/VIDEO_ID_2",
+                        durasi: "20 menit",
+                        tanggal: "Februari 2026"
+                    },
+                    {
+                        judul: "Refleksi PPL Mandiri",
+                        deskripsi: "Video refleksi pengalaman selama PPL Mandiri",
+                        videoUrl: "https://www.youtube.com/embed/VIDEO_ID_3",
+                        durasi: "10 menit",
+                        tanggal: "Maret 2026"
+                    }
+                ]
+            },
+            {
+                namaMataKuliah: "Projek Kepemimpinan",
+                dosen: "Drs. Bambang Sujatmiko, M.T.",
+                deskripsi: "Mata kuliah Projek Kepemimpinan membekali calon guru untuk mengembangkan kemampuan kepemimpinan melalui pengalaman merancang dan menjalankan projek nyata. Mahasiswa juga belajar berkolaborasi, berkomunikasi, dan memecahkan masalah secara langsung.",
+                connection: "Projek Kepemimpinan berkaitan dengan pengalaman saya dalam bekerja sama dengan orang lain untuk merancang dan menjalankan sebuah kegiatan. Saya belajar bahwa kemampuan memimpin sangat dibutuhkan dalam mengatur pembagian tugas dan mencapai tujuan bersama.",
+                challenge: "Tantangan yang saya hadapi adalah menyatukan pendapat dalam kelompok, membagi tugas dengan baik, dan memastikan setiap anggota dapat menjalankan tanggung jawabnya.",
+                concept: "Konsep utama yang saya pelajari adalah kepemimpinan, komunikasi, kolaborasi, dan pemecahan masalah. Saya memahami bahwa seorang pemimpin tidak hanya memberikan arahan, tetapi juga mampu mendengarkan, bekerja sama, dan mengambil keputusan.",
+                change: "Setelah mengikuti mata kuliah ini, saya menjadi lebih percaya diri dalam berkomunikasi dan bekerja sama dalam kelompok. Saya juga lebih memahami pentingnya tanggung jawab, inisiatif, dan kemampuan mengambil keputusan dalam menjalankan sebuah projek.",
+                artefak: "Hasil perencanaan dan pelaksanaan projek kepemimpinan, pembagian tugas dalam kelompok, dokumentasi kegiatan, serta hasil monitoring, evaluasi, dan refleksi projek.",
+                alasanArtefak: "Melalui proses pelaksanaan, monitoring, dan evaluasi, saya juga belajar menghadapi kendala dan mencari solusi bersama. Artefak ini membantu saya melihat bahwa kepemimpinan bukan hanya tentang menjadi pemimpin, tetapi juga tentang mampu bekerja sama, mengambil keputusan, bertanggung jawab, dan melakukan refleksi untuk memperbaiki pelaksanaan projek.",
+                konsepUtama: "Saya belajar bahwa kepemimpinan bukan hanya tentang memimpin orang lain, tetapi juga tentang mampu bekerja sama, berkomunikasi, membagi tugas, mengambil keputusan, dan bertanggung jawab terhadap tujuan bersama. Saya juga belajar pentingnya perencanaan, pelaksanaan, serta evaluasi dalam menjalankan sebuah projek.",
+                perubahanYangDilakukan: "Setelah mengikuti mata kuliah ini, saya menjadi lebih percaya diri dalam bekerja sama dan berkomunikasi dengan anggota kelompok. Saya juga lebih berani mengambil tanggung jawab, menyampaikan pendapat, dan mencari solusi ketika menghadapi kendala dalam pelaksanaan projek."
+            },
+            {
+               namaMataKuliah: "Pendidikan Inklusi",
+                dosen: "Prof. Dr. Wagino, M.Pd.",
+                deskripsi: "Mata kuliah Pendidikan Inklusi di Sekolah membekali mahasiswa untuk memahami dan menerapkan pendidikan yang sesuai dengan kebutuhan peserta didik berkebutuhan khusus, mulai dari identifikasi, asesmen, perencanaan, pelaksanaan, hingga evaluasi pembelajaran akomodatif melalui Project Based Learning.",
+                connection: "Mata kuliah ini berkaitan dengan praktik saya sebagai calon guru dalam memahami kebutuhan setiap peserta didik, termasuk peserta didik dengan kebutuhan yang beragam, agar dapat mengikuti pembelajaran dengan baik.",
+                challenge: "Tantangan yang saya hadapi adalah memahami kebutuhan setiap peserta didik dan menentukan bentuk pembelajaran yang sesuai, sehingga semua peserta didik tetap dapat belajar dan berpartisipasi.",
+                concept: "Konsep utama yang saya pelajari adalah pentingnya identifikasi, asesmen, dan penyusunan profil peserta didik sebagai dasar dalam merancang pembelajaran yang akomodatif dan sesuai dengan kebutuhan masing-masing peserta didik.",
+                change: "Setelah mengikuti mata kuliah ini, saya menjadi lebih memahami bahwa setiap peserta didik memiliki kebutuhan dan kemampuan yang berbeda. Saya ingin lebih memperhatikan kebutuhan tersebut dan merancang pembelajaran yang dapat memberikan kesempatan belajar yang setara bagi semua peserta didik.",
+                artefak: "Hasil identifikasi dan asesmen awal peserta didik, profil kebutuhan peserta didik, serta rancangan dan pelaksanaan pembelajaran akomodatif di sekolah inklusif.",
+                alasanArtefak: "Dari artefak tersebut, saya juga belajar merancang dan melaksanakan pembelajaran yang akomodatif agar semua peserta didik dapat mengikuti pembelajaran sesuai dengan kebutuhannya. Pengalaman ini membuat saya memahami bahwa pembelajaran inklusif bukan berarti memberikan perlakuan yang sama kepada semua murid, tetapi memberikan dukungan yang sesuai agar setiap murid memiliki kesempatan untuk belajar dan berkembang.",
+                konsepUtama: "Saya belajar bahwa setiap peserta didik memiliki kebutuhan dan kemampuan yang berbeda sehingga pembelajaran perlu disesuaikan. Identifikasi dan asesmen menjadi dasar untuk mengetahui kebutuhan peserta didik dan merancang pembelajaran yang akomodatif agar semua murid dapat belajar dan berkembang.",
+                perubahanYangDilakukan: "Setelah mengikuti mata kuliah ini, saya menjadi lebih peka terhadap perbedaan kebutuhan peserta didik. Saya tidak lagi melihat semua murid dengan cara yang sama, tetapi lebih memperhatikan kebutuhan masing-masing dan berusaha memberikan dukungan serta pembelajaran yang sesuai agar semua murid dapat terlibat dalam pembelajaran."
+            },
+            {
+                namaMataKuliah: "Seminar Pendidikan Profesi Guru",
+                dosen: "Drs. Bambang Sujatmiko, M.T.",
+                deskripsi: "Mata kuliah Seminar PPG membekali mahasiswa untuk melakukan refleksi berbasis data, menyusun karya inovasi pendidikan, serta menyampaikan pemikiran dan karya secara efektif melalui kegiatan seminar dan portofolio digital.",
+                connection: "Mata kuliah ini berkaitan dengan pengalaman saya selama mengikuti PPG, terutama dalam merefleksikan pengalaman belajar dan menyusun karya inovasi pendidikan.",
+                challenge: "Tantangan yang saya hadapi adalah mengolah pengalaman dan data menjadi sebuah pemikiran atau karya yang jelas, serta menyampaikannya dengan percaya diri dan mudah dipahami saat seminar.",
+                concept: "Konsep utama yang saya pelajari adalah pentingnya refleksi berbasis data, komunikasi yang efektif, dan kemampuan menyampaikan ide atau karya secara sistematis dan bertanggung jawab.",
+                change: "Setelah mengikuti mata kuliah ini, saya menjadi lebih terbiasa melakukan refleksi terhadap pengalaman belajar dan menyampaikan pendapat dengan lebih terstruktur. Saya juga lebih percaya diri dalam mempresentasikan ide dan karya di depan orang lain.",
+                artefak: "Portofolio refleksi pengalaman belajar selama mengikuti PPG dan karya inovasi pendidikan yang dipresentasikan dalam kegiatan Seminar PPG.",
+                alasanArtefak: "Saya memilih artefak ini karena dapat menunjukkan perkembangan diri saya selama mengikuti program PPG, mulai dari mengenali diri, merefleksikan pengalaman belajar semester 1 dan semester 2, hingga melakukan refleksi terhadap keseluruhan proses PPG. Melalui refleksi tersebut, saya dapat melihat perkembangan pengetahuan, keterampilan, dan pengalaman yang saya peroleh selama mengikuti PPG. Karya inovasi pendidikan juga menjadi bagian penting karena saya belajar mengembangkan ide atau solusi berdasarkan permasalahan yang saya temui dalam pembelajaran. Melalui kegiatan seminar, saya belajar menyampaikan hasil pemikiran dan karya secara lebih terstruktur, menggunakan data atau pengalaman sebagai dasar, serta menerima masukan untuk pengembangan diri dan karya saya.",
+                konsepUtama: "Saya belajar bahwa refleksi penting untuk melihat perkembangan diri selama mengikuti PPG. Saya juga belajar menyampaikan pemikiran dan karya inovasi secara terstruktur, berdasarkan pengalaman dan data, serta mampu menerima masukan dari orang lain.",
+                perubahanYangDilakukan: "Setelah mengikuti mata kuliah ini, saya menjadi lebih terbiasa melakukan refleksi terhadap pengalaman belajar dan melihat perkembangan diri saya. Saya juga menjadi lebih percaya diri dalam menyampaikan pendapat, mempresentasikan karya, dan menerima masukan untuk memperbaiki diri."
+            }
+        ]
+    },
+    
+    // ===================================
+    // DATA MODEL GURU YANG DITUJU
+    // ===================================
+    modelGuru: {
+        // Guru yang Ingin Diwujudkan
+        guruYangDituju: `
+            <p>Guru yang ingin saya wujudkan adalah guru yang mampu menjadi pendidik sekaligus pembelajar sepanjang hayat. Saya ingin menjadi guru yang memiliki karakter reflektif, bertanggung jawab, terbuka terhadap perubahan, serta mampu memahami bahwa setiap peserta didik memiliki karakter, kebutuhan, kemampuan, dan latar belakang yang berbeda. Karena itu, saya ingin menciptakan pembelajaran yang berpihak pada peserta didik, menghargai keberagaman, dan memberikan ruang bagi setiap peserta didik untuk berkembang sesuai potensinya.</p>
+
+            <p>Dalam berinteraksi dengan peserta didik, saya ingin menerapkan komunikasi yang efektif, membangun hubungan yang positif, serta menjadi pendengar yang baik. Saya ingin mendorong peserta didik untuk aktif berpikir kritis, kreatif, mampu berkomunikasi, dan bekerja sama. Bagi saya, pembelajaran tidak hanya berfokus pada pencapaian pengetahuan, tetapi juga pada pembentukan karakter dan keterampilan yang dibutuhkan peserta didik dalam menghadapi kehidupan dan perkembangan zaman.</p>
+
+            <p>Saya juga ingin menjadi guru yang mampu memanfaatkan teknologi dan berbagai inovasi secara bijak dalam pembelajaran. Perkembangan pendidikan menuntut guru untuk terus belajar, beradaptasi, dan tidak berhenti melakukan perbaikan. Oleh karena itu, saya ingin membiasakan diri melakukan refleksi terhadap proses dan hasil pembelajaran, menggunakan data atau pengalaman sebagai dasar untuk memperbaiki praktik mengajar, serta terbuka terhadap umpan balik. Dengan demikian, saya berharap dapat menjadi guru yang adaptif, inovatif, dan mampu memberikan pengalaman belajar yang bermakna bagi peserta didik.</p>
+        `,
+        
+        // Prinsip dalam Mengajar
+        prinsipMengajar: [
+            {
+                icon: "👥",
+                judul: "Berpihak pada Peserta Didik",
+                deskripsi: "Saya ingin menempatkan kebutuhan, potensi, dan perkembangan peserta didik sebagai dasar dalam merancang dan melaksanakan pembelajaran. Setiap peserta didik perlu diberi kesempatan untuk belajar, berpendapat, dan berkembang sesuai dengan karakteristiknya."
+            },
+            {
+                icon: "⭐",
+                judul: "Menjadi Teladan",
+                deskripsi: "Saya ingin menunjukkan sikap disiplin, bertanggung jawab, jujur, dan menghargai orang lain karena guru tidak hanya mengajarkan pengetahuan, tetapi juga menjadi contoh bagi peserta didik. Perilaku guru dalam keseharian menjadi bagian penting dari proses pendidikan."
+            },
+            {
+                icon: "💡",
+                judul: "Menciptakan Pembelajaran Bermakna",
+                deskripsi: "Saya ingin menciptakan pembelajaran yang tidak hanya membuat peserta didik memahami materi, tetapi juga mampu menghubungkannya dengan kehidupan nyata. Pembelajaran perlu mendorong peserta didik untuk berpikir kritis, kreatif, berkomunikasi, dan bekerja sama."
+            },
+            {
+                icon: "🤝",
+                judul: "Menghargai Perbedaan",
+                deskripsi: "Saya menyadari bahwa setiap peserta didik memiliki kemampuan, karakter, latar belakang, dan kebutuhan yang berbeda. Oleh karena itu, saya ingin menciptakan lingkungan belajar yang inklusif, menghargai keberagaman, dan memberikan kesempatan yang adil bagi semua peserta didik."
+            },
+            {
+                icon: "🔄",
+                judul: "Terbuka terhadap Perubahan",
+                deskripsi: "Saya ingin menjadi guru yang mampu beradaptasi dengan perkembangan ilmu pengetahuan, teknologi, dan kebutuhan pendidikan. Setiap perubahan saya jadikan kesempatan untuk melakukan refleksi dan memperbaiki praktik pembelajaran agar semakin relevan."
+            },
+            {
+                icon: "📚",
+                judul: "Terus Belajar",
+                deskripsi: "Saya percaya bahwa menjadi guru berarti terus belajar dan mengembangkan diri. Saya ingin terbuka terhadap umpan balik, melakukan refleksi berbasis pengalaman dan data, serta terus meningkatkan kompetensi agar dapat memberikan pembelajaran yang lebih baik bagi peserta didik."
+            }
+        ],
+        
+        // Filosofi Mengajar
+        filosofiMengajar: `
+            <p>Saya meyakini bahwa setiap peserta didik memiliki potensi yang perlu dikembangkan melalui proses pendidikan yang menghargai kebebasan, keberagaman, dan kebutuhan mereka. Sejalan dengan pemikiran Ki Hadjar Dewantara, pendidikan hendaknya menuntun segala kekuatan kodrat yang dimiliki peserta didik agar mereka dapat mencapai keselamatan dan kebahagiaan sebagai individu maupun anggota masyarakat. Oleh karena itu, guru perlu menciptakan pembelajaran yang bermakna dan memberikan ruang bagi peserta didik untuk tumbuh sesuai potensinya.</p>
+            <p>Dalam menjalankan peran sebagai guru, saya berpegang pada prinsip *Ing ngarso sung tulodo, ing madyo mangun karso, tut wuri handayani*. Guru harus mampu menjadi teladan ketika berada di depan, membangun semangat ketika bersama peserta didik, serta memberikan dorongan ketika berada di belakang. Bagi saya, mengajar bukan hanya tentang menyampaikan pengetahuan, tetapi tentang menuntun, mendampingi, dan memfasilitasi peserta didik agar mampu berkembang menjadi pribadi yang mandiri, berkarakter, dan terus belajar.</p>
+        `,
+        
+        // Harapan sebagai Guru
+        harapan: `
+            <p>Saya berharap dapat menjadi guru yang mampu memberikan dampak positif bagi peserta didik di tengah perkembangan teknologi dan AI. Saya ingin menciptakan pembelajaran yang bermakna sekaligus membekali peserta didik dengan kemampuan berpikir kritis, kreatif, berkolaborasi, serta literasi digital yang bijak dan bertanggung jawab.</p>
+            <p>Saya juga ingin terus belajar dan beradaptasi terhadap perubahan agar dapat menjadi guru yang relevan, reflektif, dan mampu membentuk peserta didik yang cakap teknologi sekaligus tetap berkarakter.</p>
+        `
+    },
+    
+    // ===================================
+    // DATA DOKUMENTASI PPG
+    // ===================================
+    dokumentasi: [
+        // Contoh format dokumentasi
+        {
+            foto: "1.png",
+            judul: "pasca UAS",
+            tanggal: "-",
+            lokasi: "Gedung PPG UNESA",
+            kategori: "kebersamaan", 
+            deskripsi: "teman seperjuan"
+        },
+        {
+            foto: "2.jpg",
+            judul: "PPG Unesa Informatika 2026",
+            tanggal: "-",
+            lokasi: "Gedung PPG UNESA]",
+            kategori: "kebersamaan",
+            deskripsi: "Foto bersama rekan-rekan PPG Informatika 2026"
+        },
+        {
+            foto: "5.jpeg",
+            judul: "Diskusi ",
+            tanggal: "-",
+            lokasi: "Ruang kelas PPG Informatika",
+            kategori: "diskusi",
+            deskripsi: "diskusi tugas LMS PPG"
+        },
+        {
+            foto: "12.jpg",
+            judul: "PPL Terbimbing",
+            tanggal: "[Tanggal]",
+            lokasi: "SMA Negeri 17 Surabaya",
+            kategori: "praktik",
+            deskripsi: "[Deskripsi singkat 1-2 kalimat tentang kegiatan ini]"
+        },
+        {
+            foto: "11.jpg",
+            judul: "PPL Terbimbing",
+            tanggal: "-",
+            lokasi: "SMA Negeri 17 Surabaya",
+            kategori: "Praktik",
+            deskripsi: "[Deskripsi singkat 1-2 kalimat tentang kegiatan ini]"
+        },
+        {
+            foto: "7.jpeg",
+            judul: "Senam Pagi",
+            tanggal: "-",
+            lokasi: "Halaman Gedung PPG UNESA",
+            kategori: "kegiatan",
+            deskripsi: "Kegiatan rutinan setiap hari jum'at yaitu senam pagi bersama"
+        },
+        {
+            foto: "13.jpeg",
+            judul: "Rekan PPL Terbimbing",
+            tanggal: "-",
+            lokasi: "Gedung PPG UNESA",
+            kategori: "kegiatan",
+            deskripsi: "Foto bersama rekan PPL Terbimbing SMA Negeri 17 Surabaya"
+        },
+        {
+            foto: "14.jpeg",
+            judul: "PPL Terbimbing",
+            tanggal: "-",
+            lokasi: "Gedung PPG UNESA",
+            kategori: "kegiatan",
+            deskripsi: "Foto bersama rekan PPL Terbimbing SMA Negeri 17 Surabaya beserta DPL"
+        },
+        {
+            foto: "15.jpeg",
+            judul: "Dosen Pembimbing Lapangan",
+            tanggal: "-",
+            lokasi: "Gedung PPG UNESA",
+            kategori: "kegiatan",
+            deskripsi: "Foto bersamaDosen Pembimbing PPL Terbimbing SMA Negeri 17 Surabaya"
+        }
+    ]
+};
+

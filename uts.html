@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Portfolio UTS - Praktik Mengajar Mandiri Siklus 1">
+    <title>E-Portfolio UTS - E-Portfolio PPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/madura-ornaments.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">E-Portfolio PPG</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="profil.html" class="nav-link">Profil Mahasiswa</a></li>
+                <li><a href="lokasi.html" class="nav-link">Lokasi Perkuliahan</a></li>
+                <li><a href="refleksi.html" class="nav-link">Refleksi Mata Kuliah</a></li>
+                <li><a href="uts.html" class="nav-link active">UTS</a></li>
+                <li><a href="uas.html" class="nav-link">UAS</a></li>
+                <li><a href="model-guru.html" class="nav-link">Model Guru yang Dituju</a></li>
+                <li><a href="dokumentasi.html" class="nav-link">Dokumentasi PPG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">E-Portfolio UTS</h1>
+            <p class="page-subtitle fade-in">Praktik Mengajar Mandiri Siklus 1</p>
+        </div>
+    </section>
+
+    <!-- UTS Overview -->
+    <section class="uts-overview" id="overview">
+        <div class="container">
+            <div class="overview-intro fade-in-up">
+                <h2 class="section-title">Portfolio Ujian Tengah Semester</h2>
+                <p class="intro-text">
+                    Berikut adalah dokumentasi lengkap dari praktik mengajar mandiri Siklus 1 yang mencakup 
+                    rancangan pembelajaran, pelaksanaan video mengajar, dan analisis mendalam terhadap proses pembelajaran.
+                </p>
+            </div>
+            
+            <div class="overview-stats fade-in-up">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Komponen Portfolio</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Rancangan Pembelajaran</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Video Praktik</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- UTS Portfolio Content -->
+    <section class="uts-content-section" id="uts-content">
+        <div class="container">
+            <div class="uts-header">
+                <h2 class="section-title fade-in-up">Komponen E-Portfolio UTS</h2>
+                <div class="accordion-controls fade-in-up">
+                    <button class="btn-control" id="toggleAllUTS" data-target="utsAccordion">
+                        <span class="btn-icon">▼</span> Buka Semua
+                    </button>
+                </div>
+            </div>
+            
+            <div class="accordion-container fade-in-up" id="utsAccordion">
+                <!-- Accordion items akan diisi dari data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">E-Portfolio Mahasiswa PPG</h3>
+                <p class="footer-name" id="footerName">[NAMA MAHASISWA]</p>
+                <p class="footer-program" id="footerProgram">[PROGRAM STUDI / BIDANG STUDI]</p>
+                <p class="footer-university" id="footerUniversity">[NAMA UNIVERSITAS/LPTK]</p>
+                <p class="footer-year" id="footerYear">[TAHUN]</p>
+                
+                <div class="footer-contact" id="footerContact">
+                    <!-- Contact akan diisi dari data.js jika tersedia -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 E-Portfolio Mahasiswa PPG</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

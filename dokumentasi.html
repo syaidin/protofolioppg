@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dokumentasi Kegiatan PPG">
+    <title>Dokumentasi PPG - E-Portfolio PPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/madura-ornaments.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">E-Portfolio PPG</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="profil.html" class="nav-link">Profil Mahasiswa</a></li>
+                <li><a href="lokasi.html" class="nav-link">Lokasi Perkuliahan</a></li>
+                <li><a href="refleksi.html" class="nav-link">Refleksi Mata Kuliah</a></li>
+                <li><a href="uts.html" class="nav-link">UTS</a></li>
+                <li><a href="uas.html" class="nav-link">UAS</a></li>
+                <li><a href="model-guru.html" class="nav-link">Model Guru yang Dituju</a></li>
+                <li><a href="dokumentasi.html" class="nav-link active">Dokumentasi PPG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Dokumentasi Selama PPG</h1>
+            <p class="page-subtitle fade-in">Kumpulan momen dan kegiatan selama mengikuti Program Pendidikan Profesi Guru</p>
+        </div>
+    </section>
+
+    <!-- Documentation Gallery -->
+    <section class="documentation-gallery" id="galeri-dokumentasi">
+        <div class="container">
+            <div class="gallery-grid" id="documentationGallery">
+                <!-- Gallery items akan diisi dari data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-info">
+                <h3 class="lightbox-title" id="lightboxTitle"></h3>
+                <p class="lightbox-date" id="lightboxDate"></p>
+                <p class="lightbox-location" id="lightboxLocation"></p>
+                <p class="lightbox-description" id="lightboxDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">E-Portfolio Mahasiswa PPG</h3>
+                <p class="footer-name" id="footerName">[NAMA MAHASISWA]</p>
+                <p class="footer-program" id="footerProgram">[PROGRAM STUDI / BIDANG STUDI]</p>
+                <p class="footer-university" id="footerUniversity">[NAMA UNIVERSITAS/LPTK]</p>
+                <p class="footer-year" id="footerYear">[TAHUN]</p>
+                
+                <div class="footer-contact" id="footerContact">
+                    <!-- Contact akan diisi dari data.js jika tersedia -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 E-Portfolio Mahasiswa PPG</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

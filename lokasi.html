@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lokasi Perkuliahan PPG">
+    <title>Lokasi Perkuliahan - E-Portfolio PPG</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/madura-ornaments.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">E-Portfolio PPG</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="profil.html" class="nav-link">Profil Mahasiswa</a></li>
+                <li><a href="lokasi.html" class="nav-link active">Lokasi Perkuliahan</a></li>
+                <li><a href="refleksi.html" class="nav-link">Refleksi Mata Kuliah</a></li>
+                <li><a href="uts.html" class="nav-link">UTS</a></li>
+                <li><a href="uas.html" class="nav-link">UAS</a></li>
+                <li><a href="model-guru.html" class="nav-link">Model Guru yang Dituju</a></li>
+                <li><a href="dokumentasi.html" class="nav-link">Dokumentasi PPG</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Lokasi Perkuliahan</h1>
+            <p class="page-subtitle fade-in">Tempat saya menempuh Program Pendidikan Profesi Guru</p>
+        </div>
+    </section>
+
+    <!-- LPTK Information -->
+    <section class="lptk-info" id="informasi-kampus">
+        <div class="container">
+            <div class="lptk-card fade-in-up">
+                <h2 class="lptk-title" id="lptkName">[NAMA UNIVERSITAS/LPTK]</h2>
+                <div class="lptk-details">
+                    <div class="detail-item">
+                        <strong>Program Studi:</strong>
+                        <span id="lptkProdi">[PROGRAM STUDI]</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Bidang Studi:</strong>
+                        <span id="lptkBidangStudi">[BIDANG STUDI]</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Alamat:</strong>
+                        <span id="lptkAlamat">[ALAMAT]</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Kota:</strong>
+                        <span id="lptkKota">[KOTA]</span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Tahun PPG:</strong>
+                        <span id="lptkTahun">[TAHUN PPG]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Location Map -->
+    <section class="location-map" id="peta-lokasi">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Peta Lokasi</h2>
+            <div class="map-container fade-in-up">
+                <div class="map-placeholder" id="mapEmbed">
+                    <div class="map-icon">📍</div>
+                    <p><strong>[EMBED GOOGLE MAPS DI SINI]</strong></p>
+                    <p class="map-instruction">Ganti bagian ini dengan embed code Google Maps di file data.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Campus Environment -->
+    <section class="campus-environment" id="lingkungan">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Lingkungan Perkuliahan</h2>
+            <div class="environment-content fade-in-up" id="campusEnvironment">
+                <p>[DESKRIPSI LINGKUNGAN PERKULIAHAN - Lingkungan kampus, suasana perkuliahan, fasilitas, ruang belajar, lingkungan akademik]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Separator -->
+    <div class="section-separator"></div>
+
+    <!-- Memorable Moments -->
+    <section class="memorable-moments" id="berkesan">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Hal yang Berkesan</h2>
+            <div class="moments-content fade-in-up" id="campusMoments">
+                <p>[HAL YANG BERKESAN - Pengalaman atau hal yang paling berkesan dari lingkungan perkuliahan]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">E-Portfolio Mahasiswa PPG</h3>
+                <p class="footer-name" id="footerName">[NAMA MAHASISWA]</p>
+                <p class="footer-program" id="footerProgram">[PROGRAM STUDI / BIDANG STUDI]</p>
+                <p class="footer-university" id="footerUniversity">[NAMA UNIVERSITAS/LPTK]</p>
+                <p class="footer-year" id="footerYear">[TAHUN]</p>
+                
+                <div class="footer-contact" id="footerContact">
+                    <!-- Contact akan diisi dari data.js jika tersedia -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 E-Portfolio Mahasiswa PPG</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
