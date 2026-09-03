@@ -494,34 +494,34 @@ const portfolioData = {
                 ]
             },
             
-            {
-                judul: "🎥 Video Pelaksanaan Praktik Mengajar",
-                tipe: "video",
-                intro: "Video dokumentasi pelaksanaan praktik mengajar mandiri pada mata pelajaran Informatika dengan topik Algoritma dan Pemrograman menggunakan pendekatan Problem Based Learning.",
+            // {
+            //     judul: "🎥 Video Pelaksanaan Praktik Mengajar",
+            //     tipe: "video",
+            //     intro: "Video dokumentasi pelaksanaan praktik mengajar mandiri pada mata pelajaran Informatika dengan topik Algoritma dan Pemrograman menggunakan pendekatan Problem Based Learning.",
                 
-                metadata: {
-                    judulVideo: "Praktik Mengajar Mandiri - Siklus 1",
-                    durasi: "30 menit",
-                    tanggal: "15 Januari 2026",
-                    lokasi: "SMAN 1 Surabaya"
-                },
+            //     metadata: {
+            //         judulVideo: "Praktik Mengajar Mandiri - Siklus 1",
+            //         durasi: "30 menit",
+            //         tanggal: "15 Januari 2026",
+            //         lokasi: "SMAN 1 Surabaya"
+            //     },
                 
-                // URL video YouTube atau Google Drive
-                videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
-                // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
+            //     // URL video YouTube atau Google Drive
+            //     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+            //     // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
                 
-                deskripsi: "Dalam video ini, saya melaksanakan pembelajaran sesuai dengan RPP yang telah disusun. Pembelajaran dimulai dengan apersepsi menggunakan masalah kontekstual, dilanjutkan dengan kegiatan inti di mana siswa bekerja dalam kelompok untuk memecahkan masalah algoritma, dan diakhiri dengan presentasi hasil serta refleksi pembelajaran.",
+            //     deskripsi: "Dalam video ini, saya melaksanakan pembelajaran sesuai dengan RPP yang telah disusun. Pembelajaran dimulai dengan apersepsi menggunakan masalah kontekstual, dilanjutkan dengan kegiatan inti di mana siswa bekerja dalam kelompok untuk memecahkan masalah algoritma, dan diakhiri dengan presentasi hasil serta refleksi pembelajaran.",
                 
-                highlights: [
-                    "Pembukaan dengan ice breaking dan apersepsi menarik",
-                    "Penyampaian tujuan pembelajaran dan langkah-langkah kegiatan",
-                    "Implementasi Problem Based Learning dengan masalah autentik",
-                    "Fasilitasi diskusi kelompok dan bimbingan individual",
-                    "Penggunaan media pembelajaran digital (slide interaktif, video)",
-                    "Asesmen formatif melalui observasi dan questioning",
-                    "Penutup dengan refleksi dan penguatan konsep"
-                ]
-            },
+            //     highlights: [
+            //         "Pembukaan dengan ice breaking dan apersepsi menarik",
+            //         "Penyampaian tujuan pembelajaran dan langkah-langkah kegiatan",
+            //         "Implementasi Problem Based Learning dengan masalah autentik",
+            //         "Fasilitasi diskusi kelompok dan bimbingan individual",
+            //         "Penggunaan media pembelajaran digital (slide interaktif, video)",
+            //         "Asesmen formatif melalui observasi dan questioning",
+            //         "Penutup dengan refleksi dan penguatan konsep"
+            //     ]
+            // },
             
             {
                 judul: "🔍 Analisis Mendalam",
@@ -535,56 +535,56 @@ const portfolioData = {
                             <p><strong>Kesesuaian dengan Kurikulum Merdeka:</strong></p>
                             <p>Rancangan pembelajaran yang disusun telah selaras dengan prinsip-prinsip Kurikulum Merdeka, khususnya dalam hal:</p>
                             <ul>
-                                <li>Capaian Pembelajaran (CP) yang jelas dan terukur</li>
-                                <li>Alur Tujuan Pembelajaran (ATP) yang sistematis</li>
-                                <li>Integrasi profil pelajar Pancasila dalam kegiatan pembelajaran</li>
-                                <li>Pendekatan pembelajaran yang berpusat pada peserta didik</li>
+                                <li>Elemen dan CP sudah tepat sasaran — modul ini fokus pada elemen Praktik Lintas Bidang (PLB), yang memang menjadi "rumah" bagi kompetensi manajemen proyek, kolaborasi, dan komunikasi hasil belajar dalam CP Informatika Fase D.</li>
+                                <li>Profil Pelajar Pancasila terintegrasi secara eksplisit (Bernalar Kritis, Kreatif, Gotong Royong, Mandiri) dan tertaut logis dengan aktivitas konkret, bukan sekadar tempelan.</li>
+                                <li>Prinsip Pembelajaran Mendalam (Deep Learning) diterapkan konsisten lewat tiga dimensi Mindful–Meaningful–Joyful di tiap pertemuan, dipadukan dengan tahapan PjBL (Understanding → Applying → Reflecting) — ini selaras dengan arah kebijakan Kemendikdasmen terbaru.</li>
+                                <li>Diferensiasi pembelajaran (konten, proses, produk) sudah eksplisit dan mencerminkan prinsip pembelajaran berdiferensiasi ala Kurikulum Merdeka, bukan seragam untuk semua siswa.</li>
+                                <li>Asesmen tiga jenis (diagnostik, formatif, sumatif) lengkap dengan rubrik berskala 1–4 — sesuai semangat asesmen otentik dan berkelanjutan Kurikulum Merdeka.</li>
                             </ul>
-                            
                             <p><strong>Kekuatan Rancangan:</strong></p>
                             <ul>
-                                <li>Tujuan pembelajaran dirumuskan secara SMART (Specific, Measurable, Achievable, Relevant, Time-bound)</li>
-                                <li>Skenario pembelajaran dirancang dengan tahapan yang jelas dan logis</li>
-                                <li>Media dan sumber belajar yang beragam dan sesuai dengan karakteristik materi</li>
-                                <li>Asesmen dirancang secara holistik mencakup aspek pengetahuan, keterampilan, dan sikap</li>
-                                <li>Adanya diferensiasi pembelajaran untuk mengakomodasi keberagaman peserta didik</li>
+                                <li>Scaffolding bertahap yang jelas — siswa tidak langsung diminta menyusun laporan/slide sendiri; mereka lebih dulu menganalisis contoh baik-buruk, baru berlatih tool secara terbimbing (guided practice), baru mengaplikasikan ke proyek nyata di pertemuan berikutnya. Alur "kenali dulu → coba tool → aplikasikan" ini mengurangi beban kognitif berlebih.</li>
+                                <li>Proyek otentik dan bermakna — topik akhir "laporan kegiatan liburan sekolah" dekat dengan pengalaman siswa, sehingga dimensi meaningful learning tercapai secara alami, bukan dipaksakan.</li>
+                                <li>Pembagian peran dalam presentasi kelompok (pembuka, penyaji isi, penjawab pertanyaan, penutup) adalah detail kecil yang efektif memastikan kolaborasi merata, sekaligus jadi bahan penilaian aspek "Kolaborasi & Kerja Sama Tim" di rubrik.</li>
+                                <li>Rubrik penilaian sangat operasional — setiap level skor dideskripsikan konkret per aspek, sehingga mudah digunakan guru maupun untuk penilaian antarteman.</li>
+                                <li>Fleksibilitas tool (Word/Google Docs, PowerPoint/Slides/Canva) mengakomodasi keterbatasan sarana sekolah yang berbeda-beda.</li>
                             </ul>
                             
                             <p><strong>Area Pengembangan:</strong></p>
                             <ul>
-                                <li>Dapat ditambahkan alternatif kegiatan untuk antisipasi kendala teknis</li>
-                                <li>Rubrik asesmen dapat diperjelas dengan indikator yang lebih operasional</li>
-                                <li>Integrasi literasi dan numerasi dapat lebih eksplisit</li>
+                                <li>Instrumen asesmen diagnostik belum berupa alat ukur formal — masih berupa dua pertanyaan lisan pemantik di awal Pertemuan 1. Bisa diperkuat dengan angket singkat atau checklist kesiapan awal agar hasilnya lebih terdokumentasi dan bisa dijadikan dasar pembentukan kelompok diferensiasi.</li>
+                                <li>Belum ada instrumen refleksi mendalam yang terstruktur — Refleksi Peserta Didik hanya berupa 3 pertanyaan umum tanpa format (jurnal, skala, atau lembar terpandu) yang disebutkan akan diisi di Pertemuan 3 ("lembar refleksi mendalam"), tapi lembar tersebut sendiri belum dilampirkan.</li>
+                                <li>Alokasi waktu Pertemuan 3 cukup padat — 10+20+30 menit untuk pembagian peran, finalisasi slide, dan presentasi+tanya jawab dalam 60 menit kegiatan inti berisiko molor, terutama jika jumlah kelompok banyak. Perlu dipikirkan skenario cadangan (misalnya presentasi lanjut di pertemuan berikutnya, atau batasan waktu tegas per kelompok, misal 3-4 menit).</li>
                             </ul>
                         `
                     },
-                    {
-                        judul: "🎥 Analisis Video Pelaksanaan",
-                        konten: `
-                            <p><strong>Implementasi Rancangan dalam Praktik:</strong></p>
-                            <p>Pelaksanaan pembelajaran dalam video secara umum telah mengikuti rancangan yang telah disusun dengan baik. Beberapa hal yang terlihat:</p>
+                    // {
+                    //     judul: "🎥 Analisis Video Pelaksanaan",
+                    //     konten: `
+                    //         <p><strong>Implementasi Rancangan dalam Praktik:</strong></p>
+                    //         <p>Pelaksanaan pembelajaran dalam video secara umum telah mengikuti rancangan yang telah disusun dengan baik. Beberapa hal yang terlihat:</p>
                             
-                            <p><strong>Aspek Positif:</strong></p>
-                            <ul>
-                                <li><strong>Pengelolaan Kelas:</strong> Mampu menciptakan suasana belajar yang kondusif dan menyenangkan</li>
-                                <li><strong>Komunikasi:</strong> Menggunakan bahasa yang jelas, komunikatif, dan mudah dipahami siswa</li>
-                                <li><strong>Metode Pembelajaran:</strong> Implementasi PBL berjalan efektif dengan masalah yang relevan dan menantang</li>
-                                <li><strong>Interaksi:</strong> Terjalin interaksi dua arah yang baik antara guru dan siswa</li>
-                                <li><strong>Penggunaan Media:</strong> Media pembelajaran digital digunakan secara efektif untuk mendukung pemahaman konsep</li>
-                                <li><strong>Asesmen:</strong> Melakukan asesmen formatif secara berkelanjutan melalui questioning dan observasi</li>
-                            </ul>
+                    //         <p><strong>Aspek Positif:</strong></p>
+                    //         <ul>
+                    //             <li><strong>Pengelolaan Kelas:</strong> Mampu menciptakan suasana belajar yang kondusif dan menyenangkan</li>
+                    //             <li><strong>Komunikasi:</strong> Menggunakan bahasa yang jelas, komunikatif, dan mudah dipahami siswa</li>
+                    //             <li><strong>Metode Pembelajaran:</strong> Implementasi PBL berjalan efektif dengan masalah yang relevan dan menantang</li>
+                    //             <li><strong>Interaksi:</strong> Terjalin interaksi dua arah yang baik antara guru dan siswa</li>
+                    //             <li><strong>Penggunaan Media:</strong> Media pembelajaran digital digunakan secara efektif untuk mendukung pemahaman konsep</li>
+                    //             <li><strong>Asesmen:</strong> Melakukan asesmen formatif secara berkelanjutan melalui questioning dan observasi</li>
+                    //         </ul>
                             
-                            <p><strong>Manajemen Waktu:</strong></p>
-                            <p>Alokasi waktu untuk setiap tahapan pembelajaran sudah cukup proporsional, meskipun pada sesi diskusi kelompok sempat memerlukan waktu lebih lama dari yang direncanakan.</p>
+                    //         <p><strong>Manajemen Waktu:</strong></p>
+                    //         <p>Alokasi waktu untuk setiap tahapan pembelajaran sudah cukup proporsional, meskipun pada sesi diskusi kelompok sempat memerlukan waktu lebih lama dari yang direncanakan.</p>
                             
-                            <p><strong>Refleksi Pengembangan:</strong></p>
-                            <ul>
-                                <li>Dapat memberikan scaffolding yang lebih terstruktur untuk siswa yang mengalami kesulitan</li>
-                                <li>Pemanfaatan teknologi dapat lebih interaktif dengan melibatkan siswa secara langsung</li>
-                                <li>Kesempatan untuk refleksi siswa di akhir pembelajaran dapat diperdalam</li>
-                            </ul>
-                        `
-                    },
+                    //         <p><strong>Refleksi Pengembangan:</strong></p>
+                    //         <ul>
+                    //             <li>Dapat memberikan scaffolding yang lebih terstruktur untuk siswa yang mengalami kesulitan</li>
+                    //             <li>Pemanfaatan teknologi dapat lebih interaktif dengan melibatkan siswa secara langsung</li>
+                    //             <li>Kesempatan untuk refleksi siswa di akhir pembelajaran dapat diperdalam</li>
+                    //         </ul>
+                    //     `
+                    // },
                     {
                         judul: "🔗 Keterkaitan Antar Komponen",
                         konten: `
@@ -1008,184 +1008,184 @@ const portfolioData = {
                 `
             },
             
-            {
-                judul: "🎥 Analisis Video Pelaksanaan Praktik Mengajar",
-                intro: "Analisis mendalam terhadap video pelaksanaan praktik mengajar mandiri, mencakup aspek pedagogis, pengelolaan kelas, interaksi, dan keterampilan mengajar.",
+            // {
+            //     judul: "🎥 Analisis Video Pelaksanaan Praktik Mengajar",
+            //     intro: "Analisis mendalam terhadap video pelaksanaan praktik mengajar mandiri, mencakup aspek pedagogis, pengelolaan kelas, interaksi, dan keterampilan mengajar.",
                 
-                videoData: {
-                    judulVideo: "Video Praktik Mengajar Mandiri",
-                    durasi: "45 menit",
-                    tanggal: "20 Januari 2026",
-                    lokasi: "SMAN 1 Surabaya",
-                    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
-                    // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
-                    deskripsi: "Video dokumentasi lengkap pelaksanaan praktik mengajar mandiri dari kegiatan pembuka, inti, hingga penutup."
-                },
+            //     videoData: {
+            //         judulVideo: "Video Praktik Mengajar Mandiri",
+            //         durasi: "45 menit",
+            //         tanggal: "20 Januari 2026",
+            //         lokasi: "SMAN 1 Surabaya",
+            //         videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+            //         // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
+            //         deskripsi: "Video dokumentasi lengkap pelaksanaan praktik mengajar mandiri dari kegiatan pembuka, inti, hingga penutup."
+            //     },
                 
-                analisis: `
-                    <h4>🎬 Aspek-Aspek yang Dianalisis</h4>
+            //     analisis: `
+            //         <h4>🎬 Aspek-Aspek yang Dianalisis</h4>
                     
-                    <div class="analisis-subsection">
-                        <h5>1. Kegiatan Pembuka (Opening)</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li><strong>Apersepsi:</strong> Membuka pelajaran dengan pertanyaan pemantik yang menarik dan relevan dengan pengalaman siswa</li>
-                            <li><strong>Motivasi:</strong> Menyampaikan manfaat dan relevansi materi dengan kehidupan nyata untuk memotivasi siswa</li>
-                            <li><strong>Orientasi:</strong> Menjelaskan tujuan pembelajaran dan garis besar kegiatan dengan jelas</li>
-                            <li><strong>Ice Breaking:</strong> Melakukan aktivitas ringan untuk mencairkan suasana dan meningkatkan kesiapan belajar</li>
-                        </ul>
+            //         <div class="analisis-subsection">
+            //             <h5>1. Kegiatan Pembuka (Opening)</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li><strong>Apersepsi:</strong> Membuka pelajaran dengan pertanyaan pemantik yang menarik dan relevan dengan pengalaman siswa</li>
+            //                 <li><strong>Motivasi:</strong> Menyampaikan manfaat dan relevansi materi dengan kehidupan nyata untuk memotivasi siswa</li>
+            //                 <li><strong>Orientasi:</strong> Menjelaskan tujuan pembelajaran dan garis besar kegiatan dengan jelas</li>
+            //                 <li><strong>Ice Breaking:</strong> Melakukan aktivitas ringan untuk mencairkan suasana dan meningkatkan kesiapan belajar</li>
+            //             </ul>
                         
-                        <p><strong>Area Pengembangan:</strong></p>
-                        <ul>
-                            <li>Durasi pembuka dapat sedikit diperpendek (lebih ringkas)</li>
-                            <li>Dapat ditambahkan asesmen diagnostik singkat untuk mengecek pengetahuan awal</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Area Pengembangan:</strong></p>
+            //             <ul>
+            //                 <li>Durasi pembuka dapat sedikit diperpendek (lebih ringkas)</li>
+            //                 <li>Dapat ditambahkan asesmen diagnostik singkat untuk mengecek pengetahuan awal</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>2. Penyampaian Materi (Content Delivery)</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li><strong>Kejelasan Komunikasi:</strong> Bahasa yang digunakan jelas, lugas, dan mudah dipahami siswa</li>
-                            <li><strong>Sistematika:</strong> Materi disampaikan secara terstruktur dan logis</li>
-                            <li><strong>Contoh Konkret:</strong> Menyertakan contoh-contoh nyata dan relevan untuk memperjelas konsep</li>
-                            <li><strong>Penekanan:</strong> Memberikan penekanan pada konsep-konsep kunci dengan intonasi dan gesture</li>
-                            <li><strong>Checking Understanding:</strong> Secara berkala mengecek pemahaman siswa dengan pertanyaan</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>2. Penyampaian Materi (Content Delivery)</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li><strong>Kejelasan Komunikasi:</strong> Bahasa yang digunakan jelas, lugas, dan mudah dipahami siswa</li>
+            //                 <li><strong>Sistematika:</strong> Materi disampaikan secara terstruktur dan logis</li>
+            //                 <li><strong>Contoh Konkret:</strong> Menyertakan contoh-contoh nyata dan relevan untuk memperjelas konsep</li>
+            //                 <li><strong>Penekanan:</strong> Memberikan penekanan pada konsep-konsep kunci dengan intonasi dan gesture</li>
+            //                 <li><strong>Checking Understanding:</strong> Secara berkala mengecek pemahaman siswa dengan pertanyaan</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>3. Pengelolaan Kelas (Classroom Management)</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li><strong>Suasana Belajar:</strong> Menciptakan suasana belajar yang kondusif, positif, dan menyenangkan</li>
-                            <li><strong>Perhatian Siswa:</strong> Mampu menjaga perhatian dan fokus siswa sepanjang pembelajaran</li>
-                            <li><strong>Manajemen Waktu:</strong> Mengalokasikan waktu secara efektif untuk setiap kegiatan</li>
-                            <li><strong>Organisasi Kelas:</strong> Mengatur transisi antar kegiatan dengan smooth</li>
-                            <li><strong>Penanganan Perilaku:</strong> Menangani perilaku off-task dengan pendekatan positif</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>3. Pengelolaan Kelas (Classroom Management)</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li><strong>Suasana Belajar:</strong> Menciptakan suasana belajar yang kondusif, positif, dan menyenangkan</li>
+            //                 <li><strong>Perhatian Siswa:</strong> Mampu menjaga perhatian dan fokus siswa sepanjang pembelajaran</li>
+            //                 <li><strong>Manajemen Waktu:</strong> Mengalokasikan waktu secara efektif untuk setiap kegiatan</li>
+            //                 <li><strong>Organisasi Kelas:</strong> Mengatur transisi antar kegiatan dengan smooth</li>
+            //                 <li><strong>Penanganan Perilaku:</strong> Menangani perilaku off-task dengan pendekatan positif</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>4. Metode dan Strategi Pembelajaran</h5>
-                        <p><strong>Implementasi Problem Based Learning (PBL):</strong></p>
-                        <ul>
-                            <li><strong>Orientasi Masalah:</strong> Menyajikan masalah autentik dan menantang yang memicu curiosity siswa</li>
-                            <li><strong>Organisasi Belajar:</strong> Mengorganisir siswa dalam kelompok belajar dengan peran yang jelas</li>
-                            <li><strong>Penyelidikan:</strong> Memfasilitasi proses investigasi dan pengumpulan informasi oleh siswa</li>
-                            <li><strong>Pengembangan Hasil:</strong> Membimbing siswa mengembangkan solusi dan menyajikan hasil</li>
-                            <li><strong>Analisis:</strong> Memimpin refleksi dan evaluasi terhadap proses pemecahan masalah</li>
-                        </ul>
+            //         <div class="analisis-subsection">
+            //             <h5>4. Metode dan Strategi Pembelajaran</h5>
+            //             <p><strong>Implementasi Problem Based Learning (PBL):</strong></p>
+            //             <ul>
+            //                 <li><strong>Orientasi Masalah:</strong> Menyajikan masalah autentik dan menantang yang memicu curiosity siswa</li>
+            //                 <li><strong>Organisasi Belajar:</strong> Mengorganisir siswa dalam kelompok belajar dengan peran yang jelas</li>
+            //                 <li><strong>Penyelidikan:</strong> Memfasilitasi proses investigasi dan pengumpulan informasi oleh siswa</li>
+            //                 <li><strong>Pengembangan Hasil:</strong> Membimbing siswa mengembangkan solusi dan menyajikan hasil</li>
+            //                 <li><strong>Analisis:</strong> Memimpin refleksi dan evaluasi terhadap proses pemecahan masalah</li>
+            //             </ul>
                         
-                        <p><strong>Kekuatan:</strong></p>
-                        <ul>
-                            <li>Sintaks PBL diikuti dengan konsisten dan efektif</li>
-                            <li>Siswa aktif terlibat dalam setiap tahapan pembelajaran</li>
-                            <li>Masalah yang digunakan kontekstual dan bermakna</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Kekuatan:</strong></p>
+            //             <ul>
+            //                 <li>Sintaks PBL diikuti dengan konsisten dan efektif</li>
+            //                 <li>Siswa aktif terlibat dalam setiap tahapan pembelajaran</li>
+            //                 <li>Masalah yang digunakan kontekstual dan bermakna</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>5. Interaksi dan Komunikasi</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li><strong>Komunikasi Dua Arah:</strong> Terjalin interaksi dialogis antara guru dan siswa</li>
-                            <li><strong>Pertanyaan Produktif:</strong> Mengajukan pertanyaan yang mendorong berpikir tingkat tinggi</li>
-                            <li><strong>Respons Positif:</strong> Memberikan respons yang konstruktif terhadap jawaban siswa</li>
-                            <li><strong>Encouragement:</strong> Memberikan reinforcement dan encouragement yang membangun kepercayaan diri siswa</li>
-                            <li><strong>Listening:</strong> Mendengarkan aktif ide-ide dan pertanyaan siswa</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>5. Interaksi dan Komunikasi</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li><strong>Komunikasi Dua Arah:</strong> Terjalin interaksi dialogis antara guru dan siswa</li>
+            //                 <li><strong>Pertanyaan Produktif:</strong> Mengajukan pertanyaan yang mendorong berpikir tingkat tinggi</li>
+            //                 <li><strong>Respons Positif:</strong> Memberikan respons yang konstruktif terhadap jawaban siswa</li>
+            //                 <li><strong>Encouragement:</strong> Memberikan reinforcement dan encouragement yang membangun kepercayaan diri siswa</li>
+            //                 <li><strong>Listening:</strong> Mendengarkan aktif ide-ide dan pertanyaan siswa</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>6. Penggunaan Media dan Teknologi</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li>Media pembelajaran digunakan secara efektif untuk mendukung penyampaian materi</li>
-                            <li>Slide presentasi jelas dan mudah dibaca</li>
-                            <li>Video pembelajaran relevan dan berkualitas baik</li>
-                            <li>Platform digital dimanfaatkan untuk kolaborasi kelompok</li>
-                        </ul>
+            //         <div class="analisis-subsection">
+            //             <h5>6. Penggunaan Media dan Teknologi</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li>Media pembelajaran digunakan secara efektif untuk mendukung penyampaian materi</li>
+            //                 <li>Slide presentasi jelas dan mudah dibaca</li>
+            //                 <li>Video pembelajaran relevan dan berkualitas baik</li>
+            //                 <li>Platform digital dimanfaatkan untuk kolaborasi kelompok</li>
+            //             </ul>
                         
-                        <p><strong>Tantangan:</strong></p>
-                        <ul>
-                            <li>Ada sedikit delay saat pergantian media (persiapan dapat lebih seamless)</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Tantangan:</strong></p>
+            //             <ul>
+            //                 <li>Ada sedikit delay saat pergantian media (persiapan dapat lebih seamless)</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>7. Diferensiasi Pembelajaran</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li>Memberikan bantuan tambahan (scaffolding) kepada siswa yang kesulitan</li>
-                            <li>Menyediakan tugas dengan tingkat kesulitan yang bervariasi</li>
-                            <li>Mengakomodasi berbagai gaya belajar dengan multi-metode</li>
-                            <li>Memberikan kesempatan sama bagi semua siswa untuk berpartisipasi</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>7. Diferensiasi Pembelajaran</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li>Memberikan bantuan tambahan (scaffolding) kepada siswa yang kesulitan</li>
+            //                 <li>Menyediakan tugas dengan tingkat kesulitan yang bervariasi</li>
+            //                 <li>Mengakomodasi berbagai gaya belajar dengan multi-metode</li>
+            //                 <li>Memberikan kesempatan sama bagi semua siswa untuk berpartisipasi</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>8. Asesmen Formatif</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li>Melakukan asesmen formatif secara berkelanjutan melalui observasi</li>
-                            <li>Menggunakan teknik questioning untuk mengecek pemahaman</li>
-                            <li>Memberikan feedback langsung kepada siswa</li>
-                            <li>Melakukan penyesuaian pembelajaran berdasarkan hasil asesmen</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>8. Asesmen Formatif</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li>Melakukan asesmen formatif secara berkelanjutan melalui observasi</li>
+            //                 <li>Menggunakan teknik questioning untuk mengecek pemahaman</li>
+            //                 <li>Memberikan feedback langsung kepada siswa</li>
+            //                 <li>Melakukan penyesuaian pembelajaran berdasarkan hasil asesmen</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>9. Kegiatan Penutup (Closure)</h5>
-                        <p><strong>Temuan Positif:</strong></p>
-                        <ul>
-                            <li><strong>Kesimpulan:</strong> Membimbing siswa membuat kesimpulan pembelajaran</li>
-                            <li><strong>Refleksi:</strong> Memberikan kesempatan siswa merefleksikan pembelajaran</li>
-                            <li><strong>Penguatan:</strong> Menekankan kembali konsep-konsep kunci</li>
-                            <li><strong>Tindak Lanjut:</strong> Memberikan tugas/kegiatan tindak lanjut yang relevan</li>
-                            <li><strong>Preview:</strong> Memberikan gambaran materi pertemuan berikutnya</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>9. Kegiatan Penutup (Closure)</h5>
+            //             <p><strong>Temuan Positif:</strong></p>
+            //             <ul>
+            //                 <li><strong>Kesimpulan:</strong> Membimbing siswa membuat kesimpulan pembelajaran</li>
+            //                 <li><strong>Refleksi:</strong> Memberikan kesempatan siswa merefleksikan pembelajaran</li>
+            //                 <li><strong>Penguatan:</strong> Menekankan kembali konsep-konsep kunci</li>
+            //                 <li><strong>Tindak Lanjut:</strong> Memberikan tugas/kegiatan tindak lanjut yang relevan</li>
+            //                 <li><strong>Preview:</strong> Memberikan gambaran materi pertemuan berikutnya</li>
+            //             </ul>
+            //         </div>
                     
-                    <h4>⭐ Aspek Keseluruhan</h4>
+            //         <h4>⭐ Aspek Keseluruhan</h4>
                     
-                    <div class="analisis-subsection">
-                        <h5>Kekuatan Utama</h5>
-                        <ul>
-                            <li>Penguasaan materi yang baik dan mendalam</li>
-                            <li>Kemampuan komunikasi yang efektif dan engaging</li>
-                            <li>Pengelolaan kelas yang kondusif dan produktif</li>
-                            <li>Implementasi model pembelajaran yang sesuai dan efektif</li>
-                            <li>Interaksi positif dengan siswa yang membangun</li>
-                            <li>Penggunaan media yang tepat dan bervariasi</li>
-                            <li>Asesmen yang terintegrasi dalam pembelajaran</li>
-                            <li>Sikap profesional dan antusiasme dalam mengajar</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>Kekuatan Utama</h5>
+            //             <ul>
+            //                 <li>Penguasaan materi yang baik dan mendalam</li>
+            //                 <li>Kemampuan komunikasi yang efektif dan engaging</li>
+            //                 <li>Pengelolaan kelas yang kondusif dan produktif</li>
+            //                 <li>Implementasi model pembelajaran yang sesuai dan efektif</li>
+            //                 <li>Interaksi positif dengan siswa yang membangun</li>
+            //                 <li>Penggunaan media yang tepat dan bervariasi</li>
+            //                 <li>Asesmen yang terintegrasi dalam pembelajaran</li>
+            //                 <li>Sikap profesional dan antusiasme dalam mengajar</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>Area untuk Pengembangan Profesional</h5>
-                        <ul>
-                            <li>Meningkatkan variasi teknik questioning (lebih banyak open-ended questions)</li>
-                            <li>Memberikan wait time yang lebih lama setelah mengajukan pertanyaan</li>
-                            <li>Mengembangkan strategi untuk mengaktifkan siswa yang pasif</li>
-                            <li>Meningkatkan efisiensi transisi antar kegiatan</li>
-                            <li>Memperdalam penggunaan data asesmen untuk penyesuaian pembelajaran</li>
-                            <li>Meningkatkan dokumentasi proses pembelajaran siswa</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>Area untuk Pengembangan Profesional</h5>
+            //             <ul>
+            //                 <li>Meningkatkan variasi teknik questioning (lebih banyak open-ended questions)</li>
+            //                 <li>Memberikan wait time yang lebih lama setelah mengajukan pertanyaan</li>
+            //                 <li>Mengembangkan strategi untuk mengaktifkan siswa yang pasif</li>
+            //                 <li>Meningkatkan efisiensi transisi antar kegiatan</li>
+            //                 <li>Memperdalam penggunaan data asesmen untuk penyesuaian pembelajaran</li>
+            //                 <li>Meningkatkan dokumentasi proses pembelajaran siswa</li>
+            //             </ul>
+            //         </div>
                     
-                    <h4>💡 Kesimpulan dan Refleksi</h4>
-                    <p><strong>Kesimpulan:</strong></p>
-                    <p>Secara keseluruhan, praktik mengajar yang dilaksanakan menunjukkan kompetensi pedagogis yang baik. Pembelajaran berpusat pada siswa, menggunakan pendekatan yang aktif dan kolaboratif, serta menciptakan lingkungan belajar yang positif dan produktif. Implementasi model PBL berjalan efektif dan berhasil mengaktifkan siswa dalam proses pembelajaran.</p>
+            //         <h4>💡 Kesimpulan dan Refleksi</h4>
+            //         <p><strong>Kesimpulan:</strong></p>
+            //         <p>Secara keseluruhan, praktik mengajar yang dilaksanakan menunjukkan kompetensi pedagogis yang baik. Pembelajaran berpusat pada siswa, menggunakan pendekatan yang aktif dan kolaboratif, serta menciptakan lingkungan belajar yang positif dan produktif. Implementasi model PBL berjalan efektif dan berhasil mengaktifkan siswa dalam proses pembelajaran.</p>
                     
-                    <p><strong>Refleksi Diri:</strong></p>
-                    <p>Dari analisis video ini, saya menyadari pentingnya persiapan yang matang dan fleksibilitas dalam mengajar. Meskipun telah merencanakan pembelajaran dengan baik, kemampuan untuk beradaptasi dengan dinamika kelas sangat penting. Feedback dan respons dari siswa menjadi panduan berharga untuk menyesuaikan strategi pembelajaran secara real-time.</p>
+            //         <p><strong>Refleksi Diri:</strong></p>
+            //         <p>Dari analisis video ini, saya menyadari pentingnya persiapan yang matang dan fleksibilitas dalam mengajar. Meskipun telah merencanakan pembelajaran dengan baik, kemampuan untuk beradaptasi dengan dinamika kelas sangat penting. Feedback dan respons dari siswa menjadi panduan berharga untuk menyesuaikan strategi pembelajaran secara real-time.</p>
                     
-                    <p><strong>Komitmen Pengembangan:</strong></p>
-                    <p>Saya berkomitmen untuk terus mengembangkan kompetensi mengajar melalui refleksi berkelanjutan, peer observation, dan professional development. Area-area pengembangan yang telah diidentifikasi akan menjadi fokus perbaikan dalam praktik mengajar selanjutnya.</p>
-                `
-            },
+            //         <p><strong>Komitmen Pengembangan:</strong></p>
+            //         <p>Saya berkomitmen untuk terus mengembangkan kompetensi mengajar melalui refleksi berkelanjutan, peer observation, dan professional development. Area-area pengembangan yang telah diidentifikasi akan menjadi fokus perbaikan dalam praktik mengajar selanjutnya.</p>
+            //     `
+            // },
             
             {
                 judul: "🤝 Analisis Kegiatan Nonmengajar",
