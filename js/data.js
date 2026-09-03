@@ -488,7 +488,7 @@ const portfolioData = {
                     {
                         judul: "Instrumen Asesmen",
                         deskripsi: "Rubrik penilaian dan instrumen asesmen pembelajaran",
-                        fileUrl: "https://drive.google.com/file/d/YOUR_ASESMEN_ID/view?usp=sharing"
+                        fileUrl: "https://drive.google.com/file/d/1VK3RjIxTiqKePO1dmf_G0NkOPn-A5LOp/view?usp=sharing"
                         // CARA EDIT: Paste link rubrik/instrumen asesmen Anda
                     }
                 ]
