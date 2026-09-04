@@ -13,7 +13,7 @@ const portfolioData = {
         bidangStudi: "Informatika",
         universitas: "Universitas Negeri Surabaya (UNESA)",
         tahunPPG: "2026",
-        fotoProfil: "profil.png", // Path ke foto profil
+        fotoProfil: "images/profil.png", // Path ke foto profil
         
         // Daerah Asal - Sampang, Madura
         daerahAsal: {
@@ -42,27 +42,27 @@ const portfolioData = {
             // Galeri Daerah Asal 
             galeri: [
                 {
-                    foto: "pantai.jpg",
+                    foto: "images/pantai.jpg",
                     judul: "Pantai Camplong Sampang"
                 },
                 {
-                    foto: "toroan.jpg",
+                    foto: "images/toroan.jpg",
                     judul: "Air Terjun Toroan"
                 },
                 {
-                    foto: "kerapan.jpg",
+                    foto: "images/kerapan.jpg",
                     judul: "Karapan Sapi - Budaya Khas Madura"
                 },
                 {
-                    foto: "batik.jpg",
+                    foto: "images/batik.jpg",
                     judul: "Batik Tulis Khas Sampang"
                 },
                 {
-                    foto: "sate.jpg",
+                    foto: "images/sate.jpg",
                     judul: "Sate Kambing Khas Sampang"
                 },
                 {
-                    foto: "kobel.jpg",
+                    foto: "images/kobel.jpg",
                     judul: "Nasi kobelKhas Sampang"
                 }
             ],
@@ -1673,7 +1673,7 @@ const portfolioData = {
     dokumentasi: [
         // Contoh format dokumentasi
         {
-            foto: "1.png",
+            foto: "images/1.png",
             judul: "pasca UAS",
             tanggal: "-",
             lokasi: "Gedung PPG UNESA",
@@ -1681,7 +1681,7 @@ const portfolioData = {
             deskripsi: "teman seperjuan"
         },
         {
-            foto: "2.jpg",
+            foto: "images/2.jpg",
             judul: "PPG Unesa Informatika 2026",
             tanggal: "-",
             lokasi: "Gedung PPG UNESA]",
@@ -1689,7 +1689,7 @@ const portfolioData = {
             deskripsi: "Foto bersama rekan-rekan PPG Informatika 2026"
         },
         {
-            foto: "5.jpeg",
+            foto: "images/5.jpeg",
             judul: "Diskusi ",
             tanggal: "-",
             lokasi: "Ruang kelas PPG Informatika",
@@ -1697,7 +1697,7 @@ const portfolioData = {
             deskripsi: "diskusi tugas LMS PPG"
         },
         {
-            foto: "12.jpg",
+            foto: "images/12.jpg",
             judul: "PPL Terbimbing",
             tanggal: "[Tanggal]",
             lokasi: "SMA Negeri 17 Surabaya",
@@ -1705,7 +1705,7 @@ const portfolioData = {
             deskripsi: "[Deskripsi singkat 1-2 kalimat tentang kegiatan ini]"
         },
         {
-            foto: "11.jpg",
+            foto: "images/11.jpg",
             judul: "PPL Terbimbing",
             tanggal: "-",
             lokasi: "SMA Negeri 17 Surabaya",
@@ -1713,7 +1713,7 @@ const portfolioData = {
             deskripsi: "Praktik Menganjar Terbimbing di SMAN 17 Surabaya"
         },
         {
-            foto: "20.jpg",
+            foto: "images/20.jpg",
             judul: "PPL Mandiri",
             tanggal: "-",
             lokasi: "SMP Negeri 49 Surabaya",
@@ -1721,7 +1721,7 @@ const portfolioData = {
             deskripsi: "Praktik Menganjar Terbimbing di SMPN 49 Surabaya"
         },
         {
-            foto: "17.jpg",
+            foto: "images/17.jpg",
             judul: "PPL Mandiri",
             tanggal: "-",
             lokasi: "SMP Negeri 49 Surabaya",
@@ -1729,7 +1729,7 @@ const portfolioData = {
             deskripsi: "Praktik Menganjar Terbimbing di SMPN 49 Surabaya"
         },
         {
-            foto: "15.jpg",
+            foto: "images/15.jpg",
             judul: "PPL Mandiri",
             tanggal: "-",
             lokasi: "SMP Negeri 49 Surabaya",
@@ -1737,7 +1737,7 @@ const portfolioData = {
             deskripsi: "Mendampingi Siswa Melaksanaka Kegiatan Selasa Bugar di SMPN 49 Surabaya"
         },
         {
-            foto: "7.jpeg",
+            foto: "images/7.jpeg",
             judul: "Senam Pagi",
             tanggal: "-",
             lokasi: "Halaman Gedung PPG UNESA",
@@ -1745,7 +1745,7 @@ const portfolioData = {
             deskripsi: "Kegiatan rutinan setiap hari jum'at yaitu senam pagi bersama"
         },
         {
-            foto: "13.jpeg",
+            foto: "images/13.jpeg",
             judul: "Rekan PPL Terbimbing",
             tanggal: "-",
             lokasi: "Gedung PPG UNESA",
@@ -1753,7 +1753,7 @@ const portfolioData = {
             deskripsi: "Foto bersama rekan PPL Terbimbing SMA Negeri 17 Surabaya"
         },
         {
-            foto: "14.jpeg",
+            foto: "images/14.jpeg",
             judul: "PPL Terbimbing",
             tanggal: "-",
             lokasi: "Gedung PPG UNESA",
@@ -1761,7 +1761,7 @@ const portfolioData = {
             deskripsi: "Foto bersama rekan PPL Terbimbing SMA Negeri 17 Surabaya beserta DPL"
         },
         {
-            foto: "15.jpeg",
+            foto: "images/15.jpeg",
             judul: "Dosen Pembimbing Lapangan",
             tanggal: "-",
             lokasi: "Gedung PPG UNESA",
