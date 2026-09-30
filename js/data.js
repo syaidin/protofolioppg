@@ -528,34 +528,33 @@ const portfolioData = {
                 ]
             },
             
-            // {
-            //     judul: "🎥 Video Pelaksanaan Praktik Mengajar",
-            //     tipe: "video",
-            //     intro: "Video dokumentasi pelaksanaan praktik mengajar mandiri pada mata pelajaran Informatika dengan topik Algoritma dan Pemrograman menggunakan pendekatan Problem Based Learning.",
+             {
+                judul: "🎥 Video Pelaksanaan Praktik Mengajar",
+                tipe: "video",
+                intro: "Video dokumentasi pelaksanaan praktik mengajar mandiri pada mata pelajaran Informatika dengan topik Algoritma dan Pemrograman menggunakan pendekatan Problem Based Learning.",
                 
-            //     metadata: {
-            //         judulVideo: "Praktik Mengajar Mandiri - Siklus 1",
-            //         durasi: "30 menit",
-            //         tanggal: "15 Januari 2026",
-            //         lokasi: "SMAN 1 Surabaya"
-            //     },
+                 metadata: {
+                     judulVideo: "Praktik Mengajar Mandiri - Siklus 1",
+                    durasi: "30 menit",
+                    tanggal: "15 Januari 2026",
+                     lokasi: "SMAN 1 Surabaya"
+                },
                 
-            //     // URL video YouTube atau Google Drive
-            //     videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
-            //     // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
+                 // URL video YouTube atau Google Drive
+                 videoUrl: "https://drive.google.com/file/d/1q1MWSDvqpnmdB-I7PLJ4Mg0SlW1aR-wj/preview",
+                 // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
                 
-            //     deskripsi: "Dalam video ini, saya melaksanakan pembelajaran sesuai dengan RPP yang telah disusun. Pembelajaran dimulai dengan apersepsi menggunakan masalah kontekstual, dilanjutkan dengan kegiatan inti di mana siswa bekerja dalam kelompok untuk memecahkan masalah algoritma, dan diakhiri dengan presentasi hasil serta refleksi pembelajaran.",
+                 deskripsi: "Dalam video ini, saya melaksanakan pembelajaran sesuai dengan RPP yang telah disusun. Pembelajaran dimulai dengan apersepsi menggunakan masalah kontekstual, dilanjutkan dengan kegiatan inti di mana siswa bekerja dalam kelompok untuk memecahkan masalah algoritma, dan diakhiri dengan presentasi hasil serta refleksi pembelajaran.",
                 
-            //     highlights: [
-            //         "Pembukaan dengan ice breaking dan apersepsi menarik",
-            //         "Penyampaian tujuan pembelajaran dan langkah-langkah kegiatan",
-            //         "Implementasi Problem Based Learning dengan masalah autentik",
-            //         "Fasilitasi diskusi kelompok dan bimbingan individual",
-            //         "Penggunaan media pembelajaran digital (slide interaktif, video)",
-            //         "Asesmen formatif melalui observasi dan questioning",
-            //         "Penutup dengan refleksi dan penguatan konsep"
-            //     ]
-            // },
+                 highlights: [
+                     "Pembukaan dengan ice breaking dan apersepsi menarik",
+                     "Penyampaian tujuan pembelajaran dan langkah-langkah kegiatan",
+                     "Implementasi Problem Based Learning dengan masalah autentik",
+                     "Penggunaan media pembelajaran digital (slide interaktif, video)",
+                     "Asesmen formatif melalui observasi dan questioning",
+                     "Penutup dengan refleksi dan penguatan konsep"
+                 ]
+             },
             
             {
                 judul: "🔍 Analisis Mendalam",
@@ -592,33 +591,33 @@ const portfolioData = {
                             </ul>
                         `
                     },
-                    // {
-                    //     judul: "🎥 Analisis Video Pelaksanaan",
-                    //     konten: `
-                    //         <p><strong>Implementasi Rancangan dalam Praktik:</strong></p>
-                    //         <p>Pelaksanaan pembelajaran dalam video secara umum telah mengikuti rancangan yang telah disusun dengan baik. Beberapa hal yang terlihat:</p>
+                     {
+                         judul: "🎥 Analisis Video Pelaksanaan",
+                         konten: `
+                             <p><strong>Implementasi Rancangan dalam Praktik:</strong></p>
+                             <p>Pelaksanaan pembelajaran dalam video secara umum telah mengikuti rancangan yang telah disusun dengan baik. Beberapa hal yang terlihat:</p>
                             
-                    //         <p><strong>Aspek Positif:</strong></p>
-                    //         <ul>
-                    //             <li><strong>Pengelolaan Kelas:</strong> Mampu menciptakan suasana belajar yang kondusif dan menyenangkan</li>
-                    //             <li><strong>Komunikasi:</strong> Menggunakan bahasa yang jelas, komunikatif, dan mudah dipahami siswa</li>
-                    //             <li><strong>Metode Pembelajaran:</strong> Implementasi PBL berjalan efektif dengan masalah yang relevan dan menantang</li>
-                    //             <li><strong>Interaksi:</strong> Terjalin interaksi dua arah yang baik antara guru dan siswa</li>
-                    //             <li><strong>Penggunaan Media:</strong> Media pembelajaran digital digunakan secara efektif untuk mendukung pemahaman konsep</li>
-                    //             <li><strong>Asesmen:</strong> Melakukan asesmen formatif secara berkelanjutan melalui questioning dan observasi</li>
-                    //         </ul>
+                             <p><strong>Aspek Positif:</strong></p>
+                            <ul>
+                                <li><strong>Pengelolaan Kelas:</strong> Mampu menciptakan suasana belajar yang kondusif dan menyenangkan</li>
+                                 <li><strong>Komunikasi:</strong> Menggunakan bahasa yang jelas, komunikatif, dan mudah dipahami siswa</li>
+                                 <li><strong>Metode Pembelajaran:</strong> Implementasi PBL berjalan efektif dengan masalah yang relevan dan menantang</li>
+                                 <li><strong>Interaksi:</strong> Terjalin interaksi dua arah yang baik antara guru dan siswa</li>
+                                 <li><strong>Penggunaan Media:</strong> Media pembelajaran digital digunakan secara efektif untuk mendukung pemahaman konsep</li>
+                                 <li><strong>Asesmen:</strong> Melakukan asesmen formatif secara berkelanjutan melalui questioning dan observasi</li>
+                             </ul>
                             
-                    //         <p><strong>Manajemen Waktu:</strong></p>
-                    //         <p>Alokasi waktu untuk setiap tahapan pembelajaran sudah cukup proporsional, meskipun pada sesi diskusi kelompok sempat memerlukan waktu lebih lama dari yang direncanakan.</p>
+                            <p><strong>Manajemen Waktu:</strong></p>
+                             <p>Alokasi waktu untuk setiap tahapan pembelajaran sudah cukup proporsional, meskipun pada sesi diskusi kelompok sempat memerlukan waktu lebih lama dari yang direncanakan.</p>
                             
-                    //         <p><strong>Refleksi Pengembangan:</strong></p>
-                    //         <ul>
-                    //             <li>Dapat memberikan scaffolding yang lebih terstruktur untuk siswa yang mengalami kesulitan</li>
-                    //             <li>Pemanfaatan teknologi dapat lebih interaktif dengan melibatkan siswa secara langsung</li>
-                    //             <li>Kesempatan untuk refleksi siswa di akhir pembelajaran dapat diperdalam</li>
-                    //         </ul>
-                    //     `
-                    // },
+                             <p><strong>Refleksi Pengembangan:</strong></p>
+                             <ul>
+                                 <li>Dapat memberikan scaffolding yang lebih terstruktur untuk siswa yang mengalami kesulitan</li>
+                                 <li>Pemanfaatan teknologi dapat lebih interaktif dengan melibatkan siswa secara langsung</li>
+                                 <li>Kesempatan untuk refleksi siswa di akhir pembelajaran dapat diperdalam</li>
+                             </ul>
+                         `
+                     },
                     {
                         judul: "🔗 Keterkaitan Antar Komponen",
                         konten: `
