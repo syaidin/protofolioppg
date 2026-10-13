@@ -129,6 +129,193 @@ const portfolioData = {
     },
     
     // ===================================
+    // DATA LK 3 - REFLEKSI AKHIR PPG
+    // ===================================
+    lk3: {
+        // Bagian A: Refleksi Pandangan tentang Pendidikan di Indonesia
+        bagianA: {
+            judul: "Refleksi Pandangan tentang Pendidikan di Indonesia",
+            konten: `
+                <div class="refleksi-subsection">
+                    <h3>Pembelajaran yang Berpusat pada Murid</h3>
+                    <p>Setelah mengikuti Program PPG, pandangan saya tentang pendidikan di Indonesia mengalami perubahan signifikan. Pendidikan seharusnya <strong>berpusat pada murid (student-centered learning)</strong>, bukan lagi pada teacher-centered approach. Setiap peserta didik memiliki potensi, kebutuhan, gaya belajar, dan kecepatan belajar yang berbeda-beda. Oleh karena itu, guru harus mampu merancang pembelajaran yang fleksibel, adaptif, dan responsif terhadap karakteristik individual peserta didik.</p>
+                    <p>Pembelajaran berpusat pada murid bukan berarti guru lepas tangan, melainkan guru berperan sebagai <strong>fasilitator, motivator, dan pembimbing</strong> yang menciptakan lingkungan belajar yang aman, menyenangkan, dan menantang. Peserta didik diberi kesempatan untuk aktif mengeksplorasi, bertanya, berdiskusi, berkolaborasi, dan memecahkan masalah secara mandiri maupun kelompok.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Keberagaman Kebutuhan Belajar dan Pembelajaran Berdiferensiasi</h3>
+                    <p>Dalam satu kelas yang sama, peserta didik memiliki keberagaman latar belakang, kemampuan, minat, dan kebutuhan belajar. Ada yang cepat memahami konsep, ada yang memerlukan scaffolding lebih banyak, ada yang lebih suka belajar visual, auditori, atau kinestetik. Sebagai guru, saya harus <strong>peka terhadap keberagaman ini</strong> dan tidak menyamaratakan pendekatan pembelajaran.</p>
+                    <p><strong>Pembelajaran berdiferensiasi</strong> menjadi kunci untuk mengakomodasi keberagaman tersebut. Diferensiasi dapat dilakukan pada konten (apa yang dipelajari), proses (bagaimana cara belajar), produk (hasil belajar yang ditunjukkan), dan lingkungan belajar. Dengan pembelajaran berdiferensiasi, setiap peserta didik mendapat tantangan yang sesuai dengan zona perkembangan proksimalnya, sehingga semua dapat berkembang optimal.</p>
+                    <p>Pembelajaran inklusif juga penting, di mana setiap peserta didik—termasuk mereka yang berkebutuhan khusus—mendapat akses dan kesempatan yang setara untuk belajar dan berkembang. Inklusivitas bukan hanya soal fisik, tetapi juga sikap, metode, dan penilaian yang ramah terhadap keberagaman.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Asesmen yang Mendukung Pembelajaran</h3>
+                    <p>Asesmen seharusnya <strong>tidak hanya untuk mengukur hasil akhir</strong>, tetapi lebih sebagai alat untuk <strong>mendukung proses belajar (assessment for learning)</strong>. Asesmen formatif yang dilakukan secara berkelanjutan selama pembelajaran memberikan umpan balik yang konstruktif, membantu peserta didik memahami kekuatan dan area yang perlu diperbaiki, serta memberikan informasi kepada guru untuk menyesuaikan strategi pembelajaran.</p>
+                    <p>Asesmen juga harus <strong>autentik dan bermakna</strong>, mengukur kemampuan peserta didik dalam konteks nyata, bukan hanya hafalan. Beragam teknik asesmen—observasi, kinerja, portofolio, proyek, tes tertulis—dapat digunakan sesuai dengan tujuan pembelajaran dan karakteristik peserta didik.</p>
+                    <p>Yang tidak kalah penting adalah <strong>asesmen diri (self-assessment) dan asesmen antar teman (peer assessment)</strong>, yang membantu peserta didik menjadi reflektif, mandiri, dan bertanggung jawab atas pembelajarannya sendiri.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Peran Guru dalam Membangun Kompetensi dan Karakter</h3>
+                    <p>Guru bukan hanya mengajar pengetahuan dan keterampilan, tetapi juga <strong>membentuk karakter</strong> peserta didik. Melalui teladan, interaksi sehari-hari, dan pembelajaran yang dirancang dengan baik, guru menanamkan nilai-nilai seperti integritas, kejujuran, tanggung jawab, empati, kerja sama, dan rasa ingin tahu.</p>
+                    <p>Dalam era digital dan abad ke-21, guru harus mempersiapkan peserta didik dengan <strong>kompetensi 4C</strong>: Critical Thinking (berpikir kritis), Creativity (kreativitas), Collaboration (kolaborasi), dan Communication (komunikasi). Selain itu, peserta didik juga perlu dibekali dengan literasi digital, literasi data, dan keterampilan sosial-emosional.</p>
+                    <p>Sebagai guru Informatika, saya memiliki tanggung jawab khusus untuk membekali peserta didik dengan <strong>computational thinking</strong>, kemampuan memecahkan masalah secara sistematis menggunakan logika dan algoritma. Namun, lebih dari itu, saya juga harus mengajarkan <strong>etika digital</strong>, tanggung jawab dalam menggunakan teknologi, dan kesadaran akan dampak teknologi terhadap masyarakat.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Kesimpulan Refleksi</h3>
+                    <p>Pendidikan di Indonesia seharusnya menjadi pendidikan yang <strong>memanusiakan manusia</strong>, yang memerdekakan peserta didik untuk belajar sesuai dengan potensi dan kebutuhannya, yang mengembangkan tidak hanya kecerdasan intelektual tetapi juga karakter, yang inklusif dan berkeadilan, serta yang mempersiapkan generasi muda untuk menjadi warga negara yang kritis, kreatif, dan bertanggung jawab.</p>
+                    <p>Guru adalah ujung tombak perubahan pendidikan. Oleh karena itu, guru harus terus belajar, merefleksikan praktiknya, berkolaborasi dengan sejawat, dan berkomitmen untuk memberikan yang terbaik bagi peserta didik.</p>
+                </div>
+            `
+        },
+
+        // Bagian B: Refleksi Pengalaman Belajar untuk Menjadi Guru Profesional
+        bagianB: {
+            judul: "Refleksi Pengalaman Belajar untuk Menjadi Guru Profesional",
+            konten: `
+                <div class="refleksi-subsection">
+                    <h3>Kompetensi Pedagogik: Merancang dan Melaksanakan Pembelajaran</h3>
+                    <p>Selama PPG, saya belajar bagaimana <strong>merancang pembelajaran yang efektif</strong> melalui mata kuliah seperti Pemahaman tentang Peserta Didik dan Pembelajarannya (PPP), Pembelajaran Mendalam dan Asesmen, serta Praktik Pengalaman Lapangan (PPL).</p>
+                    <p>Saya belajar melakukan <strong>analisis kebutuhan belajar peserta didik</strong> melalui asesmen diagnostik, memahami karakteristik perkembangan kognitif, sosial, dan emosional siswa SMP, serta merancang tujuan pembelajaran yang spesifik dan terukur sesuai Capaian Pembelajaran Kurikulum Merdeka.</p>
+                    <p>Pengalaman menyusun <strong>Modul Ajar</strong> untuk mata pelajaran Informatika mengajarkan saya pentingnya alur pembelajaran yang logis, pemilihan metode yang sesuai dengan karakteristik materi dan peserta didik, serta pengintegrasian teknologi dalam pembelajaran. Saya juga belajar merancang <strong>asesmen yang autentik</strong> dan memberikan umpan balik yang konstruktif.</p>
+                    <p>Praktik mengajar terbimbing dan mandiri memberikan pengalaman nyata dalam mengelola kelas, memfasilitasi diskusi, menangani pertanyaan spontan, serta menyesuaikan rencana pembelajaran berdasarkan respons peserta didik. Melalui refleksi dan masukan dari dosen pembimbing serta guru pamong, saya terus memperbaiki praktik pembelajaran saya.</p>
+                    <p><strong>Artefak terkait:</strong> <a href="uts.html">Rancangan Pembelajaran (UTS)</a>, <a href="uas.html">Analisis Video Praktik Mengajar (UAS)</a>, <a href="refleksi.html">Refleksi Mata Kuliah PPL Terbimbing dan PPL Mandiri</a>.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Kompetensi Profesional: Menguasai Materi dan Teknologi Pembelajaran</h3>
+                    <p>Sebagai calon guru Informatika, saya dituntut untuk <strong>menguasai konten bidang studi</strong> dengan mendalam, termasuk algoritma dan pemrograman, basis data, jaringan komputer, computational thinking, serta perkembangan teknologi terkini seperti kecerdasan artifisial, machine learning, dan data science.</p>
+                    <p>Melalui PPG, saya tidak hanya memperkuat penguasaan konten, tetapi juga belajar bagaimana <strong>mentransformasikan pengetahuan tersebut menjadi pembelajaran yang bermakna</strong> bagi peserta didik. Saya belajar menggunakan berbagai tools dan platform pembelajaran digital seperti Google Classroom, Kahoot, Scratch, Python IDE, serta media interaktif lainnya untuk mendukung pembelajaran Informatika yang menarik dan aplikatif.</p>
+                    <p>Saya juga belajar pentingnya <strong>learning by doing</strong> dalam pembelajaran Informatika—peserta didik tidak hanya mendengarkan teori, tetapi langsung praktik coding, membuat project, dan memecahkan masalah nyata. Hal ini membuat pembelajaran lebih kontekstual dan bermakna.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Kompetensi Sosial: Berkolaborasi dan Berkomunikasi</h3>
+                    <p>PPG mengajarkan saya pentingnya <strong>kolaborasi dengan rekan sejawat</strong>. Melalui diskusi kelompok, peer teaching, dan saling memberikan feedback dalam lesson study, saya belajar bahwa mengajar bukan aktivitas yang soliter—guru yang baik adalah guru yang mau belajar dari orang lain, berbagi praktik baik, dan terus berkembang bersama.</p>
+                    <p>Saya juga belajar <strong>berkomunikasi efektif dengan berbagai pihak</strong>—peserta didik, sesama guru, kepala sekolah, orang tua, dan komunitas. Komunikasi yang empatik, jelas, dan konstruktif sangat penting untuk membangun hubungan yang positif dan mendukung proses pendidikan.</p>
+                    <p>Pengalaman berinteraksi dengan peserta didik dari berbagai latar belakang mengajarkan saya untuk <strong>menghargai keberagaman</strong> dan bersikap inklusif. Setiap peserta didik adalah individu yang unik dengan kebutuhan, potensi, dan tantangan masing-masing.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Kompetensi Kepribadian: Menjadi Teladan dan Pembelajar Sepanjang Hayat</h3>
+                    <p>Mata kuliah seperti Filosofi Pendidikan & Nilai Pendidikan, Pola Pikir Bertumbuh (Growth Mindset), Literasi Kesehatan Mental, serta Pencegahan dan Penanganan Kekerasan mengajarkan saya pentingnya <strong>kepribadian guru yang berintegritas, empati, dan reflektif</strong>.</p>
+                    <p>Saya belajar bahwa guru adalah <strong>teladan</strong>—tidak hanya dalam kata-kata, tetapi juga dalam sikap dan tindakan sehari-hari. Guru yang menunjukkan integritas, disiplin, rasa ingin tahu, dan semangat belajar akan menginspirasi peserta didiknya untuk melakukan hal yang sama.</p>
+                    <p><strong>Growth mindset</strong> mengajarkan saya untuk tidak takut gagal, melihat kesalahan sebagai bagian dari proses belajar, dan percaya bahwa kemampuan dapat berkembang melalui usaha dan latihan. Ini penting tidak hanya untuk diri saya sendiri, tetapi juga untuk ditanamkan kepada peserta didik agar mereka tidak mudah menyerah dan terus berusaha.</p>
+                    <p>Saya juga menyadari pentingnya <strong>kesehatan mental dan kesejahteraan</strong>—baik bagi diri sendiri maupun peserta didik. Guru yang sehat secara mental akan lebih mampu menciptakan lingkungan belajar yang aman, positif, dan mendukung.</p>
+                </div>
+
+                <div class="refleksi-subsection">
+                    <h3>Integrasi Keempat Kompetensi dalam Praktik</h3>
+                    <p>Keempat kompetensi—pedagogik, profesional, sosial, dan kepribadian—tidak berdiri sendiri, melainkan <strong>saling terkait dan terintegrasi</strong> dalam praktik mengajar. Guru profesional adalah guru yang mampu merancang pembelajaran yang efektif (pedagogik), menguasai materi dengan mendalam (profesional), berkomunikasi dan berkolaborasi dengan baik (sosial), serta menjadi teladan yang berintegritas (kepribadian).</p>
+                    <p>PPG memberikan saya pengalaman holistik untuk mengembangkan keempat kompetensi tersebut secara simultan melalui pembelajaran teori, praktik mengajar, refleksi, dan feedback dari berbagai pihak. Saya merasa lebih siap untuk menjadi guru Informatika SMP yang profesional, meskipun menyadari bahwa perjalanan belajar saya tidak berhenti di sini—saya harus terus belajar, merefleksikan, dan berkembang sepanjang karier saya sebagai guru.</p>
+                </div>
+            `
+        },
+
+        // Bagian C: Rencana Tindak Lanjut
+        bagianC: [
+            {
+                nomor: 1,
+                judul: "Mengembangkan Pembelajaran Informatika yang Berpusat pada Murid dan Sesuai dengan Kebutuhan Belajar",
+                tujuan: "Merancang dan melaksanakan pembelajaran Informatika yang berpusat pada murid, mengakomodasi keberagaman kebutuhan belajar melalui pembelajaran berdiferensiasi, sehingga semua peserta didik dapat belajar secara optimal sesuai dengan potensi dan gaya belajarnya.",
+                langkah: [
+                    "Melakukan asesmen diagnostik di awal semester untuk memetakan karakteristik, gaya belajar, minat, dan tingkat kemampuan awal peserta didik dalam mata pelajaran Informatika.",
+                    "Merancang modul ajar yang fleksibel dengan diferensiasi konten, proses, produk, dan lingkungan belajar sesuai hasil pemetaan peserta didik.",
+                    "Menggunakan beragam metode pembelajaran (Problem-Based Learning, Project-Based Learning, Inquiry-Based Learning, Collaborative Learning) sesuai karakteristik materi dan kebutuhan peserta didik.",
+                    "Menyediakan scaffolding dan dukungan tambahan bagi peserta didik yang memerlukan, serta tantangan yang lebih kompleks bagi peserta didik yang sudah mahir.",
+                    "Memberikan pilihan kepada peserta didik dalam menentukan topik project, cara mengeksplorasi materi, atau format presentasi hasil belajar (student voice and choice).",
+                    "Melakukan evaluasi berkala terhadap efektivitas pembelajaran berdiferensiasi melalui refleksi diri, feedback dari peserta didik, dan diskusi dengan rekan sejawat atau mentor."
+                ],
+                waktu: "Semester 1 Tahun Ajaran 2026/2027 (Juli - Desember 2026), dilanjutkan secara berkelanjutan di semester-semester berikutnya.",
+                indikator: [
+                    "Tersedianya profil peserta didik yang komprehensif berdasarkan asesmen diagnostik.",
+                    "Tersusunnya modul ajar dengan komponen diferensiasi yang jelas untuk setiap topik pembelajaran Informatika.",
+                    "Meningkatnya partisipasi aktif peserta didik dalam pembelajaran (minimal 80% peserta didik aktif bertanya, berdiskusi, atau mengerjakan tugas).",
+                    "Meningkatnya capaian belajar peserta didik, baik yang berkemampuan rendah, sedang, maupun tinggi (diukur melalui asesmen formatif dan sumatif).",
+                    "Feedback positif dari peserta didik terhadap pembelajaran yang dilakukan (minimal 75% peserta didik merasa pembelajaran sesuai dengan kebutuhan dan menarik).",
+                    "Adanya dokumentasi refleksi diri dan perbaikan pembelajaran berdasarkan evaluasi berkala."
+                ],
+                bukti: [
+                    "Hasil asesmen diagnostik peserta didik (data kuantitatif dan kualitatif).",
+                    "Modul ajar yang memuat diferensiasi pembelajaran.",
+                    "Foto/video kegiatan pembelajaran yang menunjukkan aktivitas peserta didik yang beragam.",
+                    "Hasil karya peserta didik (project, kode program, presentasi) yang menunjukkan keberagaman produk.",
+                    "Hasil asesmen formatif dan sumatif peserta didik.",
+                    "Survei atau angket feedback peserta didik terhadap pembelajaran.",
+                    "Jurnal refleksi guru dan catatan perbaikan pembelajaran."
+                ]
+            },
+            {
+                nomor: 2,
+                judul: "Meningkatkan Kualitas Asesmen, Umpan Balik, dan Refleksi Pembelajaran",
+                tujuan: "Mengembangkan dan menerapkan sistem asesmen yang komprehensif, autentik, dan berkelanjutan untuk mendukung proses belajar (assessment for learning), memberikan umpan balik yang konstruktif dan tepat waktu kepada peserta didik, serta melakukan refleksi pembelajaran secara rutin untuk perbaikan praktik mengajar.",
+                langkah: [
+                    "Merancang asesmen yang beragam—diagnostik, formatif, dan sumatif—dengan menggunakan berbagai teknik: observasi, kinerja, portofolio, proyek, tes tertulis, asesmen diri, dan asesmen antar teman.",
+                    "Membuat rubrik penilaian yang jelas, transparan, dan dibagikan kepada peserta didik sejak awal pembelajaran agar mereka memahami kriteria keberhasilan.",
+                    "Melakukan asesmen formatif secara berkelanjutan selama proses pembelajaran (misalnya melalui exit ticket, quick quiz, observasi aktivitas coding, tanya jawab) untuk memantau perkembangan peserta didik.",
+                    "Memberikan umpan balik yang spesifik, konstruktif, dan actionable kepada peserta didik secepat mungkin setelah asesmen, disertai dengan saran perbaikan konkret.",
+                    "Mendorong peserta didik untuk melakukan refleksi terhadap hasil belajarnya melalui asesmen diri dan asesmen antar teman, serta membuat rencana perbaikan.",
+                    "Melakukan refleksi diri setelah setiap pembelajaran dengan mencatat apa yang berhasil, apa yang perlu diperbaiki, dan langkah perbaikan konkret untuk pembelajaran berikutnya.",
+                    "Berdiskusi dengan rekan sejawat atau mentor untuk berbagi pengalaman asesmen dan mendapatkan masukan."
+                ],
+                waktu: "Semester 1 dan 2 Tahun Ajaran 2026/2027 (Juli 2026 - Juni 2027), dilanjutkan secara berkelanjutan di tahun-tahun berikutnya.",
+                indikator: [
+                    "Tersedianya instrumen asesmen yang beragam dan sesuai dengan tujuan pembelajaran.",
+                    "Tersedianya rubrik penilaian yang jelas untuk setiap tugas atau project.",
+                    "Umpan balik diberikan kepada peserta didik maksimal 1 minggu setelah asesmen dilakukan.",
+                    "Meningkatnya kualitas hasil belajar peserta didik setelah menerima umpan balik dan melakukan perbaikan.",
+                    "Peserta didik mampu melakukan asesmen diri dan membuat rencana perbaikan belajarnya sendiri.",
+                    "Adanya jurnal refleksi guru yang diisi secara rutin (minimal 1 kali per minggu).",
+                    "Adanya catatan diskusi dengan rekan sejawat atau mentor terkait asesmen dan pembelajaran."
+                ],
+                bukti: [
+                    "Instrumen asesmen (soal, rubrik, lembar observasi, panduan project, dll.).",
+                    "Hasil asesmen peserta didik disertai umpan balik tertulis dari guru.",
+                    "Contoh asesmen diri dan rencana perbaikan yang dibuat peserta didik.",
+                    "Jurnal refleksi guru yang memuat catatan setelah pembelajaran.",
+                    "Notulen atau catatan diskusi dengan rekan sejawat atau mentor.",
+                    "Data peningkatan hasil belajar peserta didik setelah menerima umpan balik dan melakukan perbaikan."
+                ]
+            },
+            {
+                nomor: 3,
+                judul: "Mengembangkan Kompetensi Profesional melalui Pelatihan, Komunitas Belajar, Kolaborasi, dan Pemanfaatan Teknologi secara Bertanggung Jawab",
+                tujuan: "Meningkatkan kompetensi profesional sebagai guru Informatika melalui partisipasi aktif dalam pelatihan, bergabung dengan komunitas belajar guru, berkolaborasi dengan rekan sejawat, serta memanfaatkan teknologi pembelajaran secara bertanggung jawab dan etis untuk mendukung pembelajaran yang efektif dan inovatif.",
+                langkah: [
+                    "Mengikuti minimal 2 pelatihan atau workshop terkait pembelajaran Informatika, teknologi pendidikan, atau pengembangan kompetensi guru per semester (misalnya pelatihan coding, AI in education, pembelajaran berbasis project, asesmen digital, dll.).",
+                    "Bergabung dengan komunitas belajar guru Informatika (MGMP Informatika) atau komunitas online (misalnya grup Facebook Guru Informatika Indonesia, komunitas GitHub Education, forum edukasi teknologi) untuk berbagi praktik baik dan belajar dari rekan sejawat.",
+                    "Melakukan kolaborasi dengan guru Informatika lain dalam merancang pembelajaran, menyusun bank soal, atau mengembangkan media pembelajaran digital yang dapat digunakan bersama.",
+                    "Mengembangkan atau mengadopsi teknologi pembelajaran yang sesuai dengan kebutuhan peserta didik, seperti platform LMS (Google Classroom, Moodle), tools coding online (Replit, Scratch), aplikasi gamifikasi (Kahoot, Quizizz), atau project-based learning platform.",
+                    "Mengajarkan dan mempraktikkan etika digital kepada peserta didik, termasuk tanggung jawab dalam menggunakan teknologi, privasi dan keamanan data, serta dampak sosial teknologi.",
+                    "Melakukan riset tindakan kelas (PTK) atau studi kasus untuk mengevaluasi efektivitas inovasi pembelajaran yang diterapkan, dan membagikan hasilnya dalam seminar atau publikasi.",
+                    "Membaca jurnal pendidikan, artikel, atau buku terkait pembelajaran Informatika dan pedagogi modern secara rutin (minimal 1 artikel per bulan) untuk tetap update dengan perkembangan terkini."
+                ],
+                waktu: "Tahun Ajaran 2026/2027 (Juli 2026 - Juni 2027) dan berlanjut secara kontinyu sepanjang karier sebagai guru.",
+                indikator: [
+                    "Mengikuti minimal 4 pelatihan atau workshop per tahun (2 per semester).",
+                    "Aktif berpartisipasi dalam MGMP atau komunitas belajar guru Informatika (menghadiri pertemuan, berbagi materi, atau menjadi narasumber).",
+                    "Melakukan kolaborasi dengan minimal 2 rekan sejawat dalam merancang pembelajaran atau mengembangkan media.",
+                    "Menggunakan minimal 3 platform atau tools teknologi pembelajaran dalam aktivitas mengajar.",
+                    "Peserta didik memahami dan mempraktikkan etika digital dalam pembelajaran (diukur melalui observasi dan refleksi peserta didik).",
+                    "Menyelesaikan minimal 1 riset tindakan kelas atau studi kasus per tahun.",
+                    "Membaca dan merangkum minimal 12 artikel atau bab buku terkait pendidikan Informatika per tahun."
+                ],
+                bukti: [
+                    "Sertifikat pelatihan atau workshop yang diikuti.",
+                    "Dokumentasi kehadiran dan partisipasi dalam MGMP atau komunitas belajar (foto kegiatan, notulen, materi yang dibagikan).",
+                    "Modul ajar atau media pembelajaran yang dikembangkan secara kolaboratif dengan rekan sejawat.",
+                    "Screenshot atau dokumentasi penggunaan teknologi pembelajaran di kelas.",
+                    "Hasil karya peserta didik yang mencerminkan pemahaman etika digital (misalnya esai, poster, atau project terkait digital citizenship).",
+                    "Laporan riset tindakan kelas atau studi kasus yang telah diselesaikan.",
+                    "Daftar bacaan dan rangkuman artikel atau buku yang telah dibaca."
+                ]
+            }
+        ]
+    },
+    
+    // ===================================
     // DATA LOKASI PERKULIAHAN
     // ===================================
     lokasi: {
@@ -534,10 +721,10 @@ const portfolioData = {
                 intro: "Video dokumentasi pelaksanaan praktik mengajar mandiri pada mata pelajaran Informatika dengan topik Algoritma dan Pemrograman menggunakan pendekatan Problem Based Learning.",
                 
                  metadata: {
-                     judulVideo: "Praktik Mengajar Mandiri - Siklus 1",
+                     judulVideo: "Praktik Mengajar Mandiri ",
                     durasi: "30 menit",
-                    tanggal: "15 Januari 2026",
-                     lokasi: "SMAN 1 Surabaya"
+                    tanggal: "18 Sgustus 2026",
+                     lokasi: "SMPN 49 Surabaya"
                 },
                 
                  // URL video YouTube atau Google Drive
@@ -1049,7 +1236,7 @@ const portfolioData = {
             //         judulVideo: "Video Praktik Mengajar Mandiri",
             //         durasi: "45 menit",
             //         tanggal: "20 Januari 2026",
-            //         lokasi: "SMAN 1 Surabaya",
+            //         lokasi: "SMP NEGERI 49 Surabaya",
             //         videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
             //         // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
             //         deskripsi: "Video dokumentasi lengkap pelaksanaan praktik mengajar mandiri dari kegiatan pembuka, inti, hingga penutup."
@@ -1233,7 +1420,7 @@ const portfolioData = {
                         
                         <p><strong>a. Penyusunan Perangkat Pembelajaran</strong></p>
                         <ul>
-                            <li>Menyusun Program Tahunan (Prota) dan Program Semester (Prosem)</li>
+
                             <li>Mengembangkan Alur Tujuan Pembelajaran (ATP)</li>
                             <li>Merancang Modul Ajar/RPP sesuai Kurikulum Merdeka</li>
                             <li>Menyusun instrumen asesmen dan rubrik penilaian</li>
@@ -1247,7 +1434,7 @@ const portfolioData = {
                             <li>Mengelola daftar hadir siswa</li>
                             <li>Mencatat perkembangan belajar siswa</li>
                             <li>Mengelola nilai dan hasil asesmen</li>
-                            <li>Membuat laporan hasil belajar</li>
+                            
                         </ul>
                         
                         <p><strong>Manfaat:</strong></p>
@@ -1277,37 +1464,18 @@ const portfolioData = {
                         
                         <p><strong>Pembelajaran:</strong></p>
                         <p>Feedback dari pembimbing sangat berharga untuk pengembangan kompetensi. Konsultasi rutin membantu saya lebih reflektif dan terus memperbaiki praktik mengajar.</p>
-                        
-                        <p><strong>c. Mengikuti Kegiatan MGMP/Workshop</strong></p>
-                        <ul>
-                            <li>Berpartisipasi dalam Musyawarah Guru Mata Pelajaran (MGMP)</li>
-                            <li>Mengikuti workshop pengembangan pembelajaran</li>
-                            <li>Berbagi pengalaman dengan guru lain</li>
-                        </ul>
-                        
-                        <p><strong>Pembelajaran:</strong></p>
-                        <p>Kolaborasi dengan komunitas guru memperluas perspektif dan memperkaya repertoar strategi pembelajaran. Pentingnya networking dan kolaborasi profesional.</p>
+                    
                     </div>
                     
                     <div class="analisis-subsection">
                         <h5>3. Keterlibatan dalam Kegiatan Sekolah</h5>
                         
-                        <p><strong>a. Kegiatan Ekstrakurikuler</strong></p>
-                        <ul>
-                            <li>Membimbing kegiatan ekstrakurikuler yang relevan dengan bidang studi</li>
-                            <li>Mendampingi siswa dalam kompetisi/olimpiade</li>
-                            <li>Memfasilitasi project atau kegiatan siswa</li>
-                        </ul>
-                        
-                        <p><strong>Manfaat:</strong></p>
-                        <p>Kegiatan ekstrakurikuler memberikan kesempatan untuk mengenal siswa lebih dekat di luar konteks pembelajaran formal. Membangun relasi yang lebih personal dan memahami potensi siswa secara holistik.</p>
-                        
-                        <p><strong>b. Kegiatan Sekolah Lainnya</strong></p>
+                        <p><strong>a. Kegiatan Sekolah Lainnya</strong></p>
                         <ul>
                             <li>Membantu kegiatan upacara bendera</li>
                             <li>Terlibat dalam kegiatan P5 (Projek Penguatan Profil Pelajar Pancasila)</li>
                             <li>Berpartisipasi dalam kegiatan peringatan hari besar</li>
-                            <li>Membantu kegiatan penerimaan peserta didik baru</li>
+                            
                         </ul>
                         
                         <p><strong>Manfaat:</strong></p>

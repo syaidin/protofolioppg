@@ -489,6 +489,9 @@ function populateContent() {
     // Populate UAS
     populateUAS();
     
+    // Populate LK3
+    populateLK3();
+    
     // Populate documentation
     populateDocumentation();
     
@@ -1165,6 +1168,85 @@ function initToggleUTSButton() {
     });
 }
 
+
+// ===================================
+// POPULATE LK3 - REFLEKSI AKHIR PPG
+// ===================================
+function populateLK3() {
+    if (typeof portfolioData === 'undefined' || !portfolioData.lk3) {
+        console.warn('portfolioData.lk3 not found');
+        return;
+    }
+    
+    const lk3 = portfolioData.lk3;
+    
+    // Populate Bagian A
+    const bagianA = document.getElementById('bagianA');
+    if (bagianA && lk3.bagianA) {
+        bagianA.innerHTML = lk3.bagianA.konten;
+    }
+    
+    // Populate Bagian B
+    const bagianB = document.getElementById('bagianB');
+    if (bagianB && lk3.bagianB) {
+        bagianB.innerHTML = lk3.bagianB.konten;
+    }
+    
+    // Populate Bagian C - Rencana Tindak Lanjut
+    const bagianC = document.getElementById('bagianC');
+    if (bagianC && lk3.bagianC) {
+        bagianC.innerHTML = '';
+        
+        lk3.bagianC.forEach((rencana, index) => {
+            const rencanaCard = document.createElement('div');
+            rencanaCard.className = 'rencana-card fade-in-up';
+            
+            rencanaCard.innerHTML = `
+                <div class="rencana-header">
+                    <div class="rencana-number">${rencana.nomor}</div>
+                    <h3 class="rencana-title">${rencana.judul}</h3>
+                </div>
+                
+                <div class="rencana-body">
+                    <div class="rencana-section">
+                        <h4 class="rencana-subtitle">🎯 Tujuan</h4>
+                        <p class="rencana-text">${rencana.tujuan}</p>
+                    </div>
+                    
+                    <div class="rencana-section">
+                        <h4 class="rencana-subtitle">📋 Langkah-Langkah Pelaksanaan</h4>
+                        <ol class="rencana-list">
+                            ${rencana.langkah.map(langkah => `<li>${langkah}</li>`).join('')}
+                        </ol>
+                    </div>
+                    
+                    <div class="rencana-section">
+                        <h4 class="rencana-subtitle">⏰ Waktu Pelaksanaan</h4>
+                        <p class="rencana-text">${rencana.waktu}</p>
+                    </div>
+                    
+                    <div class="rencana-section">
+                        <h4 class="rencana-subtitle">✅ Indikator Keberhasilan</h4>
+                        <ul class="rencana-list">
+                            ${rencana.indikator.map(indikator => `<li>${indikator}</li>`).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="rencana-section">
+                        <h4 class="rencana-subtitle">📁 Bukti yang Akan Dikumpulkan</h4>
+                        <ul class="rencana-list">
+                            ${rencana.bukti.map(bukti => `<li>${bukti}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            bagianC.appendChild(rencanaCard);
+        });
+    }
+    
+    console.log('LK3 content populated successfully');
+}
 
 // ===================================
 // POPULATE DOCUMENTATION

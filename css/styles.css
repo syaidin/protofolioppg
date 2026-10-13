@@ -4141,3 +4141,325 @@ section.in-view::after {
         font-size: 0.95rem;
     }
 }
+
+
+/* =======================================
+   LK3 - REFLEKSI AKHIR PPG STYLES
+   ======================================= */
+
+/* Overview Section */
+.lk3-overview {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.overview-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.overview-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c5f8d;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* LK3 Sections */
+.lk3-section {
+    padding: 60px 0;
+}
+
+.lk3-section.bg-alternate {
+    background-color: #f8f9fa;
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* LK3 Content */
+.lk3-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.refleksi-subsection {
+    margin-bottom: 40px;
+}
+
+.refleksi-subsection:last-child {
+    margin-bottom: 0;
+}
+
+.refleksi-subsection h3 {
+    color: #2c5f8d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #8ba7c5;
+}
+
+.refleksi-subsection p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.refleksi-subsection strong {
+    color: #2c5f8d;
+    font-weight: 600;
+}
+
+/* Rencana Tindak Lanjut */
+.rencana-container {
+    display: grid;
+    gap: 30px;
+}
+
+.rencana-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rencana-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.rencana-header {
+    background: linear-gradient(135deg, #2c5f8d 0%, #4a7ba7 100%);
+    color: white;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rencana-number {
+    background: rgba(255,255,255,0.2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.rencana-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.rencana-body {
+    padding: 30px;
+}
+
+.rencana-section {
+    margin-bottom: 30px;
+}
+
+.rencana-section:last-child {
+    margin-bottom: 0;
+}
+
+.rencana-subtitle {
+    color: #2c5f8d;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rencana-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
+}
+
+.rencana-list {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.rencana-list li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.rencana-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Internal Links Section */
+.internal-links {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.internal-links .section-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.link-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.link-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.link-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.link-title {
+    color: #2c5f8d;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.link-desc {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Responsive Design for LK3 */
+@media (max-width: 768px) {
+    .lk3-content {
+        padding: 25px;
+    }
+    
+    .rencana-header {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .rencana-number {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    
+    .rencana-title {
+        font-size: 1.1rem;
+    }
+    
+    .rencana-body {
+        padding: 20px;
+    }
+    
+    .refleksi-subsection h3 {
+        font-size: 1.3rem;
+    }
+    
+    .overview-stats {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .links-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Print Styles for LK3 */
+@media print {
+    .lk3-overview,
+    .internal-links,
+    .navbar,
+    .footer {
+        display: none;
+    }
+    
+    .lk3-section {
+        padding: 20px 0;
+        page-break-inside: avoid;
+    }
+    
+    .rencana-card {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
