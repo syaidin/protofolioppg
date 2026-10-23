@@ -492,6 +492,9 @@ function populateContent() {
     // Populate LK3
     populateLK3();
     
+    // Populate Karya Inovasi
+    populateKaryaInovasi();
+    
     // Populate documentation
     populateDocumentation();
     
@@ -1249,6 +1252,90 @@ function populateLK3() {
 }
 
 // ===================================
+// POPULATE KARYA INOVASI - SINGLE PAGE
+// ===================================
+function populateKaryaInovasi() {
+    if (typeof portfolioData === 'undefined' || !portfolioData.karyaInovasi) {
+        console.warn('portfolioData.karyaInovasi not found');
+        return;
+    }
+    
+    const karya = portfolioData.karyaInovasi[0]; // Ambil karya pertama saja
+    const container = document.getElementById('karyaContent');
+    
+    if (!container || !karya) return;
+    
+    // Create single page content
+    container.innerHTML = `
+        <div class="karya-single-wrapper fade-in-up">
+            <div class="karya-header">
+                <div class="karya-kategori-badge">
+                    ${getKategoriLabel(karya.kategori)}
+                </div>
+                <h2 class="karya-single-title">${karya.judul}</h2>
+                <div class="karya-meta-info">
+                    <span class="meta-item">📅 ${karya.tanggal}</span>
+                    <span class="meta-item status-${karya.status}">
+                        ${karya.status === 'implemented' ? '✅ Telah Diimplementasikan' : '📋 Dalam Perencanaan'}
+                    </span>
+                </div>
+            </div>
+
+            <div class="karya-image-main">
+                <img src="${karya.foto}" alt="${karya.judul}" 
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22500%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22800%22 height=%22500%22/%3E%3Ctext fill=%22%23999%22 font-family=%22sans-serif%22 font-size=%2230%22 dy=%2210.5%22 font-weight=%22bold%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22%3EKarya Inovasi%3C/text%3E%3C/svg%3E'; this.onerror=null;">
+            </div>
+
+            <div class="karya-content-section">
+                <div class="content-block">
+                    <h3 class="content-title">📝 Deskripsi</h3>
+                    <p class="content-text">${karya.deskripsi}</p>
+                </div>
+
+                <div class="content-block">
+                    <h3 class="content-title">🎯 Tujuan Inovasi</h3>
+                    <p class="content-text">${karya.tujuan}</p>
+                </div>
+
+                <div class="content-block">
+                    <h3 class="content-title">💡 Fitur Utama</h3>
+                    <ul class="content-list">
+                        ${karya.fitur.map(fitur => `<li>${fitur}</li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3 class="content-title">📊 Hasil Implementasi</h3>
+                    <p class="content-text">${karya.hasil}</p>
+                </div>
+
+                ${karya.link && karya.link !== '' ? `
+                <div class="content-block">
+                    <h3 class="content-title">🔗 Link Karya</h3>
+                    <a href="${karya.link}" target="_blank" class="btn-primary-link">
+                        Lihat Karya <span class="link-arrow">→</span>
+                    </a>
+                </div>
+                ` : ''}
+            </div>
+        </div>
+    `;
+    
+    console.log('Karya Inovasi single page populated successfully');
+}
+
+// Helper function untuk label kategori
+function getKategoriLabel(kategori) {
+    const labels = {
+        'media': 'Media Pembelajaran',
+        'metode': 'Metode Pembelajaran',
+        'teknologi': 'Teknologi Pembelajaran',
+        'asesmen': 'Asesmen'
+    };
+    return labels[kategori] || kategori;
+}
+
+// ===================================
 // POPULATE DOCUMENTATION
 // ===================================
 function populateDocumentation() {
@@ -1271,7 +1358,7 @@ function populateDocumentation() {
         galleryItem.setAttribute('data-description', item.deskripsi);
         
         galleryItem.innerHTML = `
-            <img src="${item.foto}" alt="${item.judul}">
+            <img src="${item.foto}" alt="${item.judul}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23999%22 font-family=%22sans-serif%22 font-size=%2224%22 dy=%2210.5%22 font-weight=%22bold%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22%3EDokumentasi%3C/text%3E%3C/svg%3E'; this.onerror=null;">
             <div class="gallery-overlay">
                 <h3 class="gallery-item-title">${item.judul}</h3>
                 <p class="gallery-item-date">${item.tanggal}</p>

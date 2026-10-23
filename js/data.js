@@ -1835,6 +1835,107 @@ const portfolioData = {
     },
     
     // ===================================
+    // KARYA INOVASI
+    // ===================================
+    karyaInovasi: [
+        {
+            id: 1,
+            judul: "Media Pembelajaran Interaktif: Coding Adventure",
+            kategori: "media",
+            deskripsi: "Media pembelajaran berbasis game interaktif untuk memperkenalkan konsep dasar pemrograman kepada siswa SMP dengan pendekatan gamifikasi yang menyenangkan.",
+            tujuan: "Meningkatkan motivasi dan pemahaman siswa terhadap konsep dasar algoritma dan pemrograman melalui pendekatan pembelajaran yang interaktif dan menyenangkan.",
+            fitur: [
+                "Visualisasi algoritma dengan animasi interaktif",
+                "Sistem poin dan badge untuk meningkatkan motivasi",
+                "Level pembelajaran bertahap dari dasar hingga lanjut",
+                "Feedback real-time untuk setiap jawaban siswa",
+                "Dashboard progress untuk monitoring pembelajaran"
+            ],
+            hasil: "Implementasi media ini menunjukkan peningkatan pemahaman siswa sebesar 35% dan meningkatkan engagement siswa dalam pembelajaran pemrograman. Siswa lebih antusias dan aktif bertanya serta mencoba eksplorasi kode.",
+            foto: "images/dokumentasi/inovasi-1.jpg",
+            tanggal: "Oktober 2025",
+            link: "",
+            status: "implemented"
+        },
+        {
+            id: 2,
+            judul: "Metode Pembelajaran Berbasis Proyek: Smart City Challenge",
+            kategori: "metode",
+            deskripsi: "Metode pembelajaran berbasis proyek yang mengajak siswa merancang solusi teknologi untuk permasalahan kota pintar (smart city) dengan pendekatan computational thinking.",
+            tujuan: "Mengembangkan kemampuan berpikir komputasional, kolaborasi, dan kreativitas siswa melalui proyek nyata yang relevan dengan kehidupan sehari-hari.",
+            fitur: [
+                "Pembelajaran berbasis masalah nyata",
+                "Kolaborasi tim dalam merancang solusi",
+                "Integrasi teknologi IoT sederhana",
+                "Presentasi dan peer review antar kelompok",
+                "Refleksi pembelajaran di setiap tahap"
+            ],
+            hasil: "Siswa menunjukkan kemampuan kolaborasi yang sangat baik, meningkatnya kreativitas dalam problem solving, dan pemahaman yang lebih mendalam tentang penerapan teknologi dalam kehidupan nyata. 90% siswa mampu menyelesaikan proyek dengan baik.",
+            foto: "images/dokumentasi/inovasi-2.jpg",
+            tanggal: "November 2025",
+            link: "",
+            status: "implemented"
+        },
+        {
+            id: 3,
+            judul: "Platform E-Learning Berbasis LMS untuk Pembelajaran Hybrid",
+            kategori: "teknologi",
+            deskripsi: "Pengembangan platform Learning Management System (LMS) sederhana yang dirancang khusus untuk pembelajaran Informatika dengan fitur-fitur yang mendukung pembelajaran hybrid.",
+            tujuan: "Menyediakan platform pembelajaran yang fleksibel, memudahkan distribusi materi, penugasan, dan penilaian secara online maupun offline.",
+            fitur: [
+                "Upload dan akses materi pembelajaran",
+                "Sistem penugasan dan pengumpulan tugas online",
+                "Forum diskusi dan tanya jawab",
+                "Quiz dan latihan interaktif",
+                "Tracking progress belajar siswa"
+            ],
+            hasil: "Platform berhasil diimplementasikan dan digunakan oleh 120 siswa. Terjadi peningkatan ketepatan waktu pengumpulan tugas sebesar 40% dan kemudahan akses materi pembelajaran kapan saja meningkatkan kemandirian belajar siswa.",
+            foto: "images/dokumentasi/inovasi-3.jpg",
+            tanggal: "Desember 2025",
+            link: "",
+            status: "implemented"
+        },
+        {
+            id: 4,
+            judul: "Asesmen Otentik Berbasis Portfolio Digital",
+            kategori: "asesmen",
+            deskripsi: "Sistem asesmen yang menilai proses dan produk pembelajaran siswa secara holistik melalui portfolio digital yang mencakup dokumentasi proyek, refleksi, dan peer assessment.",
+            tujuan: "Memberikan penilaian yang lebih komprehensif dan autentik terhadap kemampuan siswa, tidak hanya fokus pada hasil akhir tetapi juga proses pembelajaran.",
+            fitur: [
+                "Portfolio digital untuk setiap siswa",
+                "Rubrik penilaian yang jelas dan transparan",
+                "Self-assessment dan peer-assessment",
+                "Dokumentasi proses pembelajaran",
+                "Feedback berkala dari guru"
+            ],
+            hasil: "Sistem asesmen ini membantu guru memahami perkembangan belajar siswa secara lebih mendalam. Siswa juga menjadi lebih reflektif terhadap pembelajaran mereka sendiri. Orang tua dapat melihat progress anak secara real-time.",
+            foto: "images/dokumentasi/inovasi-4.jpg",
+            tanggal: "Januari 2026",
+            link: "",
+            status: "implemented"
+        },
+        {
+            id: 5,
+            judul: "Aplikasi Mobile: Kamus Istilah Informatika",
+            kategori: "teknologi",
+            deskripsi: "Aplikasi mobile dictionary yang berisi istilah-istilah dalam bidang Informatika dengan penjelasan sederhana, contoh penggunaan, dan fitur pencarian cepat.",
+            tujuan: "Memudahkan siswa dalam memahami istilah-istilah teknis dalam pembelajaran Informatika dan dapat diakses kapan saja sebagai referensi belajar.",
+            fitur: [
+                "Database 500+ istilah Informatika",
+                "Pencarian cepat dan akurat",
+                "Bookmark istilah favorit",
+                "Contoh penggunaan dalam kalimat",
+                "Mode offline untuk akses tanpa internet"
+            ],
+            hasil: "Aplikasi diunduh oleh 200+ siswa dan guru. Survei menunjukkan 85% pengguna merasa terbantu dalam memahami materi pembelajaran Informatika. Aplikasi juga digunakan sebagai referensi dalam mengerjakan tugas.",
+            foto: "images/dokumentasi/inovasi-5.jpg",
+            tanggal: "Februari 2026",
+            link: "",
+            status: "planning"
+        }
+    ],
+    
+    // ===================================
     // DATA DOKUMENTASI PPG
     // ===================================
     dokumentasi: [
