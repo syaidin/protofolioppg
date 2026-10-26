@@ -502,12 +502,14 @@ const portfolioData = {
                     {
                         judul: "Instrumen Penilaian Penyusunan Perangkat Pembelajaran",
                         deskripsi: "Instrumen penilaian ini disusun untuk mengukur pemahaman dan kemampuan dalam menyusun perangkat pembelajaran yang sesuai dengan tujuan pembelajaran, karakteristik peserta didik, serta prinsip-prinsip pembelajaran yang efektif.",
-                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_PENGETAHUAN_TERBIMBING/view?usp=sharing"
+                        fileUrl: "https://drive.google.com/file/d/1mrzBb_d0wamVR_7UcdLofdthtRzensac/view?usp=drive_link"
                     },
                     {
                         judul: "Instrumen Penilaian Praktek Mengajar",
                         deskripsi: "Instrumen penilaian ini disusun untuk menilai keterampilan praktik mengajar dalam merencanakan, melaksanakan, dan mengevaluasi proses pembelajaran.",
-                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_KETERAMPILAN_TERBIMBING/view?usp=sharing"
+                        fileUrl: "https://drive.google.com/file/d/1MNJ2TGzzdyv0cuUM4YfUqhp3To9qc9Am/view?usp=drive_link"
+                         
+                    
                     }
                 ],
             }
