@@ -495,7 +495,21 @@ const portfolioData = {
                         fileUrl: "https://docs.google.com/presentation/d/1euEDB9UTLkavsDk8FzCipuinI5GebMj1/edit?usp=drive_link&ouid=104547800552435424601&rtpof=true&sd=true"
                     },
                     
-                ]
+                ],
+                
+                // Artefak Penilaian PPL Terbimbing
+                artefakPenilaian: [
+                    {
+                        judul: "Instrumen Penilaian Penyusunan Perangkat Pembelajaran",
+                        deskripsi: "Instrumen penilaian ini disusun untuk mengukur pemahaman dan kemampuan dalam menyusun perangkat pembelajaran yang sesuai dengan tujuan pembelajaran, karakteristik peserta didik, serta prinsip-prinsip pembelajaran yang efektif.",
+                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_PENGETAHUAN_TERBIMBING/view?usp=sharing"
+                    },
+                    {
+                        judul: "Instrumen Penilaian Praktek Mengajar",
+                        deskripsi: "Instrumen penilaian ini disusun untuk menilai keterampilan praktik mengajar dalam merencanakan, melaksanakan, dan mengevaluasi proses pembelajaran.",
+                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_KETERAMPILAN_TERBIMBING/view?usp=sharing"
+                    }
+                ],
             }
         ],
         
@@ -586,6 +600,20 @@ const portfolioData = {
                         fileUrl: "https://docs.google.com/presentation/d/1TPh2StMpP71pI9KuetfQ4Qwnm87vbv1E/edit?usp=sharing&ouid=104547800552435424601&rtpof=true&sd=true"
                     },
                     
+                ],
+                
+                // Artefak Penilaian PPL Mandiri
+                artefakPenilaian: [
+                    {
+                        judul: "Instrumen Penilaian Penyusunan Perangkat Pembelajaran",
+                        deskripsi: "Instrumen penilaian ini disusun untuk mengukur pemahaman dan kemampuan dalam menyusun perangkat pembelajaran yang sesuai dengan tujuan pembelajaran, karakteristik peserta didik, serta prinsip-prinsip pembelajaran yang efektif.",
+                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_PENGETAHUAN_MANDIRI/view?usp=sharing"
+                    },
+                    {
+                        judul: "Instrumen Penilaian Praktek Mengajar",
+                        deskripsi: "Instrumen penilaian ini disusun untuk menilai keterampilan praktik mengajar dalam merencanakan, melaksanakan, dan mengevaluasi proses pembelajaran.",
+                        fileUrl: "https://drive.google.com/file/d/EXAMPLE_KETERAMPILAN_MANDIRI/view?usp=sharing"
+                    }
                 ],
                 
                 // Video Pembelajaran PPL Mandiri

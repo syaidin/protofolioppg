@@ -876,6 +876,28 @@ function populateSemesterAccordion(containerId, mataKuliah, semesterNumber) {
                     </div>
                     ` : ''}
                     
+                    ${mk.artefakPenilaian && mk.artefakPenilaian.length > 0 ? `
+                    <!-- Artefak Penilaian -->
+                    <div class="artefak-section">
+                        <h4 class="section-subtitle">📊 Artefak Penilaian</h4>
+                        <p class="artefak-intro">Dokumen-dokumen penilaian yang digunakan dalam pembelajaran:</p>
+                        <div class="artefak-list">
+                            ${mk.artefakPenilaian.map(item => `
+                                <div class="artefak-item">
+                                    <div class="artefak-icon">📋</div>
+                                    <div class="artefak-info">
+                                        <h5 class="artefak-title">${item.judul}</h5>
+                                        <p class="artefak-desc">${item.deskripsi}</p>
+                                        <a href="${item.fileUrl}" class="artefak-link" target="_blank" download>
+                                            <span class="download-icon">⬇️</span> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    ` : ''}
+                    
                     ${mk.videoPembelajaran && mk.videoPembelajaran.length > 0 ? `
                     <!-- Video Pembelajaran -->
                     <div class="video-section">

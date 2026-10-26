@@ -4791,3 +4791,124 @@ section.in-view::after {
         border: 1px solid #ddd;
     }
 }
+
+
+/* =======================================
+   ARTEFAK PENILAIAN SECTION
+   ======================================= */
+
+.artefak-section {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.artefak-intro {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.artefak-list {
+    display: grid;
+    gap: 20px;
+}
+
+.artefak-item {
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    border: 2px solid #e9ecef;
+    border-left: 4px solid #FF6B35;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.artefak-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.15);
+    border-left-width: 6px;
+}
+
+.artefak-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    color: #FF6B35;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
+    border-radius: 12px;
+}
+
+.artefak-info {
+    flex: 1;
+}
+
+.artefak-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.artefak-desc {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.artefak-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
+}
+
+.artefak-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+}
+
+.download-icon {
+    font-size: 1.1rem;
+}
+
+/* Responsive untuk Artefak Penilaian */
+@media (max-width: 768px) {
+    .artefak-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .artefak-icon {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .artefak-title {
+        font-size: 1rem;
+    }
+    
+    .artefak-desc {
+        font-size: 0.9rem;
+    }
+}
