@@ -1873,13 +1873,12 @@ const portfolioData = {
             judul: "Media Pembelajaran Interaktif: Ludo Data Structure ",
             kategori: "media",
             deskripsi: "Media pembelajaran berbasis game interaktif untuk memperkenalkan konsep dasar struktur data tree dan graph kepada siswa SMP dengan pendekatan gamifikasi yang menyenangkan.",
-            tujuan: "Meningkatkan motivasi dan pemahaman siswa terhadap konsep dasar struktur data tree dan graph melalui pendekatan pembelajaran yang interaktif dan menyenangkan.",
+            tujuan: "Untuk Mendukung Pemahaman Konsep Tree dan Graph.",
             fitur: [
                 "Materi yang mana beruba teks gambar dan audio",
                 "Cara Bermain yang mana terdapat panduan dan aturan game",
                 "Lab Praktik, yang mana siswa dapat melihat mendengar dan mencoba",
-                "Tentang, berisi informasi terkait game ludi stucture",
-                "Dashboard progress untuk monitoring pembelajaran"
+                "Tentang, berisi informasi terkait game ludi stucture"
             ],
             hasil: "Implementasi media ini menunjukkan peningkatan pemahaman siswa sebesar 35% dan meningkatkan engagement siswa dalam pembelajaran pemrograman. Siswa lebih antusias dan aktif bertanya serta mencoba eksplorasi kode.",
             foto: "images/22.jpeg",
