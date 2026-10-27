@@ -1580,227 +1580,227 @@ const portfolioData = {
                 `
             },
             
-            {
-                judul: "📊 Instrumen Penilaian",
-                intro: "Instrumen penilaian yang dirancang beserta analisis terhadap kualitas, validitas, dan reliabilitasnya dalam mengukur pencapaian tujuan pembelajaran.",
+            // {
+            //     judul: "📊 Instrumen Penilaian",
+            //     intro: "Instrumen penilaian yang dirancang beserta analisis terhadap kualitas, validitas, dan reliabilitasnya dalam mengukur pencapaian tujuan pembelajaran.",
                 
-                analisis: `
-                    <h4>📝 Jenis-Jenis Instrumen Penilaian yang Dirancang</h4>
+            //     analisis: `
+            //         <h4>📝 Jenis-Jenis Instrumen Penilaian yang Dirancang</h4>
                     
-                    <div class="analisis-subsection">
-                        <h5>1. Instrumen Asesmen Diagnostik</h5>
+            //         <div class="analisis-subsection">
+            //             <h5>1. Instrumen Asesmen Diagnostik</h5>
                         
-                        <p><strong>Tujuan:</strong></p>
-                        <p>Mengidentifikasi pengetahuan awal, miskonsepsi, dan kesiapan belajar siswa sebelum pembelajaran dimulai.</p>
+            //             <p><strong>Tujuan:</strong></p>
+            //             <p>Mengidentifikasi pengetahuan awal, miskonsepsi, dan kesiapan belajar siswa sebelum pembelajaran dimulai.</p>
                         
-                        <p><strong>Bentuk Instrumen:</strong></p>
-                        <ul>
-                            <li>Pre-test pilihan ganda dan isian singkat</li>
-                            <li>Kuis diagnostik online (Google Forms/Quizizz)</li>
-                            <li>Think-Pair-Share untuk eksplorasi pemahaman awal</li>
-                        </ul>
+            //             <p><strong>Bentuk Instrumen:</strong></p>
+            //             <ul>
+            //                 <li>Pre-test pilihan ganda dan isian singkat</li>
+            //                 <li>Kuis diagnostik online (Google Forms/Quizizz)</li>
+            //                 <li>Think-Pair-Share untuk eksplorasi pemahaman awal</li>
+            //             </ul>
                         
-                        <p><strong>Analisis Kualitas:</strong></p>
-                        <ul>
-                            <li><strong>Validitas Isi:</strong> Soal-soal mencakup konsep prasyarat yang relevan dengan materi yang akan dipelajari</li>
-                            <li><strong>Tingkat Kesulitan:</strong> Sesuai dengan level siswa, tidak terlalu mudah atau sulit</li>
-                            <li><strong>Kejelasan:</strong> Bahasa soal jelas dan tidak ambigu</li>
-                            <li><strong>Efisiensi:</strong> Dapat diselesaikan dalam waktu singkat (10-15 menit)</li>
-                        </ul>
+            //             <p><strong>Analisis Kualitas:</strong></p>
+            //             <ul>
+            //                 <li><strong>Validitas Isi:</strong> Soal-soal mencakup konsep prasyarat yang relevan dengan materi yang akan dipelajari</li>
+            //                 <li><strong>Tingkat Kesulitan:</strong> Sesuai dengan level siswa, tidak terlalu mudah atau sulit</li>
+            //                 <li><strong>Kejelasan:</strong> Bahasa soal jelas dan tidak ambigu</li>
+            //                 <li><strong>Efisiensi:</strong> Dapat diselesaikan dalam waktu singkat (10-15 menit)</li>
+            //             </ul>
                         
-                        <p><strong>Penggunaan Hasil:</strong></p>
-                        <p>Hasil asesmen diagnostik digunakan untuk:</p>
-                        <ul>
-                            <li>Menyesuaikan starting point pembelajaran</li>
-                            <li>Mengidentifikasi siswa yang memerlukan remedial prasyarat</li>
-                            <li>Merencanakan diferensiasi pembelajaran</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Penggunaan Hasil:</strong></p>
+            //             <p>Hasil asesmen diagnostik digunakan untuk:</p>
+            //             <ul>
+            //                 <li>Menyesuaikan starting point pembelajaran</li>
+            //                 <li>Mengidentifikasi siswa yang memerlukan remedial prasyarat</li>
+            //                 <li>Merencanakan diferensiasi pembelajaran</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>2. Instrumen Asesmen Formatif</h5>
+            //         <div class="analisis-subsection">
+            //             <h5>2. Instrumen Asesmen Formatif</h5>
                         
-                        <p><strong>Tujuan:</strong></p>
-                        <p>Memantau kemajuan belajar siswa selama proses pembelajaran berlangsung untuk memberikan feedback dan melakukan penyesuaian pembelajaran.</p>
+            //             <p><strong>Tujuan:</strong></p>
+            //             <p>Memantau kemajuan belajar siswa selama proses pembelajaran berlangsung untuk memberikan feedback dan melakukan penyesuaian pembelajaran.</p>
                         
-                        <p><strong>Bentuk Instrumen:</strong></p>
+            //             <p><strong>Bentuk Instrumen:</strong></p>
                         
-                        <p><strong>a. Lembar Observasi</strong></p>
-                        <ul>
-                            <li>Checklist untuk mengamati partisipasi siswa dalam diskusi</li>
-                            <li>Rubrik observasi keterampilan kolaborasi</li>
-                            <li>Catatan anekdotal untuk dokumentasi perilaku belajar</li>
-                        </ul>
+            //             <p><strong>a. Lembar Observasi</strong></p>
+            //             <ul>
+            //                 <li>Checklist untuk mengamati partisipasi siswa dalam diskusi</li>
+            //                 <li>Rubrik observasi keterampilan kolaborasi</li>
+            //                 <li>Catatan anekdotal untuk dokumentasi perilaku belajar</li>
+            //             </ul>
                         
-                        <p><strong>b. Pertanyaan Lisan (Questioning)</strong></p>
-                        <ul>
-                            <li>Pertanyaan tingkat rendah (LOTS) untuk mengecek pemahaman faktual</li>
-                            <li>Pertanyaan tingkat tinggi (HOTS) untuk mendorong berpikir kritis</li>
-                            <li>Teknik random calling untuk melibatkan semua siswa</li>
-                        </ul>
+            //             <p><strong>b. Pertanyaan Lisan (Questioning)</strong></p>
+            //             <ul>
+            //                 <li>Pertanyaan tingkat rendah (LOTS) untuk mengecek pemahaman faktual</li>
+            //                 <li>Pertanyaan tingkat tinggi (HOTS) untuk mendorong berpikir kritis</li>
+            //                 <li>Teknik random calling untuk melibatkan semua siswa</li>
+            //             </ul>
                         
-                        <p><strong>c. Kuis Singkat</strong></p>
-                        <ul>
-                            <li>Exit ticket di akhir pembelajaran</li>
-                            <li>Kuis online real-time (Kahoot, Quizizz)</li>
-                            <li>One-minute paper untuk refleksi</li>
-                        </ul>
+            //             <p><strong>c. Kuis Singkat</strong></p>
+            //             <ul>
+            //                 <li>Exit ticket di akhir pembelajaran</li>
+            //                 <li>Kuis online real-time (Kahoot, Quizizz)</li>
+            //                 <li>One-minute paper untuk refleksi</li>
+            //             </ul>
                         
-                        <p><strong>d. Penilaian Proses Kerja</strong></p>
-                        <ul>
-                            <li>Checklist untuk mengecek progres kerja kelompok</li>
-                            <li>Rubrik penilaian draft/prototype</li>
-                            <li>Lembar self-assessment untuk siswa</li>
-                        </ul>
+            //             <p><strong>d. Penilaian Proses Kerja</strong></p>
+            //             <ul>
+            //                 <li>Checklist untuk mengecek progres kerja kelompok</li>
+            //                 <li>Rubrik penilaian draft/prototype</li>
+            //                 <li>Lembar self-assessment untuk siswa</li>
+            //             </ul>
                         
-                        <p><strong>Analisis Kualitas:</strong></p>
-                        <ul>
-                            <li><strong>Responsiveness:</strong> Instrumen dapat memberikan feedback cepat</li>
-                            <li><strong>Actionability:</strong> Hasil dapat langsung digunakan untuk penyesuaian pembelajaran</li>
-                            <li><strong>Diversity:</strong> Menggunakan berbagai teknik untuk triangulasi data</li>
-                            <li><strong>Non-intrusive:</strong> Tidak mengganggu flow pembelajaran</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Analisis Kualitas:</strong></p>
+            //             <ul>
+            //                 <li><strong>Responsiveness:</strong> Instrumen dapat memberikan feedback cepat</li>
+            //                 <li><strong>Actionability:</strong> Hasil dapat langsung digunakan untuk penyesuaian pembelajaran</li>
+            //                 <li><strong>Diversity:</strong> Menggunakan berbagai teknik untuk triangulasi data</li>
+            //                 <li><strong>Non-intrusive:</strong> Tidak mengganggu flow pembelajaran</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>3. Instrumen Asesmen Sumatif</h5>
+            //         <div class="analisis-subsection">
+            //             <h5>3. Instrumen Asesmen Sumatif</h5>
                         
-                        <p><strong>Tujuan:</strong></p>
-                        <p>Mengukur pencapaian tujuan pembelajaran di akhir unit/topik untuk menentukan tingkat penguasaan siswa.</p>
+            //             <p><strong>Tujuan:</strong></p>
+            //             <p>Mengukur pencapaian tujuan pembelajaran di akhir unit/topik untuk menentukan tingkat penguasaan siswa.</p>
                         
-                        <p><strong>Bentuk Instrumen:</strong></p>
+            //             <p><strong>Bentuk Instrumen:</strong></p>
                         
-                        <p><strong>a. Tes Tertulis</strong></p>
-                        <p><em>Pilihan Ganda:</em></p>
-                        <ul>
-                            <li>Jumlah: 20 soal</li>
-                            <li>Level kognitif: C1-C6 (terdistribusi seimbang)</li>
-                            <li>Kualitas distractor: Plausible dan menguji miskonsepsi umum</li>
-                            <li>Validitas: Soal aligned dengan indikator tujuan pembelajaran</li>
-                        </ul>
+            //             <p><strong>a. Tes Tertulis</strong></p>
+            //             <p><em>Pilihan Ganda:</em></p>
+            //             <ul>
+            //                 <li>Jumlah: 20 soal</li>
+            //                 <li>Level kognitif: C1-C6 (terdistribusi seimbang)</li>
+            //                 <li>Kualitas distractor: Plausible dan menguji miskonsepsi umum</li>
+            //                 <li>Validitas: Soal aligned dengan indikator tujuan pembelajaran</li>
+            //             </ul>
                         
-                        <p><em>Uraian/Essay:</em></p>
-                        <ul>
-                            <li>Jumlah: 5 soal</li>
-                            <li>Fokus pada HOTS (C4-C6)</li>
-                            <li>Dilengkapi dengan rubrik analitik</li>
-                            <li>Mengukur kemampuan analisis, evaluasi, dan kreasi</li>
-                        </ul>
+            //             <p><em>Uraian/Essay:</em></p>
+            //             <ul>
+            //                 <li>Jumlah: 5 soal</li>
+            //                 <li>Fokus pada HOTS (C4-C6)</li>
+            //                 <li>Dilengkapi dengan rubrik analitik</li>
+            //                 <li>Mengukur kemampuan analisis, evaluasi, dan kreasi</li>
+            //             </ul>
                         
-                        <p><strong>Analisis Butir Soal:</strong></p>
-                        <table class="analisis-table">
-                            <tr>
-                                <td><strong>Tingkat Kesukaran:</strong></td>
-                                <td>Mudah (30%), Sedang (50%), Sukar (20%)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Daya Pembeda:</strong></td>
-                                <td>Mayoritas soal memiliki daya pembeda baik (> 0.3)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Reliabilitas:</strong></td>
-                                <td>Koefisien reliabilitas (Cronbach's Alpha) = 0.82 (baik)</td>
-                            </tr>
-                        </table>
+            //             <p><strong>Analisis Butir Soal:</strong></p>
+            //             <table class="analisis-table">
+            //                 <tr>
+            //                     <td><strong>Tingkat Kesukaran:</strong></td>
+            //                     <td>Mudah (30%), Sedang (50%), Sukar (20%)</td>
+            //                 </tr>
+            //                 <tr>
+            //                     <td><strong>Daya Pembeda:</strong></td>
+            //                     <td>Mayoritas soal memiliki daya pembeda baik (> 0.3)</td>
+            //                 </tr>
+            //                 <tr>
+            //                     <td><strong>Reliabilitas:</strong></td>
+            //                     <td>Koefisien reliabilitas (Cronbach's Alpha) = 0.82 (baik)</td>
+            //                 </tr>
+            //             </table>
                         
-                        <p><strong>b. Asesmen Kinerja (Performance Assessment)</strong></p>
-                        <ul>
-                            <li><strong>Tugas:</strong> Membuat project pemecahan masalah algoritma</li>
-                            <li><strong>Produk:</strong> Program komputer yang fungsional</li>
-                            <li><strong>Rubrik:</strong> Rubrik holistik dan analitik dengan 4 level (Emerging, Developing, Proficient, Exemplary)</li>
-                        </ul>
+            //             <p><strong>b. Asesmen Kinerja (Performance Assessment)</strong></p>
+            //             <ul>
+            //                 <li><strong>Tugas:</strong> Membuat project pemecahan masalah algoritma</li>
+            //                 <li><strong>Produk:</strong> Program komputer yang fungsional</li>
+            //                 <li><strong>Rubrik:</strong> Rubrik holistik dan analitik dengan 4 level (Emerging, Developing, Proficient, Exemplary)</li>
+            //             </ul>
                         
-                        <p><strong>Kriteria Penilaian:</strong></p>
-                        <ul>
-                            <li>Kebenaran algoritma (40%)</li>
-                            <li>Efisiensi kode (20%)</li>
-                            <li>Kreativitas solusi (20%)</li>
-                            <li>Dokumentasi dan presentasi (20%)</li>
-                        </ul>
+            //             <p><strong>Kriteria Penilaian:</strong></p>
+            //             <ul>
+            //                 <li>Kebenaran algoritma (40%)</li>
+            //                 <li>Efisiensi kode (20%)</li>
+            //                 <li>Kreativitas solusi (20%)</li>
+            //                 <li>Dokumentasi dan presentasi (20%)</li>
+            //             </ul>
                         
-                        <p><strong>c. Portofolio</strong></p>
-                        <ul>
-                            <li>Koleksi hasil kerja terbaik siswa selama satu unit</li>
-                            <li>Refleksi siswa tentang proses dan hasil belajar</li>
-                            <li>Self-assessment dan goal setting</li>
-                        </ul>
-                    </div>
+            //             <p><strong>c. Portofolio</strong></p>
+            //             <ul>
+            //                 <li>Koleksi hasil kerja terbaik siswa selama satu unit</li>
+            //                 <li>Refleksi siswa tentang proses dan hasil belajar</li>
+            //                 <li>Self-assessment dan goal setting</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>4. Rubrik Penilaian</h5>
+            //         <div class="analisis-subsection">
+            //             <h5>4. Rubrik Penilaian</h5>
                         
-                        <p><strong>Contoh Rubrik Analitik untuk Presentasi Kelompok:</strong></p>
+            //             <p><strong>Contoh Rubrik Analitik untuk Presentasi Kelompok:</strong></p>
                         
-                        <p><em>Aspek yang Dinilai:</em></p>
-                        <ul>
-                            <li><strong>Konten (40%):</strong> Kedalaman, akurasi, relevansi</li>
-                            <li><strong>Organisasi (20%):</strong> Struktur, alur logis, koherensi</li>
-                            <li><strong>Penyampaian (20%):</strong> Kejelasan, volume, bahasa tubuh</li>
-                            <li><strong>Visual Aids (10%):</strong> Kualitas, relevansi, efektivitas</li>
-                            <li><strong>Q&A (10%):</strong> Respons terhadap pertanyaan</li>
-                        </ul>
+            //             <p><em>Aspek yang Dinilai:</em></p>
+            //             <ul>
+            //                 <li><strong>Konten (40%):</strong> Kedalaman, akurasi, relevansi</li>
+            //                 <li><strong>Organisasi (20%):</strong> Struktur, alur logis, koherensi</li>
+            //                 <li><strong>Penyampaian (20%):</strong> Kejelasan, volume, bahasa tubuh</li>
+            //                 <li><strong>Visual Aids (10%):</strong> Kualitas, relevansi, efektivitas</li>
+            //                 <li><strong>Q&A (10%):</strong> Respons terhadap pertanyaan</li>
+            //             </ul>
                         
-                        <p><strong>Level Kinerja:</strong></p>
-                        <ul>
-                            <li><strong>4 - Exemplary:</strong> Deskriptor untuk kinerja sangat baik</li>
-                            <li><strong>3 - Proficient:</strong> Deskriptor untuk kinerja memenuhi standar</li>
-                            <li><strong>2 - Developing:</strong> Deskriptor untuk kinerja mendekati standar</li>
-                            <li><strong>1 - Emerging:</strong> Deskriptor untuk kinerja perlu banyak perbaikan</li>
-                        </ul>
+            //             <p><strong>Level Kinerja:</strong></p>
+            //             <ul>
+            //                 <li><strong>4 - Exemplary:</strong> Deskriptor untuk kinerja sangat baik</li>
+            //                 <li><strong>3 - Proficient:</strong> Deskriptor untuk kinerja memenuhi standar</li>
+            //                 <li><strong>2 - Developing:</strong> Deskriptor untuk kinerja mendekati standar</li>
+            //                 <li><strong>1 - Emerging:</strong> Deskriptor untuk kinerja perlu banyak perbaikan</li>
+            //             </ul>
                         
-                        <p><strong>Analisis Kualitas Rubrik:</strong></p>
-                        <ul>
-                            <li><strong>Clarity:</strong> Deskriptor jelas dan spesifik</li>
-                            <li><strong>Objectivity:</strong> Meminimalkan subjektivitas penilaian</li>
-                            <li><strong>Alignment:</strong> Selaras dengan tujuan pembelajaran</li>
-                            <li><strong>Usability:</strong> Mudah digunakan oleh penilai</li>
-                            <li><strong>Transparency:</strong> Dibagikan ke siswa sebelum penugasan</li>
-                        </ul>
-                    </div>
+            //             <p><strong>Analisis Kualitas Rubrik:</strong></p>
+            //             <ul>
+            //                 <li><strong>Clarity:</strong> Deskriptor jelas dan spesifik</li>
+            //                 <li><strong>Objectivity:</strong> Meminimalkan subjektivitas penilaian</li>
+            //                 <li><strong>Alignment:</strong> Selaras dengan tujuan pembelajaran</li>
+            //                 <li><strong>Usability:</strong> Mudah digunakan oleh penilai</li>
+            //                 <li><strong>Transparency:</strong> Dibagikan ke siswa sebelum penugasan</li>
+            //             </ul>
+            //         </div>
                     
-                    <h4>📈 Analisis Keseluruhan Sistem Penilaian</h4>
+            //         <h4>📈 Analisis Keseluruhan Sistem Penilaian</h4>
                     
-                    <div class="analisis-subsection">
-                        <h5>Kekuatan Sistem Penilaian</h5>
-                        <ul>
-                            <li><strong>Komprehensif:</strong> Mencakup asesmen diagnostik, formatif, dan sumatif</li>
-                            <li><strong>Beragam:</strong> Menggunakan berbagai metode dan instrumen</li>
-                            <li><strong>Autentik:</strong> Tugas-tugas relevan dengan konteks nyata</li>
-                            <li><strong>Berkeadilan:</strong> Memberikan multiple ways bagi siswa untuk menunjukkan pemahaman</li>
-                            <li><strong>Formatif-oriented:</strong> Fokus pada pembelajaran dan perbaikan</li>
-                            <li><strong>Transparan:</strong> Kriteria dan rubrik jelas dan dikomunikasikan</li>
-                            <li><strong>Aligned:</strong> Instrumen selaras dengan tujuan pembelajaran</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>Kekuatan Sistem Penilaian</h5>
+            //             <ul>
+            //                 <li><strong>Komprehensif:</strong> Mencakup asesmen diagnostik, formatif, dan sumatif</li>
+            //                 <li><strong>Beragam:</strong> Menggunakan berbagai metode dan instrumen</li>
+            //                 <li><strong>Autentik:</strong> Tugas-tugas relevan dengan konteks nyata</li>
+            //                 <li><strong>Berkeadilan:</strong> Memberikan multiple ways bagi siswa untuk menunjukkan pemahaman</li>
+            //                 <li><strong>Formatif-oriented:</strong> Fokus pada pembelajaran dan perbaikan</li>
+            //                 <li><strong>Transparan:</strong> Kriteria dan rubrik jelas dan dikomunikasikan</li>
+            //                 <li><strong>Aligned:</strong> Instrumen selaras dengan tujuan pembelajaran</li>
+            //             </ul>
+            //         </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>Area Pengembangan</h5>
-                        <ul>
-                            <li>Meningkatkan inter-rater reliability melalui moderasi penilaian</li>
-                            <li>Mengembangkan bank soal HOTS yang lebih bervariasi</li>
-                            <li>Mengintegrasikan asesmen diri dan asesmen antar teman secara lebih sistematis</li>
-                            <li>Memanfaatkan teknologi untuk asesmen adaptif</li>
-                            <li>Dokumentasi yang lebih baik untuk tracking progress individual siswa</li>
-                        </ul>
-                    </div>
+            //         <div class="analisis-subsection">
+            //             <h5>Area Pengembangan</h5>
+            //             <ul>
+            //                 <li>Meningkatkan inter-rater reliability melalui moderasi penilaian</li>
+            //                 <li>Mengembangkan bank soal HOTS yang lebih bervariasi</li>
+            //                 <li>Mengintegrasikan asesmen diri dan asesmen antar teman secara lebih sistematis</li>
+            //                 <li>Memanfaatkan teknologi untuk asesmen adaptif</li>
+            //                 <li>Dokumentasi yang lebih baik untuk tracking progress individual siswa</li>
+            //             </ul>
+            //         </div>
                     
-                    <h4>💡 Kesimpulan dan Refleksi</h4>
-                    <p><strong>Kesimpulan:</strong></p>
-                    <p>Sistem penilaian yang dirancang sudah cukup komprehensif dan mendukung pembelajaran. Instrumen-instrumen yang dikembangkan memiliki kualitas yang baik dari segi validitas, reliabilitas, dan fairness. Penilaian tidak hanya berfungsi sebagai accountability, tetapi lebih penting lagi sebagai bagian dari proses pembelajaran.</p>
+            //         <h4>💡 Kesimpulan dan Refleksi</h4>
+            //         <p><strong>Kesimpulan:</strong></p>
+            //         <p>Sistem penilaian yang dirancang sudah cukup komprehensif dan mendukung pembelajaran. Instrumen-instrumen yang dikembangkan memiliki kualitas yang baik dari segi validitas, reliabilitas, dan fairness. Penilaian tidak hanya berfungsi sebagai accountability, tetapi lebih penting lagi sebagai bagian dari proses pembelajaran.</p>
                     
-                    <p><strong>Pembelajaran Utama:</strong></p>
-                    <ul>
-                        <li>Asesmen yang baik dimulai dari tujuan pembelajaran yang jelas</li>
-                        <li>Asesmen formatif sangat powerful untuk meningkatkan pembelajaran</li>
-                        <li>Feedback yang berkualitas lebih penting dari sekadar skor</li>
-                        <li>Asesmen harus adil dan memberikan kesempatan yang sama bagi semua siswa</li>
-                        <li>Teknologi dapat memperkaya asesmen tetapi harus digunakan secara bijak</li>
-                    </ul>
+            //         <p><strong>Pembelajaran Utama:</strong></p>
+            //         <ul>
+            //             <li>Asesmen yang baik dimulai dari tujuan pembelajaran yang jelas</li>
+            //             <li>Asesmen formatif sangat powerful untuk meningkatkan pembelajaran</li>
+            //             <li>Feedback yang berkualitas lebih penting dari sekadar skor</li>
+            //             <li>Asesmen harus adil dan memberikan kesempatan yang sama bagi semua siswa</li>
+            //             <li>Teknologi dapat memperkaya asesmen tetapi harus digunakan secara bijak</li>
+            //         </ul>
                     
-                    <p><strong>Komitmen ke Depan:</strong></p>
-                    <p>Saya berkomitmen untuk terus mengembangkan kompetensi dalam merancang dan menggunakan asesmen yang efektif. Asesmen bukan sekadar mengukur, tetapi harus mendorong dan mendukung pembelajaran siswa. Saya akan terus belajar tentang best practices dalam asesmen dan mengimplementasikannya dalam praktik mengajar.</p>
-                `
-            }
+            //         <p><strong>Komitmen ke Depan:</strong></p>
+            //         <p>Saya berkomitmen untuk terus mengembangkan kompetensi dalam merancang dan menggunakan asesmen yang efektif. Asesmen bukan sekadar mengukur, tetapi harus mendorong dan mendukung pembelajaran siswa. Saya akan terus belajar tentang best practices dalam asesmen dan mengimplementasikannya dalam praktik mengajar.</p>
+            //     `
+            // }
         ]
     },
     
