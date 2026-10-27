@@ -882,15 +882,10 @@ const portfolioData = {
                     {
                         judul: "Modul Ajar / RPP - Praktik Mengajar Mandiri",
                         deskripsi: "Rencana Pelaksanaan Pembelajaran yang telah dianalisis",
-                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view"
+                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=drive_link"
                         // CARA EDIT: Ganti YOUR_RPP_UAS_ID dengan ID file RPP Anda
                     },
-                    {
-                        judul: "Analisis Rancangan Pembelajaran",
-                        deskripsi: "Dokumen analisis komprehensif terhadap rancangan pembelajaran",
-                        fileUrl: "https://drive.google.com/file/d/YOUR_ANALISIS_ID/view?usp=sharing"
-                        // CARA EDIT: Ganti YOUR_ANALISIS_ID dengan ID file analisis Anda
-                    }
+                   
                 ]
             },
             
