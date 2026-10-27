@@ -1512,21 +1512,10 @@ const portfolioData = {
                         <p>Pemahaman tentang ekosistem sekolah secara menyeluruh. Belajar bahwa peran guru tidak hanya mengajar di kelas, tetapi juga berkontribusi pada seluruh kehidupan sekolah.</p>
                     </div>
                     
-                    <div class="analisis-subsection">
-                        <h5>4. Kegiatan Bimbingan dan Konseling</h5>
-                        <ul>
-                            <li>Memberikan bimbingan akademik kepada siswa yang mengalami kesulitan belajar</li>
-                            <li>Melakukan konseling ringan terkait masalah belajar</li>
-                            <li>Membantu siswa mengembangkan keterampilan belajar</li>
-                            <li>Berkolaborasi dengan guru BK untuk penanganan siswa</li>
-                        </ul>
-                        
-                        <p><strong>Pembelajaran:</strong></p>
-                        <p>Pentingnya pendekatan holistik dalam mendidik. Guru tidak hanya transfer knowledge, tetapi juga perlu memahami dan mendukung perkembangan siswa secara menyeluruh.</p>
-                    </div>
+                   
                     
                     <div class="analisis-subsection">
-                        <h5>5. Pengembangan Materi dan Media Pembelajaran</h5>
+                        <h5>4. Pengembangan Materi dan Media Pembelajaran</h5>
                         <ul>
                             <li>Mengembangkan bahan ajar inovatif</li>
                             <li>Membuat media pembelajaran digital</li>
