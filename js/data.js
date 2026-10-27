@@ -882,7 +882,7 @@ const portfolioData = {
                     {
                         judul: "Modul Ajar / RPP - Praktik Mengajar Mandiri",
                         deskripsi: "Rencana Pelaksanaan Pembelajaran yang telah dianalisis",
-                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=drive_link"
+                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=sharing"
                         // CARA EDIT: Ganti YOUR_RPP_UAS_ID dengan ID file RPP Anda
                     },
                    
@@ -897,9 +897,9 @@ const portfolioData = {
                 videoData: {
                     judulVideo: "Video Praktik Mengajar Mandiri",
                     durasi: "45 menit",
-                    tanggal: "20 Januari 2026",
+                    tanggal: "20 SEPTEMBER 2026",
                     lokasi: "SMP NEGERI 49 Surabaya",
-                    videoUrl: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+                    videoUrl: "https://www.youtube.com/embed/rM6neP5nbRk",
                     // Atau Google Drive: "https://drive.google.com/file/d/YOUR_VIDEO_ID/preview"
                     deskripsi: "Video dokumentasi lengkap pelaksanaan praktik mengajar mandiri dari kegiatan pembuka, inti, hingga penutup."
                 },
