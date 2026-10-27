@@ -1880,7 +1880,7 @@ const portfolioData = {
                 "Lab Praktik, yang mana siswa dapat melihat mendengar dan mencoba",
                 "Tentang, berisi informasi terkait game ludi stucture"
             ],
-            hasil: "Implementasi media ini menunjukkan peningkatan pemahaman siswa sebesar 35% dan meningkatkan engagement siswa dalam pembelajaran pemrograman. Siswa lebih antusias dan aktif bertanya serta mencoba eksplorasi kode.",
+            hasil: "Implementasi media ini menunjukkan Secara keseluruhan murid menilai Ludo Data Structure berkategori sangat baik (88,7%) pada semua aspek, dan indikator persepsi 80% telah tercapai. Skor aspek terendah ada pada kemenarikan (86,6%).",
             foto: "images/22.jpeg",
             tanggal: "Oktober 2025",
             link: "https://syaidin.github.io/ludo-data-structure/",
