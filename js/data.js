@@ -880,9 +880,9 @@ const portfolioData = {
                 // Perangkat Pembelajaran UAS - Komponen 1
                 perangkatPembelajaran: [
                     {
-                        judul: "Modul Ajar / RPP - Praktik Mengajar Mandiri",
+                        judul: "Modul Ajar  - Praktik Mengajar Mandiri",
                         deskripsi: "Rencana Pelaksanaan Pembelajaran yang telah dianalisis",
-                        fileUrl: "https://drive.google.com/file/d/1m3VdTUhNma3-vo4E2Y0BwxABnU9h3s8a/view?usp=sharing"
+                        fileUrl: "https://drive.google.com/file/d/11-njnPLO8ZWueSu6ssD5BSkMO7ZL91ME/view?usp=sharing"
                         // CARA EDIT: Ganti YOUR_RPP_UAS_ID dengan ID file RPP Anda
                     },
                    
