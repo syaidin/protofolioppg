@@ -1563,7 +1563,8 @@ const portfolioData = {
             lokasi: "Gedung PPG UNESA",
             kategori: "kegiatan",
             deskripsi: "Foto bersamaDosen Pembimbing PPL Terbimbing SMA Negeri 17 Surabaya"
-        }
+        },
+
     ]
 };
 
